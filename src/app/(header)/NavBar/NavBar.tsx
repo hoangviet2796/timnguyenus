@@ -5,7 +5,6 @@ import NavBar from './NavBar.module.css'
 import Link from "next/link"
 import NavigationHeader from "./navigationmenu"
 import { useMediaQuery } from "@/hooks/use-media-query"
-import { inherits } from "util"
 import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer"
 import { MenuIcon } from "lucide-react"
 
