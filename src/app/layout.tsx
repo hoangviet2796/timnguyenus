@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Navbar from "./(header)/NavBar/NavBar";
 import localFont from "next/font/local";
 import {Roboto} from "next/font/google";
 import "./globals.css";
@@ -30,9 +31,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${roboto.className} antialiased`}
       >
+        <Navbar/>
         {children}
       </body>
     </html>
