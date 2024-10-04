@@ -7,6 +7,7 @@ import NavigationHeader from "./navigationmenu"
 import { useMediaQuery } from "@/hooks/use-media-query"
 import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer"
 import { MenuIcon } from "lucide-react"
+import { NavigationHeaderMobile } from "./navigationMenuMobile"
 
 
 export default function Navbar() {
@@ -15,26 +16,26 @@ export default function Navbar() {
     <header className={`${NavBar.header}`}>
       <div className={`min-w-2 h-14 ml-auto mr-auto flex justify-between max-w-screen-xl`}>
         <Link href="/">
-          <Image src= '/images/logo.png' width= {130} height = {100} alt="logo"></Image>
+          <Image className="h-full" src= '/images/logo1-Photoroom.png' width= {130} height = {100} alt="logo"></Image>
         </Link>
         <NavigationHeader/>
         <div/>
       </div>
     </header>
   ):(<header className={`${NavBar.header}`}>
-    <div className={`min-w-2 h-14 ml-auto mr-auto flex justify-center`}>
-        <div>
+    <div className={`min-w-2 ml-auto mr-auto flex justify-center`}>
+        <div className="flex">
           <Drawer direction="left" >
             <DrawerTrigger>
               <MenuIcon/>
             </DrawerTrigger>
             <DrawerContent>
-              <NavigationHeader/>
+              <NavigationHeaderMobile/>
             </DrawerContent>
           </Drawer>
         </div>
-        <Link href="/" className="m-auto">
-          <Image src= '/images/logo.png' width= {130} height = {100} alt="logo"></Image>
+        <Link href="/" className="m-auto h-full">
+          <Image className="h-full" src= '/images/logo1-Photoroom.png' width= {130} height = {100} alt="logo"></Image>
         </Link>
         <div></div>
       <div/>
