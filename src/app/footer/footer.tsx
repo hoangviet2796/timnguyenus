@@ -10,7 +10,7 @@ export default function Footer() {
           <Link href="/" className="h-full">
             <Image className="h-full" src= '/images/logo1-Photoroom.png' width= {130} height = {100} alt="logo"></Image>
           </Link>
-          <p className='m-auto '>©2024 Lampo Licensing, LLC. All rights reserved.</p>
+          <p className='m-auto '>©2024 TimNguyenUS. All rights reserved.</p>
           <div className='h-full flex mr-8 items-center'>
             <Link href="https://www.facebook.com/LyThanhDuy11388" target='_blank' className="pl-1">
               <Icons.facebook/>
