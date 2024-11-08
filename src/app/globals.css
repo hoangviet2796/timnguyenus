@@ -14,7 +14,7 @@ body {
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: hsl(218.22deg 90.75% 33.92%);
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 240 10% 3.9%;
@@ -39,7 +39,7 @@ body {
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
-    --text-primary-color: hsl(234.29deg 91.3% 31.57%);
+    --text-primary-color: hsl(218.22deg 90.75% 33.92%);
   }
   .dark {
     --background: 240 10% 3.9%;
