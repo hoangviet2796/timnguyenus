@@ -14,7 +14,7 @@ export default function Navbar() {
   const isDesktop = useMediaQuery("(min-width: 960px)");
   return isDesktop?(
     <header className={`${NavBar.header}`}>
-      <div className={`min-w-2 h-15 flex justify-between max-w-screen-xl ml-8 mr-8`}>
+      <div className={`min-w-2 h-15 flex justify-between ml-8 mr-8`}>
         <Link href="/">
           <Image className="h-full ml-2 pt-2 pb-2" src= '/images/logoTimtron1.png' width= {60} height = {80} alt="logo"></Image>
         </Link>
