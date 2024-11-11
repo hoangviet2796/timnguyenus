@@ -16,7 +16,7 @@ export default function Navbar() {
     <header className={`${NavBar.header}`}>
       <div className={`min-w-2 h-15 flex justify-between ml-8 mr-8`}>
         <Link href="/">
-          <Image className="h-full ml-2 pt-2 pb-2" src= '/images/logoTimtron1.png' width= {60} height = {80} alt="logo"></Image>
+          <Image className="h-full w-auto ml-2 pt-2 pb-2" src= '/images/logoTimtron1.png' width= {60} height = {0} alt="logo" priority ></Image>
         </Link>
         <NavigationHeader/>
         <div/>
@@ -35,7 +35,7 @@ export default function Navbar() {
           </Drawer>
         </div>
         <Link href="/" className="m-auto h-full">
-          <Image className="h-full ml-2 pt-2 pb-2" src= '/images/logoTimtron1.png' width= {60} height = {80} alt="logo"></Image>
+          <Image className="h-full ml-2 pt-2 pb-2" src= '/images/logoTimtron1.png' width= {60} height = {80} alt="logo" priority ></Image>
         </Link>
         <div></div>
       <div/>

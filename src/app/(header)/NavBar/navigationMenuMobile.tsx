@@ -4,6 +4,7 @@ import {
     AccordionItem,
     AccordionTrigger,
   } from "@/components/ui/accordion"
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
   const components: { title: string; href: string; description: string }[] = [
     {
@@ -49,7 +50,7 @@ import {
         <AccordionItem className="pl-2" value="item-1">
           <AccordionTrigger>Công cụ miễn phí</AccordionTrigger>
           <AccordionContent className="pl-2">
-            <a href="/tool1">Công cụ 1</a>
+            Công cụ 2
           </AccordionContent>
           <AccordionContent className="pl-2">
             Công cụ 2
@@ -61,10 +62,9 @@ import {
         <AccordionItem className="pl-2" value={`item-${components.length}`}>
           <AccordionTrigger>Chủ đề</AccordionTrigger>
           {components.map((component) => (
-                <AccordionContent className="pl-2"
-                >
-                    <a href={component.href}>{component.title}</a>
-                </AccordionContent>
+                  <AccordionContent className="pl-2" key={component.title}>
+                      {component.title}
+                  </AccordionContent>
               ))}
         </AccordionItem>
         <AccordionItem className="pl-2" value="item-0">

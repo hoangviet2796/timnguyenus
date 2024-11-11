@@ -14,6 +14,8 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 
+import data from "../data.json"
+
 const components: { title: string; href: string; description: string }[] = [
   {
     title: "Alert Dialog",
@@ -59,16 +61,12 @@ export default function NavigationHeader() {
         <NavigationMenuItem>
           <NavigationMenuTrigger>Công cụ miễn phí</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-              <ListItem href="/tool1" title="Công cụ 1">
-                Re-usable components built using Radix UI and Tailwind CSS.
-              </ListItem>
-              <ListItem href="/tool2" title="Công cụ 2">
-                How to install dependencies and structure your app.
-              </ListItem>
-              <ListItem href="/tool3" title="Công cụ 3">
-                Styles for headings, paragraphs, lists...etc
-              </ListItem>
+            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+              {data.tools.map((tool) => (
+                  <ListItem key={tool.title} href={tool.link} title={tool.title}>
+                    {tool.description}
+                  </ListItem>
+              ))}
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
