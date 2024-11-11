@@ -1,13 +1,8 @@
 import Image from "next/image"
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
+  Card
 } from "@/components/ui/card"
-
+import Category from "./(home)/category/Category"
 import HomePage from "./HomePage.module.css"
 export default function Home() {
   return (
@@ -21,7 +16,7 @@ export default function Home() {
           </div>
         </Card>
       </div>
-      
+      <Category/>
     </main>
   );
 }
