@@ -1,8 +1,6 @@
-import type { Metadata } from "next";
-import Navbar from "./(header)/NavBar/NavBar";
-import Footer from "./footer/footer";
+import { Metadata } from "next";
 import {Roboto} from "next/font/google";
-import "./globals.css";
+import "@/app/globals.css";
 
 const roboto = Roboto({subsets: ["vietnamese"],weight: [
   '100','400','500'
@@ -15,19 +13,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
-      
-      <body
-        className={`${roboto.className} antialiased`}
-      >
-        <Navbar/>
-        {children}
-        <Footer/>
-      </body>
+      <body className={`${roboto.className} antialiased`}>{children}</body>
     </html>
-  );
+  )
 }

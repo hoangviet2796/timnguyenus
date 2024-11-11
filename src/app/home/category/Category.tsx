@@ -5,8 +5,6 @@ import {
 import { useMediaQuery } from "@/hooks/use-media-query"
 
 
-
-
 export default function Category() {
   const isDesktop = useMediaQuery("(min-width: 960px)");
   return isDesktop?(
