@@ -1,0 +1,11 @@
+.mainColor {
+    color: var(--text-primary-color);
+}
+
+.mainBtn {
+    background-color: var(--background);
+}
+
+.mainBtn.mainBtn:hover {
+    background-color: hwb(218.22deg 2.74% 48.67%);
+}

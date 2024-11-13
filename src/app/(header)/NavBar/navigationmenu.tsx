@@ -61,7 +61,7 @@ export default function NavigationHeader() {
         <NavigationMenuItem>
           <NavigationMenuTrigger>Công cụ miễn phí</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
               {data.tools.map((tool) => (
                   <ListItem key={tool.title} href={tool.link} title={tool.title}>
                     {tool.description}

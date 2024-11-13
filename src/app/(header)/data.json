@@ -8,32 +8,32 @@
         {
             "title":"Tiết kiệm hưu trí",
             "link":"/retirementsaving",
-            "description":"Chi phí duy trì cuộc sống"
+            "description":"Tiết kiệm hưu trí"
         },
         {
             "title":"Kiểm tra điều kiện vay",
             "link":"/loanqualified",
-            "description":"Chi phí duy trì cuộc sống"
+            "description":"Kiểm tra điều kiện vay"
         },
         {
             "title":"Kiểm tra tín dụng",
             "link":"/creditcheck",
-            "description":"Chi phí duy trì cuộc sống"
+            "description":"Kiểm tra tín dụng"
         },
         {
             "title":"Công cụ tính toán thuể",
             "link":"/taxcalculator",
-            "description":"Chi phí duy trì cuộc sống"
+            "description":"ông cụ tính toán thuể"
         },
         {
             "title":"Giải quyết nợ",
             "link":"/debtsolutions",
-            "description":"Chi phí duy trì cuộc sống"
+            "description":"Giải quyết nợ"
         },
         {
             "title":"Thanh toán thẻ tín dụng",
             "link":"/creditcardpayoff",
-            "description":"Chi phí duy trì cuộc sống"
+            "description":"Thanh toán thẻ tín dụng"
         }
     ]
 }
