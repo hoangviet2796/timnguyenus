@@ -6,17 +6,17 @@ import footer from './footer.module.css'
 export default function Footer() {
   return (
     <footer  className={`${footer.footer}`}>
-        <div className='min-w-2 h-20 ml-auto mr-auto flex justify-between max-w-screen-xl items-center'>
-          <Link href="/" className="h-full">
-            <Image className="h-full" src= '/images/logoTimtron1.png' width= {100} height = {100} alt="logo" priority ></Image>
+        <div className='min-w-2  mx-2 flex justify-between max-w-screen-xl items-center'>
+          <Link href="/" className="h-full flex flex-col items-center">
+            <Image className="h-50 w-full" src= '/images/logoTimfooter.png' width= {150} height = {150} alt="logo" priority ></Image>
           </Link>
           <p className='m-auto '>©2024 TimNguyenUS. All rights reserved.</p>
           <div className='h-full flex mr-8 items-center'>
             <Link href="https://www.facebook.com/LyThanhDuy11388" target='_blank' className="pl-1">
-              <Icons.facebook/>
+              <Icons.facebook className='text-white'/>
             </Link>
             <Link href="https://web.telegram.org/" target='_blank' className="pl-1">
-              <Icons.telegram/>
+              <Icons.telegram className='text-white'/>
             </Link>
             </div>
         </div>

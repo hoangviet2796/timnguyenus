@@ -5,6 +5,7 @@ import {
 import HomePage from "./HomePage.module.css"
 import Advise from "@/app/home/advise/advise"
 import Feedback from "@/app/home/feedback/feedback"
+import Navigate from "@/app/home/navigate/navigate"
 
 
 export default function home() {
@@ -12,7 +13,7 @@ export default function home() {
     <main className={`flex justify-center flex-col`}>
       {/* <div className={` max-w-screen-xl`}> */}
         <div className={`${HomePage.mainCover} flex justify-center`}>
-          <Card className={`${HomePage.present} max-w-screen-xl my-16 flex`}>
+          <Card className={`${HomePage.present} w-full my-8 flex rounded-none`}>
             {/* <div className={`${HomePage.leftside}`}></div> */}
             <Image className={`${HomePage.leftside} h-full w-1/2`} src= '/images/tim.jpg' width= {300} height = {150} alt="logo"></Image>
             <div className={`${HomePage.rightside} h-full w-1/2 p-2`}>
@@ -23,6 +24,7 @@ export default function home() {
         {/* <Category/> */}
         <Advise/>
         <Feedback/>
+        <Navigate/>
       {/* </div> */}
     </main>
   );
