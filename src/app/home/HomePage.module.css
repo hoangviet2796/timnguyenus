@@ -1,31 +1,41 @@
 .mainCover {
-    background-color: var(--background);
+  background-color: var(--background);
 }
 
 .present {
-    background: #b92b27;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #043284, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #043284, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+  background: #b92b27; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #043284,
+    #b92b27
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #043284,
+    #b92b27
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .leftside {
-    border-top-left-radius: inherit;
-    border-bottom-left-radius: inherit;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
 }
 
 .rightside {
-    color: #fff;
-    text-align: center;
-    /* font-size: medium; */
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  /* font-size: medium; */
 }
 
 .rightside p {
-    height: inherit;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    /* margin-block-start: 1em; */
-    /* margin-block-end: 1em; */
+  font-size: larger;
+  font-style: italic;
+  font-weight: 500;
+  /* height: inherit; */
+  /* margin-top: 1em;
+    margin-bottom: 1em; */
+  /* margin-block-start: 1em; */
+  /* margin-block-end: 1em; */
 }
-

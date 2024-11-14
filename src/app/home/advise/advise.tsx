@@ -24,7 +24,7 @@ export default function Category() {
 return (<div className="flex justify-center w-full">
     <Card className="w-3/5 mx-auto max-w-lg flex justify-center flex-col my-16">
       <CardHeader className="space-y-1 ">
-          <CardTitle className={`${advise.mainColor} text-4xl font-bold text-center mb-3`}>Nhận tư vấn vay nợ miễn phí</CardTitle>
+          <CardTitle className={`${advise.mainColor} text-4xl font-bold text-center mb-3`}>Nhận tư vấn vay miễn phí</CardTitle>
           <CardDescription className="flex items-center font-medium">
             <Icons.check/>
             <p className="ml-1">Nhận tư vấn ước tính tiết kiệm ngay trong ngày</p>

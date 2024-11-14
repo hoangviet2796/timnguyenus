@@ -5,8 +5,8 @@ import {Icons} from '@/components/icons'
 import footer from './footer.module.css'
 export default function Footer() {
   return (
-    <footer  className={`${footer.footer}`}>
-        <div className='min-w-2  mx-2 flex justify-between max-w-screen-xl items-center'>
+    <footer className={`${footer.footer}`}>
+        <div className='min-w-2 mx-auto flex justify-between max-w-screen-xl items-center'>
           <Link href="/" className="h-full flex flex-col items-center">
             <Image className="h-50 w-full" src= '/images/logoTimfooter.png' width= {150} height = {150} alt="logo" priority ></Image>
           </Link>
