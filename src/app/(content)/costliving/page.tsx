@@ -5,7 +5,7 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import data from "@/lib/state.json"
 
-export default function costLiving() {
+export default function CostLiving() {
     return (
       <div className={`${css.cover} flex flex-col items-center text-center`}>
         <div className="max-w-screen-xl flex flex-col items-center my-8">

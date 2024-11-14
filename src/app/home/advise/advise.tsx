@@ -20,7 +20,7 @@ import advise from "./advise.module.css"
 
 
 
-export default function Category() {
+export default function Advise() {
 return (<div className="flex justify-center w-full">
     <Card className="w-3/5 mx-auto max-w-lg flex justify-center flex-col my-16">
       <CardHeader className="space-y-1 ">
