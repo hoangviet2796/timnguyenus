@@ -4,7 +4,6 @@ import {
     AccordionItem,
     AccordionTrigger,
   } from "@/components/ui/accordion"
-import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
   const components: { title: string; href: string; description: string }[] = [
     {

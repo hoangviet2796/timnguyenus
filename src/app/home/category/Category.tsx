@@ -11,7 +11,7 @@ export default function Category() {
   return isDesktop?(
     <div className="grid grid-cols-3">
         {data.tools.map((tool) => (
-          <Card className={`w-2/3 m-4 flex justify-center`}>
+          <Card className={`w-2/3 m-4 flex justify-center`} key={tool.title}>
             <></>
             <CardContent>{tool.title}</CardContent>
             </Card>

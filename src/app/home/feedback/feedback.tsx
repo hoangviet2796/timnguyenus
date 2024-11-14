@@ -12,7 +12,7 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel"
-import React from "react"
+import React, { useRef } from "react"
 import Image from "next/image"
 import {Icons} from '@/components/icons'
 import feedbackCSS from "./feedback.module.css"
@@ -45,8 +45,8 @@ const feedbacks = [
     },
 ]
 
-export default function feedback() {
-    const plugin = React.useRef(
+export default function Feedback() {
+    const plugin = useRef(
         Autoplay({ delay: 2000, stopOnInteraction: false })
       )
   return (
@@ -80,7 +80,7 @@ export default function feedback() {
                                         </div>
                                     </CardHeader>
                                     <CardContent>
-                                        <CardDescription className="text-center ">"{fb.feedback}"</CardDescription>
+                                        <CardDescription className="text-center ">`"`{fb.feedback}`"`</CardDescription>
                                     </CardContent>
                                 </Card>
                             </div>
