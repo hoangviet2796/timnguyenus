@@ -15,7 +15,7 @@ export default function home() {
         <div className={`${HomePage.mainCover} flex justify-center`}>
           <Card className={`${HomePage.present} w-full my-8 flex rounded-none`}>
             {/* <div className={`${HomePage.leftside}`}></div> */}
-            <Image className={`${HomePage.leftside} h-full w-1/2`} src= '/timnguyenus/images/tim.jpg' width= {300} height = {150} alt="logo"></Image>
+            <Image className={`${HomePage.leftside} h-full w-1/2`} src= '/timnguyenus/public/images/tim.jpg' width= {300} height = {150} alt="logo"></Image>
             <div className={`${HomePage.rightside} h-full w-1/2 p-2`}>
               <p className="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum magnam culpa adipisci ea voluptatem unde sunt vitae quos, voluptate quod, nostrum autem quidem aut corporis cupiditate velit vero, excepturi quo?</p>
             </div>

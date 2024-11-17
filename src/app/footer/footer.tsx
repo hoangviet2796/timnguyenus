@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className={`${footer.footer}`}>
         <div className='min-w-2 mx-auto flex justify-between max-w-screen-xl items-center'>
           <Link href="/" className="h-full flex flex-col items-center">
-            <Image className="h-50 w-full" src= '/timnguyenus/images/logoTimfooter.png' width= {150} height = {150} alt="logo" priority ></Image>
+            <Image className="h-50 w-full" src= '/timnguyenus/public/images/logoTimfooter.png' width= {150} height = {150} alt="logo" priority ></Image>
           </Link>
           <p className='m-auto '>©2024 TimNguyenUS. All rights reserved.</p>
           <div className='h-full flex mr-8 items-center'>
