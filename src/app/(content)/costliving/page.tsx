@@ -16,7 +16,7 @@ export default function CostLiving() {
         <Card className="max-w-screen-xl w-full text-2xl my-8">
           <CardTitle className="my-4">
             <form>
-              <div className=" w-full flex gap-4">
+              <div className=" w-full flex justify-center">
                 <div className="flex flex-col space-y-1.5">
                   <Label htmlFor="name">Bạn đang sống ở đâu?</Label>
                   <Select>
