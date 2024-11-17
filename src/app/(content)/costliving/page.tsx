@@ -9,7 +9,7 @@ export default function CostLiving() {
     return (
       <div className={`${css.cover} flex flex-col items-center text-center`}>
         <div className="max-w-screen-xl flex flex-col items-center my-8">
-          <Image className={`h-full`} src= '/timnguyenus/public/images/costliving/costliving1.png' width= {300} height = {150} alt="logo"></Image>
+          <Image className={`h-full`} src= '/timnguyenus/images/costliving/costliving1.png' width= {300} height = {150} alt="logo"></Image>
           <h2 className="w-11/12 font-bold text-5xl mb-4">So sánh chi phí sinh hoạt, duy trì cuộc sống</h2>
           <p className="w-11/12 font-medium text-3xl">Nhập thông tin hai thành phố bạn muốn so sánh. Bạn có thể so sánh chi phí sinh hoạt ngay lập tức.</p>
         </div>

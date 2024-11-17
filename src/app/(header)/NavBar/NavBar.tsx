@@ -35,7 +35,7 @@ export default function Navbar() {
           </Drawer>
         </div>
         <Link href="/" className="m-auto h-full">
-          <Image className="h-full ml-2 pt-2 pb-2" src= '/timnguyenus/public/images/logoTimtron1.png' width= {60} height = {80} alt="logo" priority ></Image>
+          <Image className="h-full ml-2 pt-2 pb-2" src= '/timnguyenus/images/logoTimtron1.png' width= {60} height = {80} alt="logo" priority ></Image>
         </Link>
         <div></div>
       <div/>

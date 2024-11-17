@@ -21,27 +21,27 @@ const feedbacks = [
     {
         name: "Alex",
         feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sit perspiciatis explicabo, quasi temporibus? Mollitia nulla nemo a nesciunt est, minus ipsam! Odio nihil commodi vitae, cupiditate distinctio ullam.",
-        avatar:"/timnguyenus/public/images/employee-1.png"
+        avatar:"/timnguyenus/images/employee-1.png"
     },
     {
         name: "David",
         feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sit perspiciatis explicabo, quasi temporibus? Mollitia nulla nemo a nesciunt est, minus ipsam! Odio nihil commodi vitae, cupiditate distinctio ullam.",
-        avatar:"/timnguyenus/public/images/employee-2.png"
+        avatar:"/timnguyenus/images/employee-2.png"
     },
     {
         name: "James",
         feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sit perspiciatis explicabo, quasi temporibus? Mollitia nulla nemo a nesciunt est, minus ipsam! Odio nihil commodi vitae, cupiditate distinctio ullam.",
-        avatar:"/timnguyenus/public/images/employee-3.png"
+        avatar:"/timnguyenus/images/employee-3.png"
     },
     {
         name: "Susan",
         feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sit perspiciatis explicabo, quasi temporibus? Mollitia nulla nemo a nesciunt est, minus ipsam! Odio nihil commodi vitae, cupiditate distinctio ullam.",
-        avatar:"/timnguyenus/public/images/employee-4.png"
+        avatar:"/timnguyenus/images/employee-4.png"
     },
     {
         name: "Carl",
         feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sit perspiciatis explicabo, quasi temporibus? Mollitia nulla nemo a nesciunt est, minus ipsam! Odio nihil commodi vitae, cupiditate distinctio ullam.",
-        avatar:"/timnguyenus/public/images/employee-5.png"
+        avatar:"/timnguyenus/images/employee-5.png"
     },
 ]
 
