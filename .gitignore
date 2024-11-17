@@ -10,7 +10,7 @@
 /coverage
 
 # next.js
-/next.config.mjs
+next.config.mjs
 /.next/
 /out/
 
