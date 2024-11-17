@@ -63,9 +63,12 @@ export default function NavigationHeader() {
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
               {data.tools.map((tool) => (
-                  <ListItem key={tool.title} href={tool.link} title={tool.title}>
-                    {tool.description}
-                  </ListItem>
+                  <Link href={tool.link}>
+                    <ListItem key={tool.title} title={tool.title}>
+                      {tool.description}
+                    </ListItem>
+                  </Link>
+                  
               ))}
             </ul>
           </NavigationMenuContent>
@@ -75,13 +78,14 @@ export default function NavigationHeader() {
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {components.map((component) => (
-                <ListItem
-                  key={component.title}
-                  title={component.title}
-                  href={component.href}
-                >
-                  {component.description}
-                </ListItem>
+                <Link href={component.href}>
+                  <ListItem
+                    key={component.title}
+                    title={component.title}
+                  >
+                    {component.description}
+                  </ListItem>
+                </Link>
               ))}
             </ul>
           </NavigationMenuContent>
