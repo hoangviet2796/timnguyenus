@@ -9,7 +9,7 @@ const nextConfig = {
    output: "export",
    reactStrictMode: true,
    images: {
-    domains: ['https://hoangviet2796.github.io'],
+    unoptimized: false,
   },
 };
 
