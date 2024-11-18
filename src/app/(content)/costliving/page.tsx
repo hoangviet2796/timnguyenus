@@ -14,32 +14,32 @@ export default function CostLiving() {
           <h2 className="w-11/12 font-bold text-5xl mb-4">So sánh chi phí sinh hoạt, duy trì cuộc sống</h2>
           <p className="w-11/12 font-medium text-3xl">Nhập thông tin hai thành phố bạn muốn so sánh. Bạn có thể so sánh chi phí sinh hoạt ngay lập tức.</p>
         </div>
-        <Card className="max-w-screen-xl w-full text-2xl my-8">
+        <Card className="max-w-screen-xl w-full my-8">
           <CardTitle className="my-4">
             <form>
-              <div className=" w-full flex justify-center">
-                <div className="flex flex-col space-y-1.5">
-                  <Label htmlFor="name">Bạn đang sống ở đâu?</Label>
+              <div className=" w-full flex justify-around">
+                <div className="flex flex-col items-center space-y-1.5 w-1/2">
+                  <Label htmlFor="currentPlace" className="text-xl">Bạn đang sống ở đâu?</Label>
                   <Select>
-                    <SelectTrigger id="framework">
+                    <SelectTrigger className="text-xl font-normal w-1/2 shadow-md" id="city">
                       <SelectValue placeholder="Lựa chọn thành phố" />
                     </SelectTrigger>
                     <SelectContent position="popper">
                       {data.states.map((state) => (
-                        <SelectItem value={state.abbreviation}>{state.name}</SelectItem>
+                        <SelectItem key={state.name} value={state.abbreviation}>{state.name}</SelectItem>
                       ))}
                     </SelectContent>
                   </Select>
                 </div>
-                <div className="flex flex-col space-y-1.5">
-                  <Label htmlFor="framework">Bạn muốn chuyển đến đâu?</Label>
+                <div className="flex flex-col items-center space-y-1.5 w-1/2">
+                  <Label htmlFor="futurePlace" className="text-xl">Bạn muốn chuyển đến đâu?</Label>
                   <Select>
-                    <SelectTrigger id="framework">
+                    <SelectTrigger className="text-xl font-normal w-1/2 shadow-md" id="city">
                       <SelectValue placeholder="Lựa chọn thành phố" />
                     </SelectTrigger>
                     <SelectContent position="popper">
                       {data.states.map((state) => (
-                          <SelectItem value={state.abbreviation}>{state.name}</SelectItem>
+                          <SelectItem key={state.name} value={state.abbreviation}>{state.name}</SelectItem>
                         ))}
                     </SelectContent>
                   </Select>
