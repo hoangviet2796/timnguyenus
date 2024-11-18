@@ -37,7 +37,7 @@ const feedbacks = [
     {
         name: "Susan",
         feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sit perspiciatis explicabo, quasi temporibus? Mollitia nulla nemo a nesciunt est, minus ipsam! Odio nihil commodi vitae, cupiditate distinctio ullam.",
-        avatar:"/employee-4.png"
+        avatar:"/images/employee-4.png"
     },
     {
         name: "Carl",
