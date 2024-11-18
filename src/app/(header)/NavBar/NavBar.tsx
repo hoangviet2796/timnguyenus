@@ -16,7 +16,7 @@ export default function Navbar() {
     <header className={`${NavBar.header} sticky top-0`}>
       <div className={`max-w-screen-xl min-w-2 h-15 flex justify-between ml-auto mr-auto text-lg`}>
         <Link href="/">
-          <Image className="h-full w-auto ml-2 pt-2 pb-2" src= '/timnguyenus/public/images/logoTimtron1.png' width= {60} height = {0} alt="logo" priority ></Image>
+          <Image className="h-full w-auto ml-2 pt-2 pb-2" src= '/timnguyenus/images/logoTimtron1.png' width= {60} height = {0} alt="logo" priority ></Image>
         </Link>
         <NavigationHeader/>
         <div/>
