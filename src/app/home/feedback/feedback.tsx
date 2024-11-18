@@ -16,33 +16,33 @@ import React, { useRef } from "react"
 import Image from "next/image"
 import {Icons} from '@/components/icons'
 import feedbackCSS from "./feedback.module.css"
-import { prefix } from "../../../../prefix"
+
 
 const feedbacks = [
     {
         name: "Alex",
         feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sit perspiciatis explicabo, quasi temporibus? Mollitia nulla nemo a nesciunt est, minus ipsam! Odio nihil commodi vitae, cupiditate distinctio ullam.",
-        avatar:"/timnguyenus/images/employee-1.png"
+        avatar:"/images/employee-1.png"
     },
     {
         name: "David",
         feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sit perspiciatis explicabo, quasi temporibus? Mollitia nulla nemo a nesciunt est, minus ipsam! Odio nihil commodi vitae, cupiditate distinctio ullam.",
-        avatar:"/timnguyenus/images/employee-2.png"
+        avatar:"/images/employee-2.png"
     },
     {
         name: "James",
         feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sit perspiciatis explicabo, quasi temporibus? Mollitia nulla nemo a nesciunt est, minus ipsam! Odio nihil commodi vitae, cupiditate distinctio ullam.",
-        avatar:"/timnguyenus/images/employee-3.png"
+        avatar:"/images/employee-3.png"
     },
     {
         name: "Susan",
         feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sit perspiciatis explicabo, quasi temporibus? Mollitia nulla nemo a nesciunt est, minus ipsam! Odio nihil commodi vitae, cupiditate distinctio ullam.",
-        avatar:"/timnguyenus/images/employee-4.png"
+        avatar:"/employee-4.png"
     },
     {
         name: "Carl",
         feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sit perspiciatis explicabo, quasi temporibus? Mollitia nulla nemo a nesciunt est, minus ipsam! Odio nihil commodi vitae, cupiditate distinctio ullam.",
-        avatar:"/timnguyenus/images/employee-5.png"
+        avatar:"/images/employee-5.png"
     },
 ]
 
@@ -70,7 +70,7 @@ export default function Feedback() {
                             <div className="p-1">
                                 <Card className="shadow-lg flex flex-col items-center">
                                     <CardHeader className="flex items-center">
-                                        <Image className="h-full w-auto ml-2 pt-2 pb-2 rounded-full" loading="lazy" src= {`${prefix}` + `${fb.avatar}`}  width= {70} height = {70} alt="logo"></Image>
+                                        <Image className="h-full ml-2 pt-2 pb-2 rounded-full" loading="lazy" src= {fb.avatar}  width= {70} height = {70} alt="logo"></Image>
                                         <h3>{fb.name}</h3>
                                         <div className="flex">
                                             <Icons.stars/>
