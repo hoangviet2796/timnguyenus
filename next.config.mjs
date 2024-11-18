@@ -9,8 +9,9 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
+    loader: "default",
     domains: ["github.com"],
-    path: "https://hoangviet2796.github.io/timnguyenus",
+    path: "'/_next/image'",
   },
 };
 
