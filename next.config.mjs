@@ -10,7 +10,7 @@ const nextConfig = {
   },
   images: {
     loader: "default",
-    domains: ["github.com"],
+    domains: ["https://github.com"],
     path: "images",
   },
 };
