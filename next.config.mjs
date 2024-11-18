@@ -11,7 +11,7 @@ const nextConfig = {
   images: {
     loader: "default",
     domains: ["https://github.com"],
-    path: "images",
+    path: "",
   },
 };
 
