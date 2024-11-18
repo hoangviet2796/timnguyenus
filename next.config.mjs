@@ -9,7 +9,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
-    loader: "default",
+    loader: "file",
     domains: ["https://github.com"],
     path: "",
   },
