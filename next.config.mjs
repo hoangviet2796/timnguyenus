@@ -9,9 +9,8 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
-    loader: "file",
-    domains: ["https://github.com"],
-    path: "",
+    loader: "custom",
+    loaderFile: "./loader.js",
   },
 };
 
