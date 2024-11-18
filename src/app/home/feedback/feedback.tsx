@@ -16,6 +16,7 @@ import React, { useRef } from "react"
 import Image from "next/image"
 import {Icons} from '@/components/icons'
 import feedbackCSS from "./feedback.module.css"
+import { prefix } from "../../../../prefix"
 
 const feedbacks = [
     {
@@ -69,7 +70,7 @@ export default function Feedback() {
                             <div className="p-1">
                                 <Card className="shadow-lg flex flex-col items-center">
                                     <CardHeader className="flex items-center">
-                                        <Image className="h-full w-auto ml-2 pt-2 pb-2 rounded-full" src= {fb.avatar} width= {70} height = {70} alt="logo" priority ></Image>
+                                        <Image className="h-full w-auto ml-2 pt-2 pb-2 rounded-full" loading="lazy" src= {`${prefix}` + `${fb.avatar}`}  width= {70} height = {70} alt="logo"></Image>
                                         <h3>{fb.name}</h3>
                                         <div className="flex">
                                             <Icons.stars/>
