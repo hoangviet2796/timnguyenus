@@ -8,7 +8,6 @@ import { useMediaQuery } from "@/hooks/use-media-query"
 import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer"
 import { MenuIcon } from "lucide-react"
 import { NavigationHeaderMobile } from "./navigationMenuMobile"
-import { prefix } from "../../../../prefix"
 
 
 export default function Navbar() {
@@ -17,7 +16,7 @@ export default function Navbar() {
     <header className={`${NavBar.header} sticky top-0`}>
       <div className={`max-w-screen-xl min-w-2 h-15 flex justify-between ml-auto mr-auto text-lg`}>
         <Link href="/">
-          <Image className="h-full w-auto ml-2 pt-2 pb-2" src= {`${prefix}/images/logoTimtron1.png`} width= {60} height = {0} alt="logo" priority ></Image>
+          <Image className="h-full ml-2 pt-2 pb-2" src= {`/images/logoTimtron1.png`} width= {60} height = {0} alt="logo" priority ></Image>
         </Link>
         <NavigationHeader/>
         <div/>
