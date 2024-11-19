@@ -1,3 +1,4 @@
+'use client'
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import Image from "next/image"
 import css from './costliving.module.css'
@@ -5,8 +6,12 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import data from "@/lib/state.json"
 import { prefix } from "../../../../prefix";
+import { useState } from "react";
+import {Icons} from "@/components/icons"
 
 export default function CostLiving() {
+  const [valueFromPlace,setValueFromPlace] = useState(false)
+  const [valueToPlace,setValueToPlace] = useState(false)
     return (
       <div className={`${css.cover} flex flex-col items-center text-center`}>
         <div className="max-w-screen-xl flex flex-col items-center my-8">
@@ -23,6 +28,7 @@ export default function CostLiving() {
                   <Select>
                     <SelectTrigger className="text-xl font-normal w-1/2 shadow-md" id="city">
                       <SelectValue placeholder="Lựa chọn thành phố" />
+                      <Icons.cancel/>
                     </SelectTrigger>
                     <SelectContent position="popper">
                       {data.states.map((state) => (
@@ -33,7 +39,7 @@ export default function CostLiving() {
                 </div>
                 <div className="flex flex-col items-center space-y-1.5 w-1/2">
                   <Label htmlFor="futurePlace" className="text-xl">Bạn muốn chuyển đến đâu?</Label>
-                  <Select>
+                  <Select >
                     <SelectTrigger className="text-xl font-normal w-1/2 shadow-md" id="city">
                       <SelectValue placeholder="Lựa chọn thành phố" />
                     </SelectTrigger>
