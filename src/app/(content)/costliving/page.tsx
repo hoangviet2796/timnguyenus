@@ -6,12 +6,25 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import data from "@/lib/state.json"
 import { prefix } from "../../../../prefix";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {Icons} from "@/components/icons"
 
 export default function CostLiving() {
-  const [valueFromPlace,setValueFromPlace] = useState(false)
-  const [valueToPlace,setValueToPlace] = useState(false)
+  const [valueFromPlace,setValueFromPlace] = useState("")
+  const [valueToPlace,setValueToPlace] = useState("")
+  const [isFullInfo,setIsFullInfo] = useState(false)
+
+  useEffect(() => {
+    if(valueFromPlace != "" && valueToPlace != "")
+      setIsFullInfo(true)
+    else
+      setIsFullInfo(false)
+    
+  },[valueFromPlace,valueToPlace])
+
+  const clearValue = (from: boolean) => {
+    from?setValueFromPlace(""):setValueToPlace("");
+  }
     return (
       <div className={`${css.cover} flex flex-col items-center text-center`}>
         <div className="max-w-screen-xl flex flex-col items-center my-8">
@@ -25,36 +38,41 @@ export default function CostLiving() {
               <div className=" w-full flex justify-around">
                 <div className="flex flex-col items-center space-y-1.5 w-1/2">
                   <Label htmlFor="currentPlace" className="text-xl">Bạn đang sống ở đâu?</Label>
-                  <Select>
-                    <SelectTrigger className="text-xl font-normal w-1/2 shadow-md" id="city">
-                      <SelectValue placeholder="Lựa chọn thành phố" />
-                      <Icons.cancel/>
-                    </SelectTrigger>
-                    <SelectContent position="popper">
-                      {data.states.map((state) => (
-                        <SelectItem key={state.name} value={state.abbreviation}>{state.name}</SelectItem>
-                      ))}
-                    </SelectContent>
+                  <Select onValueChange={(value) => setValueFromPlace(value)} value={valueFromPlace}>
+                    <div className=" w-1/2 relative">
+                      <SelectTrigger className="text-xl font-normal w-full shadow-md" id="city">
+                        <SelectValue placeholder="Lựa chọn thành phố" />
+                      </SelectTrigger>
+                      {valueFromPlace?<Icons.cancel className="absolute top-1/2 -mt-3 right-7 cursor-pointer" onClick={() => clearValue(true)}/>:null}
+                      <SelectContent position="popper">
+                        {data.states.map((state) => (
+                          <SelectItem key={state.name} value={state.abbreviation}>{state.name}</SelectItem>
+                        ))}
+                      </SelectContent>
+                    </div>
                   </Select>
                 </div>
                 <div className="flex flex-col items-center space-y-1.5 w-1/2">
                   <Label htmlFor="futurePlace" className="text-xl">Bạn muốn chuyển đến đâu?</Label>
-                  <Select >
-                    <SelectTrigger className="text-xl font-normal w-1/2 shadow-md" id="city">
-                      <SelectValue placeholder="Lựa chọn thành phố" />
-                    </SelectTrigger>
-                    <SelectContent position="popper">
-                      {data.states.map((state) => (
+                  <Select onValueChange={(value) => setValueToPlace(value)} value={valueToPlace}>
+                  <div className=" w-1/2 relative">
+                      <SelectTrigger className="text-xl font-normal w-full shadow-md" id="city">
+                        <SelectValue placeholder="Lựa chọn thành phố" />
+                      </SelectTrigger>
+                      {valueToPlace?<Icons.cancel className="absolute top-1/2 -mt-3 right-7 cursor-pointer" onClick={() => clearValue(false)}/>:null}
+                      <SelectContent position="popper">
+                        {data.states.map((state) => (
                           <SelectItem key={state.name} value={state.abbreviation}>{state.name}</SelectItem>
                         ))}
-                    </SelectContent>
+                      </SelectContent>
+                    </div>
                   </Select>
                 </div>
               </div>
             </form>
           </CardTitle>
           <CardContent>
-            
+            {isFullInfo?<p>Check tiếp</p>:null}
           </CardContent>
         </Card>
       </div>
