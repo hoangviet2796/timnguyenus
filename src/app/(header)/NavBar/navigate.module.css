@@ -1,0 +1,11 @@
+.beforeCls::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  background-color: #ff9000;
+  height: 5px;
+  transform-origin: left;
+  transition: 0.3s ease-out;
+}

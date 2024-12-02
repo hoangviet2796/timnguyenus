@@ -1,95 +1,35 @@
-'use client'
-import Autoplay from "embla-carousel-autoplay"
-import HomePage from "@/app/home/HomePage.module.css"
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardHeader,
-  } from "@/components/ui/card"
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-} from "@/components/ui/carousel"
-import React, { useRef } from "react"
-import Image from "next/image"
-import {Icons} from '@/components/icons'
-import feedbackCSS from "./feedback.module.css"
-
-
-const feedbacks = [
-    {
-        name: "Alex",
-        feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sit perspiciatis explicabo, quasi temporibus? Mollitia nulla nemo a nesciunt est, minus ipsam! Odio nihil commodi vitae, cupiditate distinctio ullam.",
-        avatar:"/images/employee-1.png"
-    },
-    {
-        name: "David",
-        feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sit perspiciatis explicabo, quasi temporibus? Mollitia nulla nemo a nesciunt est, minus ipsam! Odio nihil commodi vitae, cupiditate distinctio ullam.",
-        avatar:"/images/employee-2.png"
-    },
-    {
-        name: "James",
-        feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sit perspiciatis explicabo, quasi temporibus? Mollitia nulla nemo a nesciunt est, minus ipsam! Odio nihil commodi vitae, cupiditate distinctio ullam.",
-        avatar:"/images/employee-3.png"
-    },
-    {
-        name: "Susan",
-        feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sit perspiciatis explicabo, quasi temporibus? Mollitia nulla nemo a nesciunt est, minus ipsam! Odio nihil commodi vitae, cupiditate distinctio ullam.",
-        avatar:"/images/employee-4.png"
-    },
-    {
-        name: "Carl",
-        feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sit perspiciatis explicabo, quasi temporibus? Mollitia nulla nemo a nesciunt est, minus ipsam! Odio nihil commodi vitae, cupiditate distinctio ullam.",
-        avatar:"/images/employee-5.png"
-    },
-]
+import Image from "next/image";
 
 export default function Feedback() {
-    const plugin = useRef(
-        Autoplay({ delay: 2000, stopOnInteraction: false })
-      )
   return (
-    <div className={`${HomePage.mainCover} flex flex-col items-center`}>
-        <div className="w-full flex flex-col items-center my-16">
-            <div className="max-w-screen-xl text-4xl font-bold text-center text-white mb-8">
-                <h2 className={`${feedbackCSS.mainColor}`}>Những đánh giá từ những khách hàng hàng đầu của chúng tôi</h2>
-            </div>
-            <Carousel
-                opts={{
-                    align: "start",
-                }}
-                plugins={[plugin.current
-                ]}
-                className="w-full max-w-full"
-                >
-                <CarouselContent>
-                    {feedbacks.map((fb,index) => (
-                        <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                            <div className="p-1">
-                                <Card className="shadow-lg flex flex-col items-center">
-                                    <CardHeader className="flex items-center">
-                                        <Image className="h-full ml-2 pt-2 pb-2 rounded-full" loading="lazy" src= {fb.avatar}  width= {70} height = {70} alt="logo"></Image>
-                                        <h3>{fb.name}</h3>
-                                        <div className="flex">
-                                            <Icons.stars/>
-                                            <Icons.stars/>
-                                            <Icons.stars/>
-                                            <Icons.stars/>
-                                            <Icons.stars/>
-                                        </div>
-                                    </CardHeader>
-                                    <CardContent>
-                                        <CardDescription className="text-center ">`"`{fb.feedback}`"`</CardDescription>
-                                    </CardContent>
-                                </Card>
-                            </div>
-                        </CarouselItem>
-                    ))}
-                </CarouselContent>
-            </Carousel>
-        </div> 
+    <div className={`flex bg-white w-full`}>
+      <div className="w-1/2 flex flex-col justify-evenly items-center my-5">
+        <h3 className="sm:text-3xl md:text-4xl xl:text-5xl 2xl:text-7xl mx-5 text-center font-semibold text-[--primary]">
+          Đã hỗ trợ hơn 10.000 <br /> người giảm nợ thành công
+        </h3>
+        <Image
+          className={`h-[50%] w-[60%] `}
+          loading="lazy"
+          src={`https://media-public.canva.com/iQ7Ds/MAFlaLiQ7Ds/1/s.svg`}
+          width={800}
+          height={0}
+          alt="main"
+        ></Image>
+        <p className="italic sm:text-lg md:text-xl xl:text-2xl 2xl:text-4xl mx-5 text-center">
+          Tim đồng hành cùng nhiều hoàn cảnh vượt qua <br /> “góc khuất” tối tăm
+          của nợ nần
+        </p>
+      </div>
+      <div className="w-1/2">
+        <Image
+          className={`h-fit w-full `}
+          loading="lazy"
+          src={`/images/SITETIMNGUYEN/3.png`}
+          width={800}
+          height={0}
+          alt="main"
+        ></Image>
+      </div>
     </div>
-  )
+  );
 }

@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
-import * as React from "react"
-import Link from "next/link"
+import * as React from "react";
+import Link from "next/link";
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -12,9 +12,9 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu"
-
-import data from "../data.json"
+} from "@/components/ui/navigation-menu";
+import navigate from "./navigate.module.css";
+import data from "../data.json";
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -52,53 +52,65 @@ const components: { title: string; href: string; description: string }[] = [
     description:
       "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
   },
-]
+];
 
 export default function NavigationHeader() {
   return (
     <NavigationMenu>
       <NavigationMenuList>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>Công cụ miễn phí</NavigationMenuTrigger>
+        <NavigationMenuItem
+          className={`mr-5 relative ${navigate.beforeCls} hover:before:w-full`}
+        >
+          <Link href="/home" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Home
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+        <NavigationMenuItem
+          className={`mr-5 relative ${navigate.beforeCls} hover:before:w-full`}
+        >
+          <Link href="/about" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              About Me
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+        <NavigationMenuItem
+          className={`mr-5 relative ${navigate.beforeCls} hover:before:w-full`}
+        >
+          <Link href="/about" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Program
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+        <NavigationMenuItem
+          className={`mr-5 relative ${navigate.beforeCls} hover:before:w-full`}
+        >
+          <NavigationMenuTrigger>Free Tools</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
               {data.tools.map((tool) => (
-                  <Link href={tool.link} key={tool.title}>
-                    <ListItem  title={tool.title}>
-                      {tool.description}
-                    </ListItem>
-                  </Link>
-                  
-              ))}
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>Chủ đề</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-              {components.map((component) => (
-                <Link href={component.href} key={component.title}>
-                  <ListItem
-                    title={component.title}
-                  >
-                    {component.description}
-                  </ListItem>
+                <Link href={tool.link} key={tool.title}>
+                  <ListItem title={tool.title}></ListItem>
                 </Link>
               ))}
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/about" legacyBehavior passHref>
+        <NavigationMenuItem
+          className={`mr-5 relative ${navigate.beforeCls} hover:before:w-full`}
+        >
+          <Link href="/home" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Về chúng tôi
+              Topic
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
-  )
+  );
 }
 
 const ListItem = React.forwardRef<
@@ -123,6 +135,6 @@ const ListItem = React.forwardRef<
         </a>
       </NavigationMenuLink>
     </li>
-  )
-})
-ListItem.displayName = "ListItem"
+  );
+});
+ListItem.displayName = "ListItem";
