@@ -4,6 +4,7 @@ import HomePage from "./HomePage.module.css";
 import VideoHome from "@/app/home/videoHome/videoHome";
 import FeedBack from "@/app/home/feedback/feedback";
 import Cooporate from "@/app/home/cooperate/Cooperate";
+import Advice from "@/app/home/advise/advise";
 import { Button } from "@/components/ui/button";
 
 export default function home() {
@@ -56,6 +57,7 @@ export default function home() {
       <VideoHome />
       <FeedBack />
       <Cooporate />
+      <Advice />
 
       {/* </div> */}
     </main>

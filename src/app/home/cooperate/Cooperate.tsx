@@ -6,7 +6,7 @@ import { Icons } from "@/components/icons";
 export default function Cooperate() {
   return (
     <div
-      className={`flex justify-center relative before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-[#272621] before:opacity-50`}
+      className={`flex justify-center relative before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-[#272621] before:opacity-70`}
     >
       <Image
         className={`h-fit w-full `}
@@ -16,10 +16,10 @@ export default function Cooperate() {
         height={0}
         alt="main"
       ></Image>
-      <div className="absolute left-[5%] top-1/4 z-10">
-        <Card className="bg-opacity-10 bg-white text-white w-[30%] text-2xl font-bold h-[80%]">
-          <h4>CÁC ĐƠN VỊ HỢP TÁC</h4>
-          <ul>
+      <div className="absolute left-0 top-0 z-10 h-full w-full flex justify-around">
+        <Card className="bg-opacity-10 bg-white text-white w-[30%] font-bold h-[80%] mt-[5%] text-center sm:text-xl md:text-2xl xl:text-3xl 2xl:text-5xl">
+          <h4 className="py-5">CÁC ĐƠN VỊ HỢP TÁC</h4>
+          <ul className="flex flex-col h-[70%] justify-between">
             <li className="flex">
               <Icons.arrow />
               <p className="ml-2">AADR</p>
@@ -38,21 +38,42 @@ export default function Cooperate() {
             </li>
           </ul>
         </Card>
-        <p className="sm:text-lg xl:text-xl 2xl:text-2xl italic mt-4 w-2/5">
-          Tim Nguyen - Chuyên gia giảm nợ cá nhân đồng hành cùng nhiều hoàn cảnh
-          vượt qua “góc khuất” tối tăm của nợ nần để làm lại một cuộc đời mới
-        </p>
-        <div className="mt-20 w-2/5 flex justify-around">
-          <Button className="bg-[#ff9000] hover:bg-[#fe6601] px-7 py-7 sm:text-lg xl:text-xl 2xl:text-2xl">
-            GIẢM NỢ
-          </Button>
-          <Button
-            variant="outline"
-            className="bg-white text-accent-foreground px-7 py-7 sm:text-lg xl:text-xl 2xl:text-2xl"
-          >
-            CÔNG CỤ
-          </Button>
-        </div>
+        <Card className="relative bg-opacity-10 bg-white text-white w-[50%] h-[80%] mt-[5%] ">
+          <div className="flex items-center font-bold sm:text-xl md:text-2xl xl:text-3xl 2xl:text-5xl">
+            <Image
+              className={`h-fit w-1/4 `}
+              loading="lazy"
+              src={`/images/SITETIMNGUYEN/4.png`}
+              width={500}
+              height={0}
+              alt="main"
+            ></Image>
+            <h4 className="py-5 text-center">
+              <span className="italic">Citizen Debt Services</span> <br /> Đối
+              tác chiến lược
+            </h4>
+          </div>
+          <ul className="flex flex-col justify-start h-[70%] sm:text-xs md:text-base xl:text-xl 2xl:text-3xl list-disc">
+            <li className="mx-10 mb-5">
+              CDS có phạm vi hoạt động rộng khắp 49 tiểu bang, chuyên cung cấp
+              các giải pháp tối ưu nhất cho những người đang phải vật lộn với nợ
+              nần và khao khát làm lại cuộc đời một lần nữa.
+            </li>
+            <li className="mx-10">
+              CDS là công ty giảm nợ của người Việt đầu tiên được cấp phép từ
+              chính phủ, đã hỗ trợ hơn 5,000 người giải quyết khoản nợ lên đến
+              150 triệu USD.
+            </li>
+          </ul>
+          <div className="w-full flex justify-around absolute -bottom-7">
+            <Button className="bg-gradient-to-t from-blue-100 to-blue-700 hover:bg-gradient-to-bl w-1/3 rounded-full px-7 py-7 sm:text-lg xl:text-xl 2xl:text-2xl">
+              REVIEW
+            </Button>
+            <Button className="bg-gradient-to-tr from-blue-100 to-blue-700 hover:bg-gradient-to-bl w-1/3 rounded-full px-7 py-7 sm:text-lg xl:text-xl 2xl:text-2xl">
+              LEARN MORE
+            </Button>
+          </div>
+        </Card>
       </div>
     </div>
   );
