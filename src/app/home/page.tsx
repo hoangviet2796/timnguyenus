@@ -1,10 +1,15 @@
 import Image from "next/image";
-import { Card } from "@/components/ui/card";
 import HomePage from "./HomePage.module.css";
 import VideoHome from "@/app/home/videoHome/videoHome";
 import FeedBack from "@/app/home/feedback/feedback";
 import Cooporate from "@/app/home/cooperate/Cooperate";
 import Advice from "@/app/home/advise/advise";
+import FeedbackClient from "@/app/home/feedbackClient/feedbackClient";
+import Review from "@/app/home/review/review";
+import GoodDeal from "@/app/home/goodeal/gooddeal";
+import Referral from "@/app/home/referral/referral";
+import Contact from "@/app/home/contact/contact";
+
 import { Button } from "@/components/ui/button";
 
 export default function home() {
@@ -58,6 +63,11 @@ export default function home() {
       <FeedBack />
       <Cooporate />
       <Advice />
+      <FeedbackClient />
+      <Review />
+      <GoodDeal />
+      <Referral />
+      <Contact />
 
       {/* </div> */}
     </main>

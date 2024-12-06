@@ -307,4 +307,94 @@ export const Icons = {
       </g>
     </svg>
   ),
+  bg: (props: IconProps) => (
+    <svg
+      role="presentation"
+      viewBox="0 0 256 256"
+      preserveAspectRatio="xMidYMid slice"
+      {...props}
+    >
+      <defs>
+        <linearGradient
+          gradientUnits="userSpaceOnUse"
+          id="__id183__id184"
+          x1="128"
+          y1="0"
+          x2="128"
+          y2="256"
+        >
+          <stop stopColor="#ffffff" stopOpacity="1" offset="0"></stop>
+          <stop stopColor="#f2aa15" stopOpacity="1" offset="1"></stop>
+        </linearGradient>
+      </defs>
+      <rect
+        x="0"
+        y="0"
+        width="256"
+        height="256"
+        fill="url(#__id183__id184)"
+      ></rect>
+    </svg>
+  ),
+  youtube: (props: IconProps) => (
+    <svg
+      width="64px"
+      height="64px"
+      viewBox="0 -0.5 25 25"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+      <g
+        id="SVGRepo_tracerCarrier"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      ></g>
+      <g id="SVGRepo_iconCarrier">
+        {" "}
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M18.168 19.0028C20.4724 19.0867 22.41 17.29 22.5 14.9858V9.01982C22.41 6.71569 20.4724 4.91893 18.168 5.00282H6.832C4.52763 4.91893 2.58998 6.71569 2.5 9.01982V14.9858C2.58998 17.29 4.52763 19.0867 6.832 19.0028H18.168Z"
+          stroke="#000000"
+          strokeWidth="0.55"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        ></path>{" "}
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M12.008 9.17784L15.169 11.3258C15.3738 11.4454 15.4997 11.6647 15.4997 11.9018C15.4997 12.139 15.3738 12.3583 15.169 12.4778L12.008 14.8278C11.408 15.2348 10.5 14.8878 10.5 14.2518V9.75184C10.5 9.11884 11.409 8.77084 12.008 9.17784Z"
+          stroke="#000000"
+          strokeWidth="0.55"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        ></path>{" "}
+      </g>
+    </svg>
+  ),
+  tiktok: (props: IconProps) => (
+    <svg
+      fill="#000000"
+      width="64px"
+      height="64px"
+      viewBox="0 0 32 32"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+      <g
+        id="SVGRepo_tracerCarrier"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      ></g>
+      <g id="SVGRepo_iconCarrier">
+        {" "}
+        <title>tiktok</title>{" "}
+        <path d="M16.656 1.029c1.637-0.025 3.262-0.012 4.886-0.025 0.054 2.031 0.878 3.859 2.189 5.213l-0.002-0.002c1.411 1.271 3.247 2.095 5.271 2.235l0.028 0.002v5.036c-1.912-0.048-3.71-0.489-5.331-1.247l0.082 0.034c-0.784-0.377-1.447-0.764-2.077-1.196l0.052 0.034c-0.012 3.649 0.012 7.298-0.025 10.934-0.103 1.853-0.719 3.543-1.707 4.954l0.020-0.031c-1.652 2.366-4.328 3.919-7.371 4.011l-0.014 0c-0.123 0.006-0.268 0.009-0.414 0.009-1.73 0-3.347-0.482-4.725-1.319l0.040 0.023c-2.508-1.509-4.238-4.091-4.558-7.094l-0.004-0.041c-0.025-0.625-0.037-1.25-0.012-1.862 0.49-4.779 4.494-8.476 9.361-8.476 0.547 0 1.083 0.047 1.604 0.136l-0.056-0.008c0.025 1.849-0.050 3.699-0.050 5.548-0.423-0.153-0.911-0.242-1.42-0.242-1.868 0-3.457 1.194-4.045 2.861l-0.009 0.030c-0.133 0.427-0.21 0.918-0.21 1.426 0 0.206 0.013 0.41 0.037 0.61l-0.002-0.024c0.332 2.046 2.086 3.59 4.201 3.59 0.061 0 0.121-0.001 0.181-0.004l-0.009 0c1.463-0.044 2.733-0.831 3.451-1.994l0.010-0.018c0.267-0.372 0.45-0.822 0.511-1.311l0.001-0.014c0.125-2.237 0.075-4.461 0.087-6.698 0.012-5.036-0.012-10.060 0.025-15.083z"></path>{" "}
+      </g>
+    </svg>
+  ),
 };
