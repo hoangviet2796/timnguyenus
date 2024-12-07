@@ -9,6 +9,7 @@ import Review from "@/app/home/review/review";
 import GoodDeal from "@/app/home/goodeal/gooddeal";
 import Referral from "@/app/home/referral/referral";
 import Contact from "@/app/home/contact/contact";
+import ToTop from "@/components/ui/scrollToTop";
 
 import { Button } from "@/components/ui/button";
 
@@ -68,6 +69,7 @@ export default function home() {
       <GoodDeal />
       <Referral />
       <Contact />
+      <ToTop />
 
       {/* </div> */}
     </main>

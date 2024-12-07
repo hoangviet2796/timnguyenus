@@ -45,6 +45,7 @@ export default function Carroussel() {
             <img
               className="block w-full h-full hover:scale-150"
               src={`/images/SITETIMNGUYEN/GOODDEAL/${x}.png`}
+              loading="lazy"
             />
           </SwiperSlide>
         ))}

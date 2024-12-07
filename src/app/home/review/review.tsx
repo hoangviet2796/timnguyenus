@@ -1,6 +1,7 @@
 import { Card, CardDescription } from "@/components/ui/card";
 import React, { useRef } from "react";
 import Image from "next/image";
+import { Icons } from "@/components/icons";
 
 const reviews = [
   {
@@ -35,7 +36,7 @@ export default function Review() {
         </div>
         <div className="flex h-2/3">
           {reviews.map((fb, index) => (
-            <Card className="shadow-lg bg-blue-700 flex flex-col items-center h-full w-1/3 mx-3">
+            <Card className="shadow-lg bg-blue-700 text-white flex flex-col items-center h-full w-1/3 mx-3">
               <div className={`flex flex-col items-center overflow-hidden`}>
                 <Image
                   className="w-1/2 pb-2 rounded-tl-lg rounded-tr-lg"
@@ -46,11 +47,18 @@ export default function Review() {
                   alt="logo"
                 ></Image>
               </div>
-              <div className="flex flex-col mx-2 h-1/3">
-                <h3 className="text-center text-xl font-bold">{fb.review}</h3>
-                <CardDescription className="text-center lg:text-base xl:text-xl">
-                  "{fb.point}"
+              <div className="flex flex-col mx-2 h-2/3 justify-center items-center">
+                <h3 className="text-center text-2xl italic">{fb.review}</h3>
+                <CardDescription className="text-center font-bold text-2xl text-white">
+                  {fb.point}
                 </CardDescription>
+                <div className="flex">
+                  <Icons.stars className="w-10 h-10" />
+                  <Icons.stars className="w-10 h-10" />
+                  <Icons.stars className="w-10 h-10" />
+                  <Icons.stars className="w-10 h-10" />
+                  <Icons.stars className="w-10 h-10" />
+                </div>
               </div>
             </Card>
           ))}
