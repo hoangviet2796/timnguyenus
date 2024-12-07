@@ -10,9 +10,8 @@ import { NavigationHeaderMobile } from "./navigationMenuMobile";
 
 export default function Navbar() {
   const isDesktop = useMediaQuery("(min-width: 900px)");
-
   return isDesktop ? (
-    <header className={`z-50 absolute block text-white w-full`}>
+    <header className={`z-50 relative block text-white w-full bg-[#08244d]`}>
       <div className={`min-w-2 h-15 flex justify-between mx-4 text-base`}>
         <Link href="/" className="flex items-center">
           <Image
@@ -30,6 +29,7 @@ export default function Navbar() {
         </Link>
         <NavigationHeader />
       </div>
+      <div className="absolute -bottom-1 bg-[#ff9000] w-full h-1"></div>
     </header>
   ) : (
     <header>

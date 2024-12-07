@@ -34,7 +34,7 @@ export default function Contact() {
                   target="_blank"
                   className=" flex justify-center items-center text-[#ff9000] fill-[#ff9000] hover:text-[#fe6601]"
                 >
-                  <Icons.facebook className="fill-[#ff9000] h-12 w-12 mr-5" />
+                  {/* <Icons.facebook className="fill-[#ff9000] text-[#ff9000] h-12 w-12 mr-5" /> */}
                   <p>FACEBOOK</p>
                 </Link>
               </li>
@@ -44,7 +44,7 @@ export default function Contact() {
                   target="_blank"
                   className=" flex justify-center items-center text-[#ff9000] hover:text-[#fe6601]"
                 >
-                  <Icons.youtube className="fill-[#ff9000] h-12 w-12 mr-5" />
+                  {/* <Icons.youtube className="fill-[#ff9000] h-12 w-12 mr-5" /> */}
                   <p>YOUTUBE</p>
                 </Link>
               </li>
@@ -54,7 +54,7 @@ export default function Contact() {
                   target="_blank"
                   className=" flex justify-center items-center text-[#ff9000] hover:text-[#fe6601]"
                 >
-                  <Icons.tiktok className="fill-[#ff9000] h-12 w-12 mr-5" />
+                  {/* <Icons.tiktok className="fill-[#ff9000] h-12 w-12 mr-5" /> */}
                   <p>TIKTOK</p>
                 </Link>
               </li>

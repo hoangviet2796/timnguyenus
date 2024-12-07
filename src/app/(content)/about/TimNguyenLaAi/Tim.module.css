@@ -1,0 +1,10 @@
+.title::before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 3%;
+  width: 88%;
+  height: 75%;
+  background-color: #ff9000;
+  z-index: -1;
+}
