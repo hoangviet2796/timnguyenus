@@ -7,11 +7,19 @@ import { useMediaQuery } from "@/hooks/use-media-query";
 import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer";
 import { MenuIcon } from "lucide-react";
 import { NavigationHeaderMobile } from "./navigationMenuMobile";
+import { useScrollDirection } from "@/hooks/useScrollDirection";
+
+import css from "./NavBar.module.css";
 
 export default function Navbar() {
+  const scrollDirection = useScrollDirection();
   const isDesktop = useMediaQuery("(min-width: 900px)");
   return isDesktop ? (
-    <header className={`z-50 relative block text-white w-full bg-[#08244d]`}>
+    <header
+      className={`${css.myHeader} ${
+        scrollDirection === "down" ? css.hide : "show"
+      } z-50 block text-white w-full bg-[#08244d]`}
+    >
       <div className={`min-w-2 h-15 flex justify-between mx-4 text-base`}>
         <Link href="/" className="flex items-center">
           <Image

@@ -5,10 +5,14 @@ import Vision from "@/app/(content)/about/Vision/vision";
 
 export default function About() {
   return (
-    <div>
-      <TimNguyen />
-      <Help />
-      <Vision />
-    </div>
+    <main
+      className={`flex flex-col items-center mainBG text-white cursor-default`}
+    >
+      <div className={`max-w-screen-xl`}>
+        <TimNguyen />
+        <Help />
+        <Vision />
+      </div>
+    </main>
   );
 }

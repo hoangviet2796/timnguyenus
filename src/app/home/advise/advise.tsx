@@ -2,15 +2,13 @@ import Image from "next/image";
 
 export default function Advise() {
   return (
-    <div
-      className={`flex items-center bg-gradient-to-t from-gray-200 to-gray-600 w-full text-white`}
-    >
+    <div className={`flex items-center w-full text-white`}>
       <div className="w-1/2 flex flex-col justify-evenly items-center m-16 ">
-        <h4 className="font-bold mb-16 sm:text-lg md:text-xl xl:text-3xl 2xl:text-5xl text-center">
+        <h4 className="font-bold mb-16 sm:text-lg md:text-xl xl:text-3xl text-center">
           Các chuyên gia đàm phán với kinh nghiệm xử lý hàng ngàn hồ sơ giảm nợ
           mỗi tháng
         </h4>
-        <ul className="flex flex-col justify-start h-[70%] italic list-disc sm:text-xs md:text-base xl:text-xl 2xl:text-3xl">
+        <ul className="flex flex-col justify-start h-[70%] italic list-disc sm:text-xs md:text-base xl:text-xl">
           <li className="mx-10 mb-20">
             Citizen Debt Services là đơn vị đối tác Tim chọn đồng hành để cung
             cấp các dịch vụ xử lý nợ tốt nhất với hệ thống hỗ trợ toàn diện nhất

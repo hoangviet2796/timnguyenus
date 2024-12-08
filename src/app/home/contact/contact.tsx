@@ -20,7 +20,7 @@ export default function Contact() {
       <div className="absolute left-0 top-0 z-10 h-full w-full flex justify-around">
         <div className="w-1/2 text-[#ff9000] h-full text-end"></div>
         <Card className="relative bg-opacity-30 bg-white w-fit h-fit mt-[5%] mr-[5%]">
-          <div className="flex flex-col font-bold sm:text-xl md:text-2xl xl:text-3xl 2xl:text-5xl m-10">
+          <div className="flex flex-col font-bold sm:text-xl md:text-2xl xl:text-3xl m-10">
             <h4 className="py-5 text-center text-[#ff9000]">
               CONTACT INFORMATION
             </h4>

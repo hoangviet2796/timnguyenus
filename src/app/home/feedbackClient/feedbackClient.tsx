@@ -1,19 +1,15 @@
+"use client";
 import Autoplay from "embla-carousel-autoplay";
-import HomePage from "@/app/home/HomePage.module.css";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-} from "@/components/ui/card";
+import { Card, CardDescription } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from "@/components/ui/carousel";
 import React, { useRef } from "react";
 import Image from "next/image";
-import { Icons } from "@/components/icons";
 
 const feedbacks = [
   {
@@ -43,7 +39,7 @@ const feedbacks = [
 ];
 
 export default function Feedback() {
-  //   const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
+  const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: false }));
   return (
     <div
       className={`bg-gradient-to-t from-gray-600 to-gray-200 flex flex-col items-center`}
@@ -56,17 +52,17 @@ export default function Feedback() {
           opts={{
             align: "start",
           }}
-          //   plugins={[plugin.current]}
-          className="lg:h-[400px] xl:h-[500px] 2xl:h-[700px]"
+          plugins={[plugin.current]}
+          className="lg:h-[400px] xl:h-[500px] w-4/5"
         >
-          <CarouselContent className="lg:h-[400px] xl:h-[500px] 2xl:h-[700px]">
+          <CarouselContent className="lg:h-[400px] xl:h-[500px]">
             {feedbacks.map((fb, index) => (
               <CarouselItem
                 key={index}
-                className="md:basis-1/2 lg:basis-1/4 h-full mx-5"
+                className="md:basis-1/2 lg:basis-1/2 h-full mx-5"
               >
-                <div className="p-1 h-full">
-                  <Card className="shadow-lg flex flex-col items-center h-full w-fit">
+                <div className="h-full w-fit">
+                  <Card className="shadow-lg flex flex-col items-center h-full w-4/5 cursor-pointer select-none">
                     <div
                       className={`flex flex-col items-center h-1/2 overflow-hidden`}
                     >

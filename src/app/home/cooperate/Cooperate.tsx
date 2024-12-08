@@ -17,7 +17,7 @@ export default function Cooperate() {
         alt="main"
       ></Image>
       <div className="absolute left-0 top-0 z-10 h-full w-full flex justify-around">
-        <Card className="bg-opacity-10 bg-white text-white w-[30%] font-bold h-[80%] mt-[5%] text-center sm:text-xl md:text-2xl xl:text-3xl 2xl:text-5xl">
+        <Card className="bg-opacity-10 bg-white text-white w-[30%] font-bold h-[80%] mt-[5%] text-center sm:text-xl md:text-2xl xl:text-3xl">
           <h4 className="py-5">CÁC ĐƠN VỊ HỢP TÁC</h4>
           <ul className="flex flex-col h-[70%] justify-between">
             <li className="flex">
@@ -39,7 +39,7 @@ export default function Cooperate() {
           </ul>
         </Card>
         <Card className="relative bg-opacity-10 bg-white text-white w-[50%] h-[80%] mt-[5%] ">
-          <div className="flex items-center font-bold sm:text-xl md:text-2xl xl:text-3xl 2xl:text-5xl">
+          <div className="flex items-center font-bold sm:text-xl md:text-2xl xl:text-3xl">
             <Image
               className={`h-fit w-1/4 `}
               loading="lazy"
@@ -53,7 +53,7 @@ export default function Cooperate() {
               tác chiến lược
             </h4>
           </div>
-          <ul className="flex flex-col justify-start h-[70%] sm:text-xs md:text-base xl:text-xl 2xl:text-3xl list-disc">
+          <ul className="flex flex-col justify-start h-[70%] sm:text-xs md:text-base xl:text-xl list-disc">
             <li className="mx-10 mb-5">
               CDS có phạm vi hoạt động rộng khắp 49 tiểu bang, chuyên cung cấp
               các giải pháp tối ưu nhất cho những người đang phải vật lộn với nợ
@@ -66,10 +66,10 @@ export default function Cooperate() {
             </li>
           </ul>
           <div className="w-full flex justify-around absolute -bottom-7">
-            <Button className="bg-gradient-to-t from-blue-100 to-blue-700 hover:bg-gradient-to-bl w-1/3 rounded-full px-7 py-7 sm:text-lg xl:text-xl 2xl:text-2xl">
+            <Button className="bg-gradient-to-t from-blue-100 to-blue-700 hover:bg-gradient-to-bl w-1/3 rounded-full px-7 py-7 sm:text-lg xl:text-xl">
               REVIEW
             </Button>
-            <Button className="bg-gradient-to-tr from-blue-100 to-blue-700 hover:bg-gradient-to-bl w-1/3 rounded-full px-7 py-7 sm:text-lg xl:text-xl 2xl:text-2xl">
+            <Button className="bg-gradient-to-tr from-blue-100 to-blue-700 hover:bg-gradient-to-bl w-1/3 rounded-full px-7 py-7 sm:text-lg xl:text-xl">
               LEARN MORE
             </Button>
           </div>

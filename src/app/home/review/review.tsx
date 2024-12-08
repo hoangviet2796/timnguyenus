@@ -27,16 +27,14 @@ const reviews = [
 export default function Review() {
   //   const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
   return (
-    <div
-      className={`bg-gradient-to-t from-gray-200 to-gray-600 flex flex-col items-center h-[600px]`}
-    >
+    <div className={`flex flex-col items-center h-[600px]`}>
       <div className="w-full flex flex-col items-center my-16">
         <div className="max-w-screen-xl text-4xl font-bold text-center text-white mb-8">
           <h2 className={``}>REVIEW VỀ DỊCH VỤ</h2>
         </div>
         <div className="flex h-2/3">
           {reviews.map((fb, index) => (
-            <Card className="shadow-lg bg-blue-700 text-white flex flex-col items-center h-full w-1/3 mx-3">
+            <Card className="shadow-lg bg-[#5376db] text-white flex flex-col items-center h-full w-1/3 mx-3 hover:scale-105">
               <div className={`flex flex-col items-center overflow-hidden`}>
                 <Image
                   className="w-1/2 pb-2 rounded-tl-lg rounded-tr-lg"

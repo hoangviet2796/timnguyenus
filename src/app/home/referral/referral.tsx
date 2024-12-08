@@ -5,13 +5,13 @@ import { Icons } from "@/components/icons";
 export default function Referral() {
   //   const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
   return (
-    <div className={`bg-white flex flex-col items-center`}>
+    <div className={`flex flex-col items-center`}>
       <div className="w-full flex flex-col items-center my-16">
         <div className="max-w-screen-xl mb-8">
-          <h2 className="text-5xl font-semibold text-center text-[#492709]">
+          <h2 className="text-4xl font-semibold text-center text-[--text-primary-color]">
             Referral
           </h2>
-          <p className="text-3xl italic text-justify text-[#492709] mt-5">
+          <p className="text-2xl italic text-justify text-white m-5">
             Những cá nhân mà Tim đã và đang bắt tay hợp tác nhằm đưa ngành giảm
             nợ gần hơn với công chúng. Từ những câu chuyện, những bài học thực
             tế Tim Nguyen và đối tác đã tạo ra cái nhìn khác tích cực hơn cho
@@ -23,28 +23,28 @@ export default function Referral() {
           <div className="relative">
             <Icons.bg className="w-full rounded-full" />
             <Image
-              className={`absolute top-[5%] left-[5%] h-fit w-[90%] z-10 bottom-0 right-0 rounded-full`}
+              className={`absolute top-[5%] left-[5%] h-fit w-[90%] z-10 bottom-0 right-0 rounded-full hover:scale-105`}
               loading="lazy"
               src={`/images/SITETIMNGUYEN/sean.png`}
               width={800}
               height={0}
               alt="main"
             ></Image>
-            <h2 className="text-center text-[#492709] text-3xl font-bold mt-5">
+            <h2 className="text-center text-[--text-primary-color] text-3xl font-bold mt-5">
               Sean Le
             </h2>
           </div>
           <div className="relative">
             <Icons.bg className="w-full rounded-full" />
             <Image
-              className={`absolute top-[5%] left-[5%] h-fit w-[90%] z-10 bottom-0 right-0 rounded-full`}
+              className={`absolute top-[5%] left-[5%] h-fit w-[90%] z-10 bottom-0 right-0 rounded-full hover:scale-105`}
               loading="lazy"
               src={`/images/SITETIMNGUYEN/thuynga.png`}
               width={800}
               height={0}
               alt="main"
             ></Image>
-            <h2 className="text-center text-[#492709] text-3xl font-bold mt-5">
+            <h2 className="text-center text-[--text-primary-color] text-3xl font-bold mt-5">
               Thuy Nga
             </h2>
           </div>

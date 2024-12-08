@@ -22,7 +22,7 @@ export default function TimNguyen() {
             height={0}
             alt="main"
           ></Image>
-          <div className="font-extrabold sm:text-3xl xl:text-4xl 2xl:text-6xl text-white">
+          <div className="font-extrabold sm:text-3xl xl:text-4xl text-white">
             <h4 className="leading-tight">
               cuộc gọi mới <br /> cuộc đời mới
             </h4>
@@ -30,12 +30,14 @@ export default function TimNguyen() {
         </div>
       </div>
       <div className="h-full w-1/2 mr-[5%] flex flex-col">
-        <h2
-          className={`${timcss.title} text-[#023681] w-fit relative h-fit font-extrabold sm:text-3xl xl:text-4xl 2xl:text-6xl`}
+        <div
+          className={` text-[#023681] w-fit relative h-fit font-extrabold sm:text-3xl xl:text-4xl`}
         >
-          Tim Nguyen là ai?
-        </h2>
-        <p className=" ml-10 font-bold sm:text-xl xl:text-2xl 2xl:text-4xl">
+          <h2 className="z-10 relative">Tim Nguyen là ai?</h2>
+          <div className={`${timcss.title}`}></div>
+        </div>
+
+        <p className=" ml-10 font-bold sm:text-xl xl:text-2xll">
           Founder Nguoi Viet Socal
           <br />
           Founder Mastering Debt Management
@@ -60,8 +62,8 @@ export default function TimNguyen() {
             height={0}
             alt="main"
           ></Image>
-          <div className="absolute w-[15%] h-[90%] rounded-full bg-[#ff9000] -top-[50%] -left-[5%]"></div>
-          <p className="font-extrabold sm:text-xl xl:text-2xl 2xl:text-4xl ml-5">
+          <div className="absolute w-[15%] h-[90%] rounded-full bg-[--text-primary-color] -top-[50%] -left-[5%]"></div>
+          <p className="font-extrabold sm:text-xl xl:text-2xl ml-5">
             Achieving The Main Goal of a Trustworthy Customer
           </p>
         </div>

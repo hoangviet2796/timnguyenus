@@ -17,7 +17,7 @@ export default function Review() {
       ></Image>
       <div className="absolute z-10 w-full h-full left-0 flex justify-between">
         <Carousel />
-        <div className="text-white italic w-1/3 pt-[10%] mr-10 lg:text-xl xl:text-3xl 2xl:text-5xl text-right">
+        <div className="text-white italic w-1/3 pt-[10%] mr-10 lg:text-xl xl:text-3xl text-right">
           <p className="text-center">
             “Hành trình giúp cộng đồng thoát nợ và tìm lại cuộc sống mới chưa
             bao giờ là dễ dàng, nhưng Tim chưa từng dừng bước...”
@@ -27,10 +27,10 @@ export default function Review() {
       </div>
       <div className="absolute z-10 bottom-0 flex justify-between w-full">
         <div className="ml-12 mb-12">
-          <h1 className="text-white font-bold lg:text-3xl xl:text-5xl 2xl:text-8xl">
+          <h1 className="text-white font-bold lg:text-3xl xl:text-5xl">
             CÁC GOOD DEAL
           </h1>
-          <h3 className="text-[#ff9000] lg:text-3xl xl:text-5xl 2xl:text-8xl">
+          <h3 className="text-[#ff9000] lg:text-3xl xl:text-5xl">
             Tim hỗ trợ giảm thành công
           </h3>
         </div>

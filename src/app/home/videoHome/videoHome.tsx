@@ -22,10 +22,10 @@ export default function videoHome() {
         Your browser does not support the video tag.
       </video>
       <div className="absolute top-1/3 w-full text-center text-white">
-        <h1 className="sm:text-7xl xl:text-8xl 2xl:text-9xl font-semibold mb-5">
+        <h1 className="sm:text-7xl xl:text-8xl font-semibold mb-5">
           Luôn có Tim đồng hành
         </h1>
-        <h2 className="sm:text-4xl xl:text-5xl 2xl:text-6xl italic">
+        <h2 className="sm:text-4xl xl:text-5xl italic">
           Tạo gắn kết - Trao giá trị - Gửi lòng tin{" "}
         </h2>
       </div>
