@@ -17,10 +17,10 @@ const nextConfig = {
     config.module.rules.push({
       test: /\.(mp4|webm|ogg|mp3|wav|flac|aac|rtf|doc|docx)$/,
       use: {
-        loader: 'file-loader',
+        loader: "file-loader",
         options: {
-          name: 'static/media/[name].[hash].[ext]',
-          publicPath: '/_next/',
+          name: "static/media/[name].[hash].[ext]",
+          publicPath: "/_next/",
         },
       },
     });
