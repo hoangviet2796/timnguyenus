@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
+import Image from "next/image";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -40,12 +41,15 @@ export default function Carroussel() {
         modules={[Autoplay, EffectCoverflow, Navigation]}
         className="mySwiper py-[50px]"
       >
-        {Array.from({ length: 10 }, (_, i) => i + 1).map((x, i) => (
+        {Array.from({ length: 33 }, (_, i) => i + 1).map((x, i) => (
           <SwiperSlide className={`bg-center bg-contain`} key={i}>
-            <img
+            <Image
+              alt="gooddeal"
               className="block w-full h-full hover:scale-150"
               src={`/images/SITETIMNGUYEN/GOODDEAL/${x}.png`}
               loading="lazy"
+              width={900}
+              height={0}
             />
           </SwiperSlide>
         ))}
