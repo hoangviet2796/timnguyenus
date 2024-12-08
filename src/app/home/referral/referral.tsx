@@ -23,7 +23,7 @@ export default function Referral() {
           <div className="relative">
             <Icons.bg className="w-full rounded-full" />
             <Image
-              className={`absolute top-[5%] left-[5%] h-fit w-[90%] z-10 bottom-0 right-0 rounded-full hover:scale-105`}
+              className={`transition ease-in-out absolute top-[5%] left-[5%] h-fit w-[90%] z-10 bottom-0 right-0 rounded-full hover:scale-105`}
               loading="lazy"
               src={`/images/SITETIMNGUYEN/sean.png`}
               width={800}
@@ -37,7 +37,7 @@ export default function Referral() {
           <div className="relative">
             <Icons.bg className="w-full rounded-full" />
             <Image
-              className={`absolute top-[5%] left-[5%] h-fit w-[90%] z-10 bottom-0 right-0 rounded-full hover:scale-105`}
+              className={`transition ease-in-out absolute top-[5%] left-[5%] h-fit w-[90%] z-10 bottom-0 right-0 rounded-full hover:scale-105`}
               loading="lazy"
               src={`/images/SITETIMNGUYEN/thuynga.png`}
               width={800}

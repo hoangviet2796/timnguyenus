@@ -8,7 +8,9 @@ export default function Feedback() {
         <h3 className="sm:text-3xl md:text-4xl xl:text-5xl mx-5 text-center font-semibold text-[--text-primary-color]">
           Đã hỗ trợ hơn 10.000 <br /> người giảm nợ thành công
         </h3>
-        <Icons.america className={`h-[50%] w-[60%] hover:scale-105`} />
+        <Icons.america
+          className={`h-[50%] w-[60%] transition ease-in-out hover:scale-105`}
+        />
         {/* <Image
           className={`h-[50%] w-[60%] `}
           loading="lazy"

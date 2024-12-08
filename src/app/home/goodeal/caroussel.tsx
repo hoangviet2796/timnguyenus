@@ -45,7 +45,7 @@ export default function Carroussel() {
           <SwiperSlide className={`bg-center bg-contain`} key={i}>
             <Image
               alt="gooddeal"
-              className="block w-full h-full hover:scale-150"
+              className="transition ease-in-out block w-full h-full hover:scale-150"
               src={`/images/SITETIMNGUYEN/GOODDEAL/${x}.png`}
               loading="lazy"
               width={900}
