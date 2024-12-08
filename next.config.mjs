@@ -1,20 +1,6 @@
 import { withNextVideo } from "next-video/process";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-<<<<<<< HEAD
-  // basePath: "/timnguyenus",
-  // output: "export",
-  // reactStrictMode: true,
-  // eslint: {
-  //   // Warning: This allows production builds to successfully complete even if
-  //   // your project has ESLint errors.
-  //   ignoreDuringBuilds: true,
-  // },
-  // images: {
-  //   loader: "custom",
-  //   loaderFile: "./loader.js",
-  // },
-=======
   basePath: "/timnguyenus",
   output: "export",
   reactStrictMode: true,
@@ -40,7 +26,6 @@ const nextConfig = {
     });
     return config;
   },
->>>>>>> 027c33e0754d60e7732cb78e6d34cfb4396b405d
 };
 
 export default withNextVideo(nextConfig);
