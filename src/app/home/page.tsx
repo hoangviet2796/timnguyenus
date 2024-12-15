@@ -26,7 +26,7 @@ export default function home() {
       <Review />
       <GoodDeal />
       <Referral />
-      <Contact />
+      {/* <Contact /> */}
       {/* </div> */}
     </main>
   );

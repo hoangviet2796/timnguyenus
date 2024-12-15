@@ -14,13 +14,3 @@
   color: #fff;
   /* padding: 5px; */
 }
-
-.primaryFilter {
-  transition: all;
-  transition-duration: 150ms;
-}
-
-.primaryFilter:hover {
-  filter: invert(56%) sepia(100%) saturate(2047%) hue-rotate(359deg)
-    brightness(104%) contrast(108%);
-}

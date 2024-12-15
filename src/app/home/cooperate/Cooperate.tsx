@@ -6,15 +6,15 @@ import { Icons } from "@/components/icons";
 export default function Cooperate() {
   return (
     <div className={`w-full h-[90svh] relative my-10`}>
-      <div className="absolute left-0 w-[60%] h-full">
-        <Image
+      <div className="absolute left-0 w-[50%] h-full bg-[url('/images/SITETIMNGUYEN/19.jpg')] bg-auto bg-center">
+        {/* <Image
           className={`h-full w-full`}
           loading="lazy"
           src={`/images/SITETIMNGUYEN/19.jpg`}
           width={900}
           height={0}
           alt="main"
-        ></Image>
+        ></Image> */}
       </div>
       <div className="absolute right-0 top-[10%] w-[60%] h-[80%] bg-[#3e547b] flex justify-around items-center">
         <Card className="bg-opacity-0 bg-white shadow-none text-white w-[40%] font-bold h-[80%] text-center sm:text-xl md:text-2xl xl:text-3xl">

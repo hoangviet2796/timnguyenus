@@ -41,7 +41,7 @@ export default function Theory() {
               className={`absolute h-fit w-1/2 bottom-0`}
               loading="lazy"
               src={`/images/SITETIMNGUYEN/20.PNG`}
-              width={600}
+              width={900}
               height={0}
               alt="main"
             ></Image>

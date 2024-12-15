@@ -5,13 +5,13 @@ import { Icons } from "@/components/icons";
 export default function Referral() {
   //   const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
   return (
-    <div className={`flex flex-col items-center`}>
-      <div className="w-full flex flex-col items-center my-16">
-        <div className="max-w-screen-xl mb-8">
-          <h2 className="text-4xl font-semibold text-center text-[--text-primary-color]">
+    <div className={`flex flex-col items-center mb-10`}>
+      <div className="max-w-screen-xl flex flex-col items-center my-16">
+        <div className="w-full mb-8">
+          {/* <h2 className="text-4xl font-semibold text-center text-[--text-primary-color]">
             Referral
-          </h2>
-          <p className="text-2xl italic text-justify text-white m-5">
+          </h2> */}
+          <p className="text-2xl italic text-center m-5">
             Những cá nhân mà Tim đã và đang bắt tay hợp tác nhằm đưa ngành giảm
             nợ gần hơn với công chúng. Từ những câu chuyện, những bài học thực
             tế Tim Nguyen và đối tác đã tạo ra cái nhìn khác tích cực hơn cho
@@ -19,34 +19,80 @@ export default function Referral() {
             riêng.
           </p>
         </div>
-        <div className="flex justify-evenly w-full">
-          <div className="relative">
-            <Icons.bg className="w-full rounded-full" />
-            <Image
-              className={`transition ease-in-out absolute top-[5%] left-[5%] h-fit w-[90%] z-10 bottom-0 right-0 rounded-full hover:scale-105`}
-              loading="lazy"
-              src={`/images/SITETIMNGUYEN/sean.png`}
-              width={800}
-              height={0}
-              alt="main"
-            ></Image>
-            <h2 className="text-center text-[--text-primary-color] text-3xl font-bold mt-5">
-              Sean Le
-            </h2>
+        <div className="grid grid-cols-4 gap-5 w-full">
+          <div className="group relative h-[400px]">
+            <div
+              className={`w-full h-full bg-[url('/images/SITETIMNGUYEN/sean.png')] bg-center bg-cover`}
+            >
+              {/* <Image
+                className={`transition z-10`}
+                loading="lazy"
+                src={``}
+                width={800}
+                height={0}
+                alt="main"
+              ></Image> */}
+            </div>
+            <div className="absolute transition ease-in duration-500 w-2/3 h-[20%] bg-white group-hover:bg-[--text-primary-color] -bottom-[10%] left-[16.5%] shadow-xl flex items-center justify-center">
+              <h2 className="transition ease-in duration-500 group-hover:text-white text-2xl font-medium">
+                Sean Le
+              </h2>
+            </div>
           </div>
-          <div className="relative">
-            <Icons.bg className="w-full rounded-full" />
-            <Image
-              className={`transition ease-in-out absolute top-[5%] left-[5%] h-fit w-[90%] z-10 bottom-0 right-0 rounded-full hover:scale-105`}
-              loading="lazy"
-              src={`/images/SITETIMNGUYEN/thuynga.png`}
-              width={800}
-              height={0}
-              alt="main"
-            ></Image>
-            <h2 className="text-center text-[--text-primary-color] text-3xl font-bold mt-5">
-              Thuy Nga
-            </h2>
+          <div className="group relative h-[400px]">
+            <div
+              className={`w-full h-full bg-[url('/images/SITETIMNGUYEN/thuynga.png')] bg-center bg-cover`}
+            >
+              {/* <Image
+                className={`transition z-10`}
+                loading="lazy"
+                src={``}
+                width={800}
+                height={0}
+                alt="main"
+              ></Image> */}
+            </div>
+            <div className="absolute transition ease-in duration-500 w-2/3 h-[20%] bg-white group-hover:bg-[--text-primary-color] -bottom-[10%] left-[16.5%] shadow-xl flex items-center justify-center">
+              <h2 className="transition ease-in duration-500 group-hover:text-white text-2xl font-medium">
+                Thuy Nga
+              </h2>
+            </div>
+          </div>
+          <div className="group relative h-[400px]">
+            <div className={`w-full h-full bg-slate-400 bg-center bg-cover`}>
+              {/* <Image
+                className={`transition z-10`}
+                loading="lazy"
+                src={``}
+                width={800}
+                height={0}
+                alt="main"
+              ></Image> */}
+            </div>
+            <div className="absolute transition ease-in duration-500 w-2/3 h-[20%] bg-white group-hover:bg-[--text-primary-color] -bottom-[10%] left-[16.5%] shadow-xl flex items-center justify-center">
+              <h2 className="transition ease-in duration-500 group-hover:text-white text-2xl font-medium">
+                Phong Le
+              </h2>
+            </div>
+          </div>
+          <div className="group relative h-[400px]">
+            <div
+              className={`w-full h-full bg-[url('/images/SITETIMNGUYEN/Nick.jpg')] bg-center bg-cover`}
+            >
+              {/* <Image
+                className={`transition z-10`}
+                loading="lazy"
+                src={``}
+                width={800}
+                height={0}
+                alt="main"
+              ></Image> */}
+            </div>
+            <div className="absolute transition ease-in duration-500 w-2/3 h-[20%] bg-white group-hover:bg-[--text-primary-color] -bottom-[10%] left-[16.5%] shadow-xl flex items-center justify-center">
+              <h2 className="transition ease-in duration-500 group-hover:text-white text-2xl font-medium">
+                Nick
+              </h2>
+            </div>
           </div>
         </div>
       </div>
