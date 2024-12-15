@@ -8,23 +8,25 @@ import Review from "@/app/home/review/review";
 import GoodDeal from "@/app/home/goodeal/gooddeal";
 import Referral from "@/app/home/referral/referral";
 import Contact from "@/app/home/contact/contact";
+import Tool from "@/app/home/tools/tool";
+import Theory from "./theory/theory";
 
 export default function home() {
   return (
-    <main className={`flex flex-col items-center mainBG`}>
-      <div className={`max-w-screen-xl cursor-default`}>
-        <Main />
-        <VideoHome />
-        <FeedBack />
-        <Cooporate />
-        <Advice />
-        <FeedbackClient />
-        <Review />
-        <GoodDeal />
-        <Referral />
-        <Contact />
-      </div>
-
+    <main className={`flex flex-col items-center cursor-default`}>
+      {/* <div className={`max-w-screen-xl cursor-default`}> */}
+      <Main />
+      {/* <VideoHome /> */}
+      <Theory />
+      <FeedBack />
+      <Tool />
+      <Cooporate />
+      {/* <Advice /> */}
+      <FeedbackClient />
+      <Review />
+      <GoodDeal />
+      <Referral />
+      <Contact />
       {/* </div> */}
     </main>
   );

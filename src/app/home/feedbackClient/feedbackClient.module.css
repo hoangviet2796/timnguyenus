@@ -1,0 +1,10 @@
+.feedback::after {
+  content: "";
+  position: absolute;
+  left: 65px;
+  bottom: -30px;
+  width: 30px;
+  height: 33px;
+  background-color: #f5f5f5;
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+}

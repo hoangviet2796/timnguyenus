@@ -1,10 +1,11 @@
 import { Metadata } from "next";
-import {Roboto} from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import "@/app/globals.css";
 
-const roboto = Roboto({subsets: ["vietnamese"],weight: [
-  '100','400','500','700'
-]})
+const roboto = Open_Sans({
+  subsets: ["vietnamese"],
+  weight: ["300", "400", "500", "700"],
+});
 
 export const metadata: Metadata = {
   title: "TimNguyenUS",
@@ -14,11 +15,11 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <body className={`${roboto.className} antialiased`}>{children}</body>
     </html>
-  )
+  );
 }

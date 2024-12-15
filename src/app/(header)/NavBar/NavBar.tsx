@@ -8,6 +8,7 @@ import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer";
 import { MenuIcon } from "lucide-react";
 import { NavigationHeaderMobile } from "./navigationMenuMobile";
 import { useScrollDirection } from "@/hooks/useScrollDirection";
+import { Button } from "@/components/ui/button";
 
 import css from "./NavBar.module.css";
 
@@ -20,7 +21,9 @@ export default function Navbar() {
         scrollDirection === "down" ? css.hide : "show"
       } z-50 block text-white w-full bg-[#08244d]`}
     >
-      <div className={`min-w-2 h-15 flex justify-between mx-4 text-base`}>
+      <div
+        className={`min-w-2 h-15 flex justify-between mx-4 text-base items-center`}
+      >
         <Link href="/" className="flex items-center">
           <Image
             className="h-full ml-2 pt-2 pb-2"
@@ -36,6 +39,9 @@ export default function Navbar() {
           </div>
         </Link>
         <NavigationHeader />
+        <div>
+          <Button>Contact us</Button>
+        </div>
       </div>
       <div className="absolute -bottom-1 bg-[#ff9000] w-full h-1"></div>
     </header>

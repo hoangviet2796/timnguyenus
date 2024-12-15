@@ -5,40 +5,40 @@ import { Icons } from "@/components/icons";
 
 export default function Cooperate() {
   return (
-    <div
-      className={`flex justify-center relative before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-[#272621] before:opacity-70`}
-    >
-      <Image
-        className={`h-fit w-full `}
-        loading="lazy"
-        src={`/images/SITETIMNGUYEN/19.jpg`}
-        width={900}
-        height={0}
-        alt="main"
-      ></Image>
-      <div className="absolute left-0 top-0 z-10 h-full w-full flex justify-around">
-        <Card className="bg-opacity-10 bg-white text-white w-[30%] font-bold h-[80%] mt-[5%] text-center sm:text-xl md:text-2xl xl:text-3xl">
+    <div className={`w-full h-[90svh] relative my-10`}>
+      <div className="absolute left-0 w-[60%] h-full">
+        <Image
+          className={`h-full w-full`}
+          loading="lazy"
+          src={`/images/SITETIMNGUYEN/19.jpg`}
+          width={900}
+          height={0}
+          alt="main"
+        ></Image>
+      </div>
+      <div className="absolute right-0 top-[10%] w-[60%] h-[80%] bg-[#3e547b] flex justify-around items-center">
+        <Card className="bg-opacity-0 bg-white shadow-none text-white w-[40%] font-bold h-[80%] text-center sm:text-xl md:text-2xl xl:text-3xl">
           <h4 className="py-5">CÁC ĐƠN VỊ HỢP TÁC</h4>
           <ul className="flex flex-col h-[70%] justify-between">
             <li className="flex">
               <Icons.arrow />
-              <p className="ml-2">AADR</p>
+              <p className="ml-2 text-start">AADR</p>
             </li>
             <li className="flex">
               <Icons.arrow />
-              <p className="ml-2">IPDPA</p>
+              <p className="ml-2 text-start">IPDPA</p>
             </li>
             <li className="flex">
               <Icons.arrow />
-              <p className="ml-2">Impression Financials</p>
+              <p className="ml-2 text-start">Impression Financials</p>
             </li>
             <li className="flex">
               <Icons.arrow />
-              <p className="ml-2">Sean Le show</p>
+              <p className="ml-2 text-start">Sean Le show</p>
             </li>
           </ul>
         </Card>
-        <Card className="relative bg-opacity-10 bg-white text-white w-[50%] h-[80%] mt-[5%] ">
+        <Card className="relative bg-opacity-10 bg-white text-white w-[50%] h-[80%]">
           <div className="flex items-center font-bold sm:text-xl md:text-2xl xl:text-3xl">
             <Image
               className={`h-fit w-1/4 `}
