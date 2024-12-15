@@ -84,28 +84,6 @@ export default function Feedback() {
                       {fb.name}
                     </h3>
                   </div>
-                  {/* <Card className="shadow-lg flex flex-col items-center h-full w-4/5 cursor-pointer select-none bg-gray-300 bg-opacity-20">
-                    <div
-                      className={`flex flex-col items-center h-1/2 overflow-hidden`}
-                    >
-                      <Image
-                        className="w-full pb-2 rounded-tl-lg rounded-tr-lg"
-                        loading="lazy"
-                        src={fb.avatar}
-                        width={700}
-                        height={70}
-                        alt="logo"
-                      ></Image>
-                    </div>
-                    <div className="flex flex-col mx-2 h-1/3">
-                      <h3 className="text-center text-xl font-bold">
-                        {fb.name}
-                      </h3>
-                      <CardDescription className="text-center lg:text-base xl:text-xl">
-                        "{fb.feedback}"
-                      </CardDescription>
-                    </div>
-                  </Card> */}
                 </div>
               </CarouselItem>
             ))}

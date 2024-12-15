@@ -1,15 +1,56 @@
+"use client";
 import Image from "next/image";
-import Carousel from "@/app/home/goodeal/caroussel";
 import { Card } from "@/components/ui/card";
-import { Icons } from "@/components/icons";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
+import { useRef } from "react";
+
+const goodDeal = [
+  {
+    name: "Mr. Danny - California",
+    feedback: "Nợ $18K giảm còn $4K",
+    creditscore: "Credit Score từ 610 lên 680",
+    avatar: "/images/SITETIMNGUYEN/GOODDEAL/dannyavatar.png",
+    image: "/images/SITETIMNGUYEN/GOODDEAL/danny.png",
+  },
+  {
+    name: " Mrs. Liên Trần - California",
+    feedback: "Nợ $31K giảm còn $21K",
+    creditscore: "Credit Score từ 650 lên 720",
+    avatar: "/images/SITETIMNGUYEN/GOODDEAL/lientranavatar.png",
+    image: "/images/SITETIMNGUYEN/GOODDEAL/lientran.png",
+  },
+  {
+    name: "Mr. Sơn Lê - Florida",
+    feedback: "Nợ $31K giảm còn $12K",
+    creditscore: "Credit Score từ 650 lên 720",
+    avatar: "/images/SITETIMNGUYEN/GOODDEAL/sonleavatar.png",
+    image: "/images/SITETIMNGUYEN/GOODDEAL/sonle.png",
+  },
+  {
+    name: "Mrs. Chloe Nguyen - Texas",
+    feedback: "Nợ $21K giảm còn $9K5",
+    creditscore: "Credit Score từ 650 lên 720",
+    avatar: "/images/SITETIMNGUYEN/GOODDEAL/chloenguyenavatar.png",
+    image: "/images/SITETIMNGUYEN/GOODDEAL/chloenguyen.png",
+  },
+];
 
 export default function Review() {
-  //   const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
+  const plugin = useRef(Autoplay({ delay: 5000, stopOnInteraction: false }));
   return (
-    <div className={`w-full h-[75svh] relative my-10`}>
-      <div className="absolute right-0 w-fit h-full">
+    <div
+      className={`w-full h-[70svh] 2xl:h-[75svh] relative my-10 overflow-hidden`}
+    >
+      <div className="absolute -right-40 w-fit h-full">
         <Image
-          className={`h-full w-full`}
+          className={`h-full w-fit`}
           loading="lazy"
           src={`/images/SITETIMNGUYEN/8.jpg`}
           width={900}
@@ -17,35 +58,59 @@ export default function Review() {
           alt="main"
         ></Image>
       </div>
-      <div className="absolute left-0 w-[55%] h-full bg-[#3e547b] flex justify-around items-center z-10">
-        <Card className="relative bg-opacity-10 bg-white text-white w-[50%] h-[80%]">
-          <div className="flex items-center font-bold sm:text-xl md:text-2xl xl:text-3xl">
-            <Image
-              className={`h-fit w-1/4 `}
-              loading="lazy"
-              src={`/images/SITETIMNGUYEN/4.png`}
-              width={500}
-              height={0}
-              alt="main"
-            ></Image>
-            <h4 className="py-5 text-center">
-              <span className="italic">Citizen Debt Services</span> <br /> Đối
-              tác chiến lược
-            </h4>
-          </div>
-          <ul className="flex flex-col justify-start h-[70%] sm:text-xs md:text-base xl:text-xl list-disc">
-            <li className="mx-10 mb-5">
-              CDS có phạm vi hoạt động rộng khắp 49 tiểu bang, chuyên cung cấp
-              các giải pháp tối ưu nhất cho những người đang phải vật lộn với nợ
-              nần và khao khát làm lại cuộc đời một lần nữa.
-            </li>
-            <li className="mx-10">
-              CDS là công ty giảm nợ của người Việt đầu tiên được cấp phép từ
-              chính phủ, đã hỗ trợ hơn 5,000 người giải quyết khoản nợ lên đến
-              150 triệu USD.
-            </li>
-          </ul>
-        </Card>
+      <div className="absolute left-0 w-[55%] h-full bg-[#3e547b] flex flex-col justify-around items-center py-10 z-10">
+        <Carousel
+          opts={{
+            align: "start",
+          }}
+          plugins={[plugin.current]}
+          className="w-[90%] h-full"
+        >
+          <CarouselContent className="w-full h-full">
+            {goodDeal.map((gd, index) => (
+              <CarouselItem key={index} className="w-full h-full">
+                <Card className="flex bg-opacity-10 bg-white text-white w-full h-[70%] p-5 rounded-xl">
+                  <div className="w-1/2 h-full">
+                    <Image
+                      className={`h-full w-full rounded-xl`}
+                      loading="lazy"
+                      src={gd.image}
+                      width={900}
+                      height={0}
+                      alt="main"
+                    ></Image>
+                  </div>
+                  <div className="w-1/2 h-full flex flex-col items-center justify-center">
+                    <Image
+                      className={`w-1/2 rounded-full`}
+                      loading="lazy"
+                      src={gd.avatar}
+                      width={900}
+                      height={0}
+                      alt="main"
+                    ></Image>
+                    <div className="text-center sm:text-xl md:text-2xl xl:text-3xl font-medium my-5">
+                      <h3>{gd.name}</h3>
+                      <p className="my-5">{gd.feedback}</p>
+                      <p>{gd.creditscore}0</p>
+                    </div>
+                  </div>
+                </Card>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselNext className="bg-white" />
+          <CarouselPrevious className="bg-white" />
+        </Carousel>
+
+        <div className="w-full text-start ml-10">
+          <h3 className="sm:text-3xl md:text-4xl xl:text-5xl font-bold mb-5 text-white">
+            CÁC GOOD DEAL
+          </h3>
+          <p className="sm:text-xl md:text-2xl xl:text-3xl font-medium text-[--text-primary-color] italic">
+            Tim hỗ trợ thành công
+          </p>
+        </div>
       </div>
     </div>
   );
