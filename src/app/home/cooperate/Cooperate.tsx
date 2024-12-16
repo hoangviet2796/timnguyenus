@@ -16,7 +16,7 @@ export default function Cooperate() {
           alt="main"
         ></Image> */}
       </div>
-      <div className="absolute right-0 top-[10%] w-[60%] h-[80%] bg-[#3e547b] flex justify-around items-center">
+      <div className="absolute right-0 top-[5%] w-[60%] h-[90%] bg-[#3e547b] flex justify-around items-center">
         <Card className="bg-opacity-0 bg-white shadow-none text-white w-[30%] font-bold h-[80%] text-center sm:text-xl md:text-2xl xl:text-3xl">
           <h4 className="py-5">CÁC ĐƠN VỊ HỢP TÁC</h4>
           <ul className="flex flex-col h-[70%] justify-between">
