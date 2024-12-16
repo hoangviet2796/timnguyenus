@@ -46,7 +46,7 @@ export default function Review() {
   const plugin = useRef(Autoplay({ delay: 5000, stopOnInteraction: false }));
   return (
     <div
-      className={`w-full h-[80svh] 2xl:h-[75svh] relative my-10 overflow-hidden`}
+      className={`w-full xl:h-[100svh] 2xl:h-[75svh] relative my-10 overflow-hidden`}
     >
       <div className="absolute right-0 w-[35%] h-full bg-[url('/images/SITETIMNGUYEN/8.jpg')] bg-cover bg-center">
         {/* <Image
@@ -64,7 +64,7 @@ export default function Review() {
             align: "start",
           }}
           plugins={[plugin.current]}
-          className="w-[80%] h-full"
+          className="w-[80%] h-[70%]"
         >
           <CarouselContent className="w-full h-full">
             {goodDeal.map((gd, index) => (
