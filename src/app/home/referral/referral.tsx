@@ -21,17 +21,15 @@ export default function Referral() {
         </div>
         <div className="grid grid-cols-4 gap-5 w-full">
           <div className="group relative h-[400px]">
-            <div
-              className={`w-full h-full bg-[url('/images/SITETIMNGUYEN/sean.png')] bg-center bg-cover`}
-            >
-              {/* <Image
-                className={`transition z-10`}
+            <div className={`w-full h-full relative`}>
+              <Image
+                className={`transition`}
                 loading="lazy"
-                src={``}
-                width={800}
-                height={0}
+                src={"/images/SITETIMNGUYEN/sean.png"}
+                fill
+                style={{ objectFit: "cover" }}
                 alt="main"
-              ></Image> */}
+              ></Image>
             </div>
             <div className="absolute transition ease-in duration-500 w-2/3 h-[20%] bg-white group-hover:bg-[--text-primary-color] -bottom-[10%] left-[16.5%] shadow-xl flex items-center justify-center">
               <h2 className="transition ease-in duration-500 group-hover:text-white text-2xl font-medium">
@@ -40,17 +38,15 @@ export default function Referral() {
             </div>
           </div>
           <div className="group relative h-[400px]">
-            <div
-              className={`w-full h-full bg-[url('/images/SITETIMNGUYEN/thuynga.png')] bg-center bg-cover`}
-            >
-              {/* <Image
-                className={`transition z-10`}
+            <div className={`w-full h-full relative`}>
+              <Image
+                className={`transition`}
                 loading="lazy"
-                src={``}
-                width={800}
-                height={0}
+                src={"/images/SITETIMNGUYEN/thuynga.png"}
+                fill
+                style={{ objectFit: "cover" }}
                 alt="main"
-              ></Image> */}
+              ></Image>
             </div>
             <div className="absolute transition ease-in duration-500 w-2/3 h-[20%] bg-white group-hover:bg-[--text-primary-color] -bottom-[10%] left-[16.5%] shadow-xl flex items-center justify-center">
               <h2 className="transition ease-in duration-500 group-hover:text-white text-2xl font-medium">
@@ -63,9 +59,9 @@ export default function Referral() {
               {/* <Image
                 className={`transition z-10`}
                 loading="lazy"
-                src={``}
-                width={800}
-                height={0}
+                src={""}
+                fill
+                style={{ objectFit: "cover" }}
                 alt="main"
               ></Image> */}
             </div>
@@ -76,17 +72,15 @@ export default function Referral() {
             </div>
           </div>
           <div className="group relative h-[400px]">
-            <div
-              className={`w-full h-full bg-[url('/images/SITETIMNGUYEN/Nick.jpg')] bg-center bg-cover`}
-            >
-              {/* <Image
-                className={`transition z-10`}
+            <div className={`w-full h-full relative`}>
+              <Image
+                className={`transition`}
                 loading="lazy"
-                src={``}
-                width={800}
-                height={0}
+                src={"/images/SITETIMNGUYEN/Nick.jpg"}
+                fill
+                style={{ objectFit: "cover" }}
                 alt="main"
-              ></Image> */}
+              ></Image>
             </div>
             <div className="absolute transition ease-in duration-500 w-2/3 h-[20%] bg-white group-hover:bg-[--text-primary-color] -bottom-[10%] left-[16.5%] shadow-xl flex items-center justify-center">
               <h2 className="transition ease-in duration-500 group-hover:text-white text-2xl font-medium">

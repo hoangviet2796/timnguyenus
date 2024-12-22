@@ -5,9 +5,7 @@ import Vision from "@/app/(content)/about/Vision/vision";
 
 export default function About() {
   return (
-    <main
-      className={`flex flex-col items-center mainBG text-white cursor-default`}
-    >
+    <main className={`flex flex-col items-center cursor-default`}>
       <div className={`max-w-screen-xl`}>
         <TimNguyen />
         <Help />

@@ -72,7 +72,7 @@ export default function NavigationHeader() {
         >
           <Link href="/about" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              About Me
+              About me
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
@@ -88,7 +88,7 @@ export default function NavigationHeader() {
         <NavigationMenuItem
           className={`mr-5 relative ${navigate.beforeCls} hover:before:w-full`}
         >
-          <NavigationMenuTrigger>Free Tools</NavigationMenuTrigger>
+          <NavigationMenuTrigger>Free tools</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
               {data.tools.map((tool) => (

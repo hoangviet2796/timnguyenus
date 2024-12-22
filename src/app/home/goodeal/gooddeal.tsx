@@ -82,7 +82,7 @@ export default function Review() {
                   </div>
                   <div className="w-3/5 h-full flex flex-col items-center justify-center">
                     <Image
-                      className={`w-1/2 rounded-full`}
+                      className={`w-1/2 2xl:w-1/3 rounded-full`}
                       loading="lazy"
                       src={gd.avatar}
                       width={900}
@@ -103,7 +103,7 @@ export default function Review() {
           <CarouselPrevious className="bg-white" />
         </Carousel>
 
-        <div className="w-full text-start ml-10">
+        <div className="w-full text-start h-[30%] flex flex-col justify-center">
           <h3 className="sm:text-3xl md:text-4xl xl:text-5xl font-bold mb-5 text-white">
             CÁC GOOD DEAL
           </h3>

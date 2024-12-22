@@ -28,15 +28,18 @@ export default function Help() {
       <div className="h-[400px] w-full m-20 flex">
         {list.map((category) => (
           <div className="group flex flex-col items-center w-1/4">
-            <Image
-              className={`h-3/5 w-[80%] rounded-3xl transition ease-in-out group-hover:scale-105`}
-              loading="lazy"
-              src={category.image}
-              width={500}
-              height={0}
-              alt="main"
-            ></Image>
-            <div className="transition ease-in-out rounded-3xl my-5 h-1/5 border-solid border-2 border-[#2d8bba] w-[80%] p-5 text-center text-[--text-primary-color] sm:text-base xl:text-lg group-hover:scale-105 group-hover:border-[--text-primary-color] group-hover:font-bold">
+            <div className="relative h-3/5 w-[80%] rounded-3xl">
+              <Image
+                className={`h-fit w-full rounded-3xl transition ease-in-out group-hover:scale-105`}
+                loading="lazy"
+                src={category.image}
+                fill
+                style={{ objectFit: "cover" }}
+                alt="main"
+              ></Image>
+            </div>
+
+            <div className="transition ease-in-out rounded-3xl my-5 h-1/5 border-solid border-2 border-[#2d8bba] w-[80%] p-5 text-center sm:text-base xl:text-lg group-hover:scale-105 group-hover:border-[--text-primary-color] group-hover:font-bold">
               {category.title}
             </div>
             <div className="flex items-center w-full">

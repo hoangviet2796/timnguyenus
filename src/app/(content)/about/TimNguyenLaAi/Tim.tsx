@@ -37,7 +37,7 @@ export default function TimNguyen() {
           <div className={`${timcss.title}`}></div>
         </div>
 
-        <p className=" ml-10 font-bold sm:text-xl xl:text-2xll">
+        <p className=" ml-10 font-bold sm:text-xl xl:text-2xll my-10">
           Founder Nguoi Viet Socal
           <br />
           Founder Mastering Debt Management
@@ -53,7 +53,7 @@ export default function TimNguyen() {
             Mỹ khi gặp các vấn đề trong cuộc sống
           </span>
         </p>
-        <div className="relative mt-32 mb-10 flex items-center">
+        <div className="relative mt-10 mb-10 flex items-center">
           <Image
             className={`relative h-fit w-[20%] z-10`}
             loading="lazy"

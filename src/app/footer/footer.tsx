@@ -115,9 +115,17 @@ export default function Footer() {
           </ul>
         </div>
         <div className="text-xl my-5">
-          <h4>Email: timnguyenus.finance@gmail.com</h4>
-          <h4>Phone: 949-569-9698</h4>
-          <h4>Address: Irvine, CA, United States, California</h4>
+          <h4>
+            <span className="font-bold">Email:</span>{" "}
+            timnguyenus.finance@gmail.com
+          </h4>
+          <h4>
+            <span className="font-bold">Phone:</span> 949-569-9698
+          </h4>
+          <h4>
+            <span className="font-bold">Address:</span> Irvine, CA, United
+            States, California
+          </h4>
         </div>
       </div>
       <p className="m-auto italic select-none text-center">
