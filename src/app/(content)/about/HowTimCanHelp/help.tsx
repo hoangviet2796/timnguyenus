@@ -21,7 +21,7 @@ const list = [
 
 export default function Help() {
   return (
-    <div className={`flex flex-col items-center w-full my-10`}>
+    <div className={`flex flex-col items-center max-w-screen-xl my-10`}>
       <div className="h-full w-1/2 font-extrabold sm:text-3xl xl:text-4xl text-[#ff9000] text-center">
         <h2>Tim có thể giúp gì?</h2>
       </div>
@@ -39,7 +39,7 @@ export default function Help() {
               ></Image>
             </div>
 
-            <div className="transition ease-in-out rounded-3xl my-5 h-1/5 border-solid border-2 border-[#2d8bba] w-[80%] p-5 text-center sm:text-base xl:text-lg group-hover:scale-105 group-hover:border-[--text-primary-color] group-hover:font-bold">
+            <div className="transition ease-in-out rounded-3xl my-5 h-1/5 border-solid border-2 border-[#2d8bba] w-[80%] p-5 text-center text-[#2d8bba] sm:text-base xl:text-lg group-hover:scale-105 group-hover:border-[--text-primary-color] group-hover:text-[--text-primary-color] font-bold">
               {category.title}
             </div>
             <div className="flex items-center w-full">

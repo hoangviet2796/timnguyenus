@@ -11,7 +11,7 @@ import Contact from "@/app/home/contact/contact";
 import Tool from "@/app/home/tools/tool";
 import Theory from "./theory/theory";
 
-export default function home({ lng }: { lng: string }) {
+export default function home() {
   return (
     <main className={`flex flex-col items-center cursor-default`}>
       {/* <div className={`max-w-screen-xl cursor-default`}> */}

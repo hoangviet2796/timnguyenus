@@ -1,6 +1,6 @@
 import videoHomecls from "./videoHome.module.css";
 import Video from "next-video";
-import myVideo from "/videos/2.mp4";
+import myVideo from "../../../../public/_next-video/2.mp4";
 
 export default function videoHome() {
   return (

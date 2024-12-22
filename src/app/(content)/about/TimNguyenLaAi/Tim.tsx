@@ -3,7 +3,7 @@ import timcss from "./Tim.module.css";
 
 export default function TimNguyen() {
   return (
-    <div className={`flex items-center w-full`}>
+    <div className={`flex items-center max-w-screen-xl`}>
       <div className="relative h-full w-1/2 ml-[20%]">
         <Image
           className={`h-fit w-4/5`}
