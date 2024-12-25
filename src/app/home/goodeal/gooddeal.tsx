@@ -48,15 +48,15 @@ export default function Review() {
     <div
       className={`w-full xl:h-[100svh] 2xl:h-[75svh] relative my-10 overflow-hidden`}
     >
-      <div className="absolute right-0 w-[35%] h-full bg-[url('/images/SITETIMNGUYEN/8.jpg')] bg-cover bg-center">
-        {/* <Image
+      <div className="absolute right-0 w-[35%] h-full">
+        <Image
           className={`h-full w-fit`}
           loading="lazy"
           src={`/images/SITETIMNGUYEN/8.jpg`}
-          width={900}
-          height={0}
+          fill
+          style={{ objectFit: "cover" }}
           alt="main"
-        ></Image> */}
+        ></Image>
       </div>
       <div className="absolute left-0 w-[65%] h-full bg-[#3e547b] flex flex-col justify-around items-center py-10 z-10">
         <Carousel
