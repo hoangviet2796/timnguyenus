@@ -14,13 +14,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-  lng,
 }: {
   children: React.ReactNode;
-  lng: never;
 }) {
   return (
-    <html lang={lng}>
+    <html lang={"en"}>
       <body className={`${roboto.className} antialiased`}>{children}</body>
     </html>
   );

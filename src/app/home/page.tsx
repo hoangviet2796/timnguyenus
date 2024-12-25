@@ -1,5 +1,5 @@
 import Main from "@/app/home/main/main";
-import VideoHome from "@/app/home/videoHome/videoHome";
+import VideoHome from "@/app/(content)/about/videoHome/videoHome";
 import FeedBack from "@/app/home/feedback/feedback";
 import Cooporate from "@/app/home/cooperate/Cooperate";
 import Advice from "@/app/home/advise/advise";
