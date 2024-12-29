@@ -7,9 +7,9 @@ import FeedbackClient from "@/app/home/feedbackClient/feedbackClient";
 import Review from "@/app/home/review/review";
 import GoodDeal from "@/app/home/goodeal/gooddeal";
 import Referral from "@/app/home/referral/referral";
-import Contact from "@/app/home/contact/contact";
 import Tool from "@/app/home/tools/tool";
 import Theory from "./theory/theory";
+import FormInfo from "@/app/(form)/formInfo";
 
 export default function home() {
   return (
@@ -28,6 +28,7 @@ export default function home() {
       <Referral />
       {/* <Contact /> */}
       {/* </div> */}
+      <FormInfo />
     </main>
   );
 }
