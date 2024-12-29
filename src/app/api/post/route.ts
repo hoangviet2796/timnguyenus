@@ -16,10 +16,19 @@ export async function GET(req: Request) {
   const post = posts.find((item: any) => item.id === id);
 
   if (!post) {
-    return NextResponse.json(
-      { error: "Post not found" },
-      { status: 404 } 
-    );
+    try
+    {
+      return NextResponse.json(
+        { error: "Post not found" },
+        { status: 404 } 
+      );
+    }catch
+    {
+      return NextResponse.json(
+        { error: "Internal Server Error, Please try again later" },
+        { status: 500 } );
+    }
+    
   }
 
   return NextResponse.json(post); 
