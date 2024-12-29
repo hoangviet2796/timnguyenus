@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import "@/app/globals.css";
+import { Toaster } from "@/components/ui/sonner";
 
 const roboto = Open_Sans({
   subsets: ["vietnamese"],
@@ -19,7 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang={"en"}>
-      <body className={`${roboto.className} antialiased`}>{children}</body>
+      <body className={`${roboto.className} antialiased`}>
+        {children}
+        <Toaster className="toast" />
+      </body>
     </html>
   );
 }

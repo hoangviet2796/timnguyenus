@@ -31,10 +31,11 @@ export default function PostDetail() {
     return <h1>{error}</h1>;
   }
   if (!post) {
-    return
+    return;
   }
   return (
     <div className="max-w-[1280px] mx-auto py-12  box-border ">
+
   {/* Thông tin tác giả */}
   <div className="flex items-center text-sm text-gray-600 mb-6 space-x-2">
     {/* Ảnh đại diện */}
@@ -80,6 +81,5 @@ export default function PostDetail() {
       </Link>
     </div>  
 </div>
-
-  );
+  )
 }
