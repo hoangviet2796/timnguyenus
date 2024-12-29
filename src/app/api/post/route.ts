@@ -13,7 +13,7 @@ export async function GET(req: Request) {
     }
 
     // Fetch file JSON từ public
-    const baseUrl =  new URL(req.url).origin || ""; 
+    const baseUrl =  new URL(req.url).origin || "http://localhost:3001"; 
     const response = await fetch(`${baseUrl}/data.json`);
 
     if (!response.ok) {
