@@ -91,7 +91,7 @@ export default function FormInfo() {
           </div>
           <div className="bg-white/10 w-2/3 p-5 mb-5">
             <h4 className="text-xl">Address</h4>
-            <p>Irvine, CA, United States, California</p>
+            <p>Irvine, CA, United States, California.</p>
           </div>
           <div className="bg-white/10 w-2/3 p-5">
             <h4 className="text-xl">Contact:</h4>
