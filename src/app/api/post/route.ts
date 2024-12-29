@@ -1,34 +1,40 @@
 import { NextResponse } from "next/server";
-import path from "path";
-import fs from "fs";
+
 export async function GET(req: Request) {
-  try{
+  try {
     const { searchParams } = new URL(req.url);
-  const id = searchParams.get("id");
-  if (!id) {
+    const id = searchParams.get("id");
+
+    if (!id) {
       return NextResponse.json(
         { error: "ID is required" },
-        { status: 400 } 
+        { status: 400 }
       );
-  }
-  const filePath = path.join(process.cwd(), "src", "app", "topic", "data.json");
-  const jsonData = fs.readFileSync(filePath, "utf-8");
-  const posts = JSON.parse(jsonData);
-  const post = posts.find((item: any) => item.id === id);
+    }
 
-  if (!post) {
+    // Fetch file JSON từ public
+    const baseUrl =  new URL(req.url).origin || ""; 
+    const response = await fetch(`${baseUrl}/data.json`);
+
+    if (!response.ok) {
+      throw new Error("Failed to fetch data");
+    }
+
+    const posts = await response.json();
+    const post = posts.find((item: any) => item.id === id);
+    if (!post) {
       return NextResponse.json(
         { error: "Post not found" },
-        { status: 404 } 
+        { status: 404 }
       );
-  }
+    }
 
-  return NextResponse.json(post); 
-  }catch
-  {
+    return NextResponse.json(post);
+  } catch (error) {
+    console.error("Error fetching data:", error);
     return NextResponse.json(
       { error: "Internal Server Error, Please try again later" },
-      { status: 500 } 
+      { status: 500 }
     );
   }
-}
+}  
