@@ -18,7 +18,7 @@ type PostListProps = {
 export default function PostList({ posts }: PostListProps) {
   return (
     <div
-      className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-2.5 max-w-[950px] mx-auto"
+      className="grid grid-cols-1 md:grid-cols-2 gap-8  max-w-[950px] mx-auto"
     >
       {posts.map((post) => (
         
