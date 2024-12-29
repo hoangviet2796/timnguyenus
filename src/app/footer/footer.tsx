@@ -8,7 +8,7 @@ export default function Footer() {
     <footer
       className={`${footer.footer} text-white flex flex-col items-center`}
     >
-      <div className="max-w-screen-xl grid grid-cols-3 my-auto p-10">
+      <div className="max-w-screen-xl grid grid-cols-2 my-auto p-10">
         <div className="px-10">
           <Link href="/" className="h-full items-center">
             <Image
@@ -26,7 +26,7 @@ export default function Footer() {
           </p>
           <div className="flex w-full justify-start">
             <Link
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/timnguyenus"
               target="_blank"
               className="h-full flex flex-col items-center"
             >
@@ -40,7 +40,7 @@ export default function Footer() {
               ></Image>
             </Link>
             <Link
-              href="https://www.youtube.com/"
+              href="https://www.youtube.com/@TimNguyenUSOfficial"
               target="_blank"
               className="h-full flex flex-col items-center mx-10"
             >
@@ -54,7 +54,7 @@ export default function Footer() {
               ></Image>
             </Link>
             <Link
-              href="https://www.tiktok.com/"
+              href="https://www.tiktok.com/@timnguyen.us"
               target="_blank"
               className="h-full flex flex-col items-center"
             >
@@ -114,7 +114,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="text-xl my-5">
+        {/* <div className="text-xl my-5">
           <h4>
             <span className="font-bold">Email:</span>{" "}
             timnguyenus.finance@gmail.com
@@ -126,7 +126,7 @@ export default function Footer() {
             <span className="font-bold">Address:</span> Irvine, CA, United
             States, California
           </h4>
-        </div>
+        </div> */}
       </div>
       <p className="m-auto italic select-none text-center">
         ©2024 TimNguyenUS. All rights reserved.
