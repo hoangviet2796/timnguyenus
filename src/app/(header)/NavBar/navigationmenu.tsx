@@ -79,7 +79,7 @@ export default function NavigationHeader() {
         <NavigationMenuItem
           className={`mr-5 relative ${navigate.beforeCls} hover:before:w-full`}
         >
-          <Link href="/about" legacyBehavior passHref>
+          <Link href="/program" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Program
             </NavigationMenuLink>

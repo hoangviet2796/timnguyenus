@@ -1,0 +1,11 @@
+.border_input{
+    border: 1px solid #00000043;
+    font-size: 14px;
+    line-height: 28px;
+}
+.icon_eye{
+    position: absolute;
+    top: 50%;
+    right:15px;
+    transform: translateY(-50%);
+}

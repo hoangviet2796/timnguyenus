@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/timnguyenus",
+    basePath: "/timnguyenus",
   output: "export",
   reactStrictMode: true,
   eslint: {
