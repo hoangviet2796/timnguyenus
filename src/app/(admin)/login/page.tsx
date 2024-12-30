@@ -9,7 +9,6 @@ interface FormData {
   password: string;
 }
 function Login() {
-
   const defaultValue = {
     account: "",
     password: "",
@@ -23,7 +22,7 @@ function Login() {
 
   const onChangeData = (prop: string, value: string) => {
     let _data = cloneDeep(data);
-    _data[prop] = value;
+    _data[prop as keyof typeof _data] = value;
     validateData([prop], _data);
     setData(_data);
   };
@@ -54,7 +53,7 @@ function Login() {
     setError(_error);
     let count = 0;
     for (const key in _error) {
-      if (_error[key]) {
+      if (_error[key as keyof typeof _error]) {
         count++;
       }
     }
@@ -117,7 +116,7 @@ function Login() {
                 className={`${login.icon_eye} cursor-pointer`}
                 onClick={onShowPassword}
               >
-              {show ? <Icons.eye_hidden/>: <Icons.eye_show/>}
+                {show ? <Icons.eye_hidden /> : <Icons.eye_show />}
               </div>
             </div>
             {renderError("password")}
