@@ -11,11 +11,8 @@ export async function GET(req: Request) {
         { status: 400 }
       );
     }
-
-    // Fetch file JSON từ public
-    const baseUrl = req.headers.get("origin") || ""; 
+    const baseUrl = "https://hoangviet2796.github.io/timnguyenus";
     const response = await fetch(`${baseUrl}/data.json`);
-
     if (!response.ok) {
       throw new Error("Failed to fetch data");
     }
