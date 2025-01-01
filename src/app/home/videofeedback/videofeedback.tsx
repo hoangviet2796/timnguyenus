@@ -6,7 +6,8 @@ export default function VideoFeedback() {
 
   const feedbacks = [
     {
-      videoSrc: "/videos/feedback.mp4",
+      videoSrc:
+        "https://hoangviet2796.github.io/timnguyenus/videos/feedback.mp4",
       text: "Cảm ơn công ty đã giúp tôi trả hết khoản nợ $60K. Nhất là cảm ơn 3 cháu, cháu Tim, cháu Tommy và cháu Nga.",
     },
   ];
