@@ -44,7 +44,7 @@ export default function Feedback() {
   const plugin = useRef(Autoplay({ delay: 5000, stopOnInteraction: false }));
   return (
     <div className={`flex flex-col items-center max-w-screen-xl`}>
-      <div className="flex flex-col items-center my-10">
+      <div className="flex flex-col items-center m-10">
         <div className="text-4xl font-bold text-center mb-8 text-[--text-primary-color]">
           <h2 className={``}>Khách hàng nói gì về chúng tôi?</h2>
         </div>

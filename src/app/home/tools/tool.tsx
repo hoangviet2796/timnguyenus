@@ -7,14 +7,14 @@ export default function Tool() {
     <div
       className={`flex flex-col w-full max-w-screen-xl justify-center mx-auto my-10`}
     >
-      <div className="flex justify-evenly items-center my-10">
-        <h3 className="sm:text-3xl md:text-4xl xl:text-5xl mx-5 text-left font-semibold w-1/2 text-[--text-primary-color]">
-          Tương lai tươi sáng hơn khi bạn đã chuẩn bị sẵn sàng.
+      <div className="flex flex-col justify-evenly items-center my-10">
+        <h3 className="sm:text-3xl md:text-4xl xl:text-5xl mx-5 text-center font-semibold w-full text-[--text-primary-color]">
+          Bộ công cụ hoàn toàn miễn phí
         </h3>
-        <span className="sm:text-lg md:text-xl xl:text-2xl text-left font-thin w-1/2">
-          Nhận lời khuyên của chuyên gia, các công cụ miễn phí và kế hoạch được
-          cá nhân hóa để giúp bạn đạt được mục tiêu mong muốn bằng số tiền của
-          mình.
+        <span className="sm:text-lg md:text-xl xl:text-2xl text-left font-thin w-full p-5">
+          Ngoài hỗ trợ giảm nợ, Tim xây dựng các công cụ miễn phí với tiêu chí
+          dễ sử dụng và dễ hiểu để cô chú anh chị có thể kiểm tra tình hình tài
+          chính và xây dựng kế hoạch của bản thân cho hợp lý
           <div className="border-[1px] border-solid w-full h-0 mt-3" />
         </span>
       </div>
