@@ -1,64 +1,95 @@
 "use client";
-import { useState } from "react";
+import Autoplay from "embla-carousel-autoplay";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import React, { useRef } from "react";
 import Image from "next/image";
-export default function FeedbackClient() {
-  const [currentFeedbackIndex, setCurrentFeedbackIndex] = useState(0);
+import { Icons } from "@/components/icons";
 
-  const feedbacks = [
-    {
-      videoSrc: "/videos/feedback.mp4", 
-      text: "Cảm ơn công ty đã giúp tôi trả hết khoản nợ $60K. Nhất là cảm ơn 3 cháu, cháu Tim, cháu Tommy và cháu Nga.",
-    },
-    
-  ];
+import fbCss from "./feedbackClient.module.css";
 
-  const currentFeedback = feedbacks[currentFeedbackIndex];
+const feedbacks = [
+  {
+    name: "Andy Nguyen",
+    feedback:
+      "Đợt dịch tôi nợ hơn $32k may mắn biết đến Tim hỗ trợ giảm còn $18k trả hơn 2 năm đã giờ tôi đã hết nợ. Tim nhiệt tình hướng dẫn tôi đủ thứ. Cảm ơn Tim và đồng đội nhiều. ",
+    avatar: "/images/SITETIMNGUYEN/feedback/1.jpg",
+  },
+  {
+    name: "Linda Le",
+    feedback:
+      "Cám ơn Tim và đối tác đã giúp đỡ mình tham gia vào chương trình giảm nợ. Nhờ giải quyết được các khoản nợ thẻ tôi đã có cuộc sống thoải mái hơn",
+    avatar: "/images/SITETIMNGUYEN/feedback/2.jpg",
+  },
+  {
+    name: "Ngo Ngoc Nga",
+    feedback:
+      "Chỉ trong vòng 1 năm 10 tháng tham gia chương trình, tôi đã giải quyết được số nợ $20K. Nhờ sự giúp đỡ này, tôi đã tiết kiệm được 1 khoảng tiền lớn. ",
+    avatar: "/images/SITETIMNGUYEN/feedback/3.jpg",
+  },
+  {
+    name: "Tuấn Sang",
+    feedback:
+      "Cảm ơn Tim Nguyễn và công ty CDS đã hỗ trợ tôi thoát nợ nhanh chóng.",
+    avatar: "/images/SITETIMNGUYEN/feedback/4.jpg",
+  },
+];
 
+export default function Feedback() {
+  const plugin = useRef(Autoplay({ delay: 5000, stopOnInteraction: false }));
   return (
-    <div className="flex items-center justify-center min-h-screen bg-white text-black mt-4">
-      <div className="relative flex items-center justify-center rounded-[46px] p-1.5 bg-[#FCE9D8] ">
-        <div className="relative w-[350px] h-[700px] bg-black rounded-[40px] shadow-xl ">
-          <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-[190px] h-[40px] bg-black rounded-[100px] z-10"></div>
-          <div className="absolute top-4 left-1/2 transform -translate-x-1/2 flex items-center justify-center gap-2 z-20">
-            <div className="w-14 h-2 bg-gray-400 rounded-full"></div>
-            <div className="w-3 h-3 bg-gray-400 rounded-full"></div>
-          </div>
-          <div className="absolute top-20 -left-2 w-1 h-8 bg-[#EBCEB5] rounded-full"></div>
-          <div className="absolute top-36 -left-2 w-1 h-12 bg-[#EBCEB5] rounded-full"></div>
-          <div className="absolute top-52 -left-2 w-1 h-12 bg-[#EBCEB5] rounded-full"></div>
-          <div className="absolute top-28 -right-2 w-1 h-14 bg-[#EBCEB5] rounded-full"></div>
-          <div className="absolute inset-0 p-3 rounded-[30px] overflow-hidden ">
-            <video
-              src={currentFeedback.videoSrc}
-              controls
-              className="w-full h-full rounded-[30px] object-cover"
-            ></video>
-          </div>
+    <div className={`flex flex-col items-center max-w-screen-xl`}>
+      <div className="flex flex-col items-center my-10">
+        <div className="text-4xl font-bold text-center mb-8 text-[--text-primary-color]">
+          <h2 className={``}>Khách hàng nói gì về chúng tôi?</h2>
         </div>
-      </div>
-      <div
-        className="justify-start max-w-[600px] ml-16 flex flex-col"
-        style={{ marginTop: "-150px" }}
-      >
-        <h2 className="text-[38px] font-bold mb-6 font-sans">
-          Khách hàng nói gì về chúng tôi?
-        </h2>
-        <div className="text-center">
-          
-          <div className="relative w-16 h-16 mx-auto mb-3">
-            <Image
-              src="/images/daunhay.png" 
-              alt="Dấu nháy"
-              width={64} 
-              height={64}
-              objectFit="contain" 
-              priority 
-            />
-          </div>
-          <p className="text-[20px] text-gray-800 leading-relaxed tracking-wide text-left pl-16">
-            {currentFeedback.text}
-          </p>
-        </div>
+        <Carousel
+          opts={{
+            align: "start",
+          }}
+          plugins={[plugin.current]}
+          className="h-[400px]"
+        >
+          <CarouselContent className="">
+            {feedbacks.map((fb, index) => (
+              <CarouselItem
+                key={index}
+                className="md:basis-1/2 lg:basis-1/2 h-[400px]"
+              >
+                <div className="w-full h-full">
+                  <div
+                    className={`${fbCss.feedback} bg-[#f5f5f5] relative p-[28px] h-1/2`}
+                  >
+                    <h6 className="text-left lg:text-base xl:text-xl">
+                      "{fb.feedback}"
+                    </h6>
+                    <Icons.quote className="absolute bottom-0 right-1" />
+                  </div>
+                  <div className="h-1/2 flex items-center justify-start">
+                    <Image
+                      className="rounded-full"
+                      loading="lazy"
+                      src={fb.avatar}
+                      width={90}
+                      height={90}
+                      alt="logo"
+                    ></Image>
+                    <h3 className="ml-5 text-center text-xl font-bold">
+                      {fb.name}
+                    </h3>
+                  </div>
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselNext />
+          <CarouselPrevious />
+        </Carousel>
       </div>
     </div>
   );
