@@ -11,22 +11,23 @@ import {
 
 export default function Vision() {
   return (
-    <div className={`w-full h-[90svh] relative my-10`}>
-      <div className="relative w-[55%] h-full">
+    <div className={`w-full h-screen flex`}>
+      <div className="relative w-[40%] h-full">
         <Image
           className={`h-full w-full`}
           loading="lazy"
-          src={`/images/SITETIMNGUYEN/11.jpg`}
+          src={`/images/SITETIMNGUYEN/10(3).jpg`}
           fill
           style={{ objectFit: "cover" }}
           alt="main"
         ></Image>
       </div>
-      <div className="absolute right-0 top-[5%] w-[60%] h-[90%] bg-[#3e547b] flex justify-around items-center">
+      <div className="w-[60%] h-full bg-[#3e547b] flex justify-around items-center">
         <Card className="bg-opacity-5 bg-white shadow-none text-white w-[90%] h-[80%] p-10">
           <Accordion
             type="single"
             collapsible
+            defaultValue="item-1"
             className="w-full h-full flex flex-col justify-around"
           >
             <AccordionItem value="item-1">
