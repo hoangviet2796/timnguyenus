@@ -1,7 +1,6 @@
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/timnguyenus",
+  basePath: "/timnguyenus",
   output: "export",
   reactStrictMode: true,
   eslint: {
@@ -27,4 +26,4 @@ const nextConfig = {
     return config;
   },
 };
-// export default nextConfig;
+export default nextConfig;
