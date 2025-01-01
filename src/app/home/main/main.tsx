@@ -23,15 +23,18 @@ export default function Main() {
       <div className="absolute w-full h-full top-0 left-0 z-10 flex items-center justify-center">
         <div className="max-w-screen-xl top-1/4 text-white mx-10">
           <div>
-            <h1 className="font-extrabold sm:text-3xl xl:text-5xl">YOUR</h1>
+            <h1 className="font-extrabold sm:text-3xl xl:text-5xl">
+              <span className="text-[--text-primary-color]">GIẢM NỢ</span> ĐÚNG
+              CÁCH
+            </h1>
             <h2
-              className={`w-fit relative h-fit font-extrabold sm:text-3xl xl:text-5xl`}
+              className={`w-fit relative h-fit font-extrabold sm:text-3xl xl:text-5xl my-4`}
             >
-              DEBT-FREE LIFE
+              TÌM LẠI TỰ DO TÀI CHÍNH
             </h2>
-            <h2 className="font-extrabold sm:text-3xl xl:text-5xl ml-[10%] mt-4 text-[--text-primary-color]">
-              START HERE
-            </h2>
+            <span className="font-extrabold sm:text-3xl xl:text-5xl ml-[10%] mt-4 text-[--text-primary-color]">
+              VỚI TIM NGUYỄN
+            </span>
           </div>
           <p className="sm:text-lg xl:text-xl italic mt-4 w-2/5">
             Tim Nguyen - Chuyên gia giảm nợ cá nhân đồng hành cùng nhiều hoàn

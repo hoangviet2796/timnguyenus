@@ -54,7 +54,7 @@ export default function Cooperate() {
                 tác chiến lược
               </h4>
             </div>
-            <ul className="flex flex-col justify-start h-[70%] sm:text-xs md:text-base xl:text-2xl list-disc">
+            <ul className="flex flex-col justify-start h-[70%] sm:text-xl md:text-2xl xl:text-2xl list-disc">
               <li className="mx-10 mb-5">
                 CDS có phạm vi hoạt động rộng khắp 49 tiểu bang, chuyên cung cấp
                 các giải pháp tối ưu nhất cho những người đang phải vật lộn với
