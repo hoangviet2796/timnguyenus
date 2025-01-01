@@ -6,27 +6,30 @@ import css from "./main.module.css";
 export default function Main() {
   return (
     <div
-      className={`${css.mainCover} flex justify-center relative before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-[#08244d] before:opacity-50`}
+      className={`${css.mainCover} flex justify-end relative h-[600px] w-full  before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-gradient-to-r before:from-black before:from-[45%]`}
     >
       {/* <div className={`max-w-screen-xl cursor-default`}> */}
-      <Image
-        className={`h-fit w-full`}
-        loading="lazy"
-        src={`/images/width_1600.jpg`}
-        width={900}
-        height={0}
-        alt="main"
-      ></Image>
+      <div className={`relative h-full w-[50%]  overflow-hidden`}>
+        <Image
+          className={`h-full w-fit max-w-fit right-0`}
+          loading="lazy"
+          src={`/images/width_1600.jpg`}
+          fill
+          style={{ objectFit: "cover" }}
+          alt="main"
+        ></Image>
+      </div>
+
       <div className="absolute w-full h-full top-0 left-0 z-10 flex items-center justify-center">
         <div className="max-w-screen-xl top-1/4 text-white mx-10">
           <div>
-            <h1 className="font-extrabold sm:text-5xl xl:text-7xl">YOUR</h1>
+            <h1 className="font-extrabold sm:text-3xl xl:text-5xl">YOUR</h1>
             <h2
-              className={`${css.homeTitle} w-fit relative h-fit font-extrabold sm:text-5xl xl:text-7xl`}
+              className={`w-fit relative h-fit font-extrabold sm:text-3xl xl:text-5xl`}
             >
               DEBT-FREE LIFE
             </h2>
-            <h2 className="font-extrabold sm:text-5xl xl:text-7xl ml-[10%] mt-4 text-[--text-primary-color]">
+            <h2 className="font-extrabold sm:text-3xl xl:text-5xl ml-[10%] mt-4 text-[--text-primary-color]">
               START HERE
             </h2>
           </div>
