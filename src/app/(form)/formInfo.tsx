@@ -81,8 +81,8 @@ export default function FormInfo() {
 
   return (
     <div className="bg-[#3e547b] w-full flex justify-center">
-      <div className="w-[1280px] flex justify-around m-auto">
-        <div className="w-1/2 text-white my-5 flex flex-col justify-center">
+      <div className="w-[1280px] flex flex-col sm:flex-row justify-around m-auto">
+        <div className="w-full sm:w-1/2 text-white my-5 flex flex-col justify-center">
           <div className="flex flex-col w-full">
             <h3 className="text-4xl font-bold">Đăng ký ngay hôm nay</h3>
             <span className="text-2xl my-5">
@@ -99,7 +99,7 @@ export default function FormInfo() {
             <p>Email: timnguyenus.finance@gmail.com</p>
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="w-full sm:w-1/2">
           <Form {...form}>
             <form
               onSubmit={form.handleSubmit(onSubmit)}

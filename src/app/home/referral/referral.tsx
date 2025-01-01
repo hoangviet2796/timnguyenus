@@ -19,7 +19,7 @@ export default function Referral() {
             riêng.
           </p>
         </div>
-        <div className="grid grid-cols-4 gap-5 w-full">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 w-full">
           <div className="group relative h-[400px]">
             <div className={`w-full h-full relative`}>
               <Image

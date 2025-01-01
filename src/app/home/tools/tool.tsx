@@ -19,7 +19,7 @@ export default function Tool() {
         </span>
       </div>
       <div className="">
-        <ul className="grid grid-cols-4">
+        <ul className="grid sm:grid-cols-2 lg:grid-cols-4">
           <li className="group m-5">
             {/* filter: invert(63%) sepia(30%) saturate(5334%) hue-rotate(0deg) brightness(102%) contrast(109%) */}
             <div className="transition ease-in-out duration-300 relative border-[1px] border-solid flex flex-col items-center justify-between p-10 group-hover:-translate-y-2">
@@ -61,7 +61,7 @@ export default function Tool() {
             </div>
           </li>
         </ul>
-        <ul className="grid grid-cols-3">
+        <ul className="grid sm:grid-cols-3 lg:grid-cols-3">
           <li className="group m-5">
             {/* filter: invert(63%) sepia(30%) saturate(5334%) hue-rotate(0deg) brightness(102%) contrast(109%) */}
             <div className="transition ease-in-out duration-300 relative border-[1px] border-solid flex flex-col items-center justify-between p-10 group-hover:-translate-y-2">
