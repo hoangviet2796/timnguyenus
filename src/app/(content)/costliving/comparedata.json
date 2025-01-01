@@ -1,1624 +1,1684 @@
 {
     "stateData": [
         {
-            "State":"United States",
-            "Personal consumption expenditures":18822768.80,
-            "Goods":6123912.40,
-            "Durable goods":2142619.40,
-            "Motor vehicles and parts":749975.30,
-            "Furnishings and durable household equipment":480395.80,
-            "Recreational goods and vehicles":635836.80,
-            "Other durable goods":276411.50,
-            "Nondurable goods":3981293.00,
-            "Food and beverages purchased for off-premises consumption":1444010.90,
-            "Clothing and footwear":510121.30,
-            "Gasoline and other energy goods":467154.80,
-            "Other nondurable goods":1560006.00,
-            "Services":12698856.40,
-            "Household consumption expenditures (for services)":12144789.80,
-            "Housing and utilities":3347708.00,
-            "Health care":3057648.00,
-            "Transportation services":616899.50,
-            "Recreation services":739312.50,
-            "Food services and accommodations":1364438.50,
-            "Financial services and insurance":1436274.50,
-            "Other services":1582508.80,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":554066.60,
-            "Gross output of nonprofit institutions":2039891.20,
-            "Less Receipts from sales of goods and services by nonprofit institutions":1485824.60
+            "State": "United States",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 749975.30,
+                        "Đồ nội thất và thiết bị gia dụng": 480395.80,
+                        "Chi phí mua mới thiết bị, phương tiện": 635836.80,
+                        "Chi phí cố định khác": 276411.50
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 1444010.90,
+                        "Chi phí quần áo": 510121.30,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 467154.80,
+                        "Chi phí không cố định khác": 1560006.00
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 3347708.00,
+                    "Phí chăm sóc sức khỏe": 3057648.00,
+                    "Phí phương tiện đi lại": 616899.50,
+                    "Phí dịch vụ giải trí": 739312.50,
+                    "Phí dịch vụ ăn uống và lưu trú": 1364438.50,
+                    "Phí dịch vụ tài chính và bảo hiểm": 1436274.50,
+                    "Các dịch vụ khác": 1582508.80
+                }
+            }
         },
         {
-            "State":"Alabama",
-            "Personal consumption expenditures":227475.00,
-            "Goods":85488.20,
-            "Durable goods":28255.80,
-            "Motor vehicles and parts":12273.70,
-            "Furnishings and durable household equipment":6187.50,
-            "Recreational goods and vehicles":6548.70,
-            "Other durable goods":3245.90,
-            "Nondurable goods":57232.40,
-            "Food and beverages purchased for off-premises consumption":19581.40,
-            "Clothing and footwear":6646.40,
-            "Gasoline and other energy goods":7672.90,
-            "Other nondurable goods":23331.80,
-            "Services":141986.80,
-            "Household consumption expenditures (for services)":138839.90,
-            "Housing and utilities":36873.80,
-            "Health care":38340.20,
-            "Transportation services":5482.90,
-            "Recreation services":6855.80,
-            "Food services and accommodations":16524.80,
-            "Financial services and insurance":15400.70,
-            "Other services":19361.70,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":3146.90,
-            "Gross output of nonprofit institutions":22202.50,
-            "Less Receipts from sales of goods and services by nonprofit institutions":19055.60
+            "State": "Alabama",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 12273.70,
+                        "Đồ nội thất và thiết bị gia dụng": 6187.50,
+                        "Chi phí mua mới thiết bị, phương tiện": 6548.70,
+                        "Chi phí cố định khác": 3245.90
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 19581.40,
+                        "Chi phí quần áo": 6646.40,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 7672.90,
+                        "Chi phí không cố định khác": 23331.80
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 36873.80,
+                    "Phí chăm sóc sức khỏe": 38340.20,
+                    "Phí phương tiện đi lại": 5482.90,
+                    "Phí dịch vụ giải trí": 6855.80,
+                    "Phí dịch vụ ăn uống và lưu trú": 16524.80,
+                    "Phí dịch vụ tài chính và bảo hiểm": 15400.70,
+                    "Các dịch vụ khác": 19361.70
+                }
+            }
         },
         {
-            "State":"Alaska",
-            "Personal consumption expenditures":46131.30,
-            "Goods":13335.00,
-            "Durable goods":5585.10,
-            "Motor vehicles and parts":1729.10,
-            "Furnishings and durable household equipment":1140.10,
-            "Recreational goods and vehicles":2113.70,
-            "Other durable goods":602.20,
-            "Nondurable goods":7749.90,
-            "Food and beverages purchased for off-premises consumption":3518.80,
-            "Clothing and footwear":852.00,
-            "Gasoline and other energy goods":760.30,
-            "Other nondurable goods":2618.80,
-            "Services":32796.30,
-            "Household consumption expenditures (for services)":30300.80,
-            "Housing and utilities":6707.90,
-            "Health care":9545.30,
-            "Transportation services":1952.30,
-            "Recreation services":2400.20,
-            "Food services and accommodations":3745.80,
-            "Financial services and insurance":2702.80,
-            "Other services":3246.50,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":2495.50,
-            "Gross output of nonprofit institutions":6145.10,
-            "Less Receipts from sales of goods and services by nonprofit institutions":3649.60
+            "State": "Alaska",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 1729.10,
+                        "Đồ nội thất và thiết bị gia dụng": 1140.10,
+                        "Chi phí mua mới thiết bị, phương tiện": 2113.70,
+                        "Chi phí cố định khác": 602.20
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 3518.80,
+                        "Chi phí quần áo": 852.00,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 760.30,
+                        "Chi phí không cố định khác": 2618.80
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 6707.90,
+                    "Phí chăm sóc sức khỏe": 9545.30,
+                    "Phí phương tiện đi lại": 1952.30,
+                    "Phí dịch vụ giải trí": 2400.20,
+                    "Phí dịch vụ ăn uống và lưu trú": 3745.80,
+                    "Phí dịch vụ tài chính và bảo hiểm": 2702.80,
+                    "Các dịch vụ khác": 3246.50
+                }
+            }
         },
         {
-            "State":"Arizona",
-            "Personal consumption expenditures":400704.50,
-            "Goods":135295.00,
-            "Durable goods":50425.20,
-            "Motor vehicles and parts":18250.20,
-            "Furnishings and durable household equipment":11049.50,
-            "Recreational goods and vehicles":14064.20,
-            "Other durable goods":7061.30,
-            "Nondurable goods":84869.90,
-            "Food and beverages purchased for off-premises consumption":29151.80,
-            "Clothing and footwear":10474.20,
-            "Gasoline and other energy goods":10003.50,
-            "Other nondurable goods":35240.30,
-            "Services":265409.50,
-            "Household consumption expenditures (for services)":258245.50,
-            "Housing and utilities":81452.20,
-            "Health care":59023.50,
-            "Transportation services":16309.00,
-            "Recreation services":16225.10,
-            "Food services and accommodations":30832.60,
-            "Financial services and insurance":25107.90,
-            "Other services":29295.10,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":7164.00,
-            "Gross output of nonprofit institutions":33053.40,
-            "Less Receipts from sales of goods and services by nonprofit institutions":25889.40
+            "State": "Arizona",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 18250.20,
+                        "Đồ nội thất và thiết bị gia dụng": 11049.50,
+                        "Chi phí mua mới thiết bị, phương tiện": 14064.20,
+                        "Chi phí cố định khác": 7061.30
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 29151.80,
+                        "Chi phí quần áo": 10474.20,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 10003.50,
+                        "Chi phí không cố định khác": 35240.30
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 81452.20,
+                    "Phí chăm sóc sức khỏe": 59023.50,
+                    "Phí phương tiện đi lại": 16309.00,
+                    "Phí dịch vụ giải trí": 16225.10,
+                    "Phí dịch vụ ăn uống và lưu trú": 30832.60,
+                    "Phí dịch vụ tài chính và bảo hiểm": 25107.90,
+                    "Các dịch vụ khác": 29295.10
+                }
+            }
         },
         {
-            "State":"Arkansas",
-            "Personal consumption expenditures":135760.80,
-            "Goods":48439.80,
-            "Durable goods":15761.70,
-            "Motor vehicles and parts":6314.10,
-            "Furnishings and durable household equipment":3932.40,
-            "Recreational goods and vehicles":3856.80,
-            "Other durable goods":1658.30,
-            "Nondurable goods":32678.10,
-            "Food and beverages purchased for off-premises consumption":11012.80,
-            "Clothing and footwear":4200.90,
-            "Gasoline and other energy goods":5504.40,
-            "Other nondurable goods":11960.00,
-            "Services":87320.90,
-            "Household consumption expenditures (for services)":82749.30,
-            "Housing and utilities":20849.80,
-            "Health care":24842.50,
-            "Transportation services":3031.50,
-            "Recreation services":3593.50,
-            "Food services and accommodations":8803.50,
-            "Financial services and insurance":12051.50,
-            "Other services":9577.10,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":4571.60,
-            "Gross output of nonprofit institutions":16391.00,
-            "Less Receipts from sales of goods and services by nonprofit institutions":11819.4
+            "State": "Arkansas",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 6314.10,
+                        "Đồ nội thất và thiết bị gia dụng": 3932.40,
+                        "Chi phí mua mới thiết bị, phương tiện": 3856.80,
+                        "Chi phí cố định khác": 1658.30
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 11012.80,
+                        "Chi phí quần áo": 4200.90,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 5504.40,
+                        "Chi phí không cố định khác": 11960.00
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 20849.80,
+                    "Phí chăm sóc sức khỏe": 24842.50,
+                    "Phí phương tiện đi lại": 3031.50,
+                    "Phí dịch vụ giải trí": 3593.50,
+                    "Phí dịch vụ ăn uống và lưu trú": 8803.50,
+                    "Phí dịch vụ tài chính và bảo hiểm": 12051.50,
+                    "Các dịch vụ khác": 9577.10
+                }
+            }
         },
         {
-            "State":"California",
-            "Personal consumption expenditures":2526290.30,
-            "Goods":729807.40,
-            "Durable goods":248005.80,
-            "Motor vehicles and parts":70962.10,
-            "Furnishings and durable household equipment":57990.40,
-            "Recreational goods and vehicles":81143.80,
-            "Other durable goods":37909.60,
-            "Nondurable goods":481801.60,
-            "Food and beverages purchased for off-premises consumption":183446.50,
-            "Clothing and footwear":77801.40,
-            "Gasoline and other energy goods":51440.90,
-            "Other nondurable goods":169112.80,
-            "Services":1796482.90,
-            "Household consumption expenditures (for services)":1715790.20,
-            "Housing and utilities":474923.50,
-            "Health care":404205.20,
-            "Transportation services":96003.80,
-            "Recreation services":125363.80,
-            "Food services and accommodations":202174.20,
-            "Financial services and insurance":187458.60,
-            "Other services":225661.20,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":80692.70,
-            "Gross output of nonprofit institutions":293558.90,
-            "Less Receipts from sales of goods and services by nonprofit institutions":212866.20
+            "State": "California",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 70962.10,
+                        "Đồ nội thất và thiết bị gia dụng": 57990.40,
+                        "Chi phí mua mới thiết bị, phương tiện": 81143.80,
+                        "Chi phí cố định khác": 37909.60
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 183446.50,
+                        "Chi phí quần áo": 77801.40,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 51440.90,
+                        "Chi phí không cố định khác": 169112.80
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 474923.50,
+                    "Phí chăm sóc sức khỏe": 404205.20,
+                    "Phí phương tiện đi lại": 96003.80,
+                    "Phí dịch vụ giải trí": 125363.80,
+                    "Phí dịch vụ ăn uống và lưu trú": 202174.20,
+                    "Phí dịch vụ tài chính và bảo hiểm": 187458.60,
+                    "Các dịch vụ khác": 225661.20
+                }
+            }
         },
         {
-            "State":"Colorado",
-            "Personal consumption expenditures":374880.10,
-            "Goods":122105.70,
-            "Durable goods":46028.50,
-            "Motor vehicles and parts":14360.30,
-            "Furnishings and durable household equipment":10384.40,
-            "Recreational goods and vehicles":15595.50,
-            "Other durable goods":5688.30,
-            "Nondurable goods":76077.20,
-            "Food and beverages purchased for off-premises consumption":28927.60,
-            "Clothing and footwear":10242.80,
-            "Gasoline and other energy goods":8127.20,
-            "Other nondurable goods":28779.50,
-            "Services":252774.40,
-            "Household consumption expenditures (for services)":244453.10,
-            "Housing and utilities":74055.80,
-            "Health care":49459.00,
-            "Transportation services":13940.40,
-            "Recreation services":19244.90,
-            "Food services and accommodations":31123.00,
-            "Financial services and insurance":26160.90,
-            "Other services":30469.30,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":8321.20,
-            "Gross output of nonprofit institutions":33967.60,
-            "Less Receipts from sales of goods and services by nonprofit institutions":25646.30
+            "State": "Colorado",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 14360.30,
+                        "Đồ nội thất và thiết bị gia dụng": 10384.40,
+                        "Chi phí mua mới thiết bị, phương tiện": 15595.50,
+                        "Chi phí cố định khác": 5688.30
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 28927.60,
+                        "Chi phí quần áo": 10242.80,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 8127.20,
+                        "Chi phí không cố định khác": 28779.50
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 74055.80,
+                    "Phí chăm sóc sức khỏe": 49459.00,
+                    "Phí phương tiện đi lại": 13940.40,
+                    "Phí dịch vụ giải trí": 19244.90,
+                    "Phí dịch vụ ăn uống và lưu trú": 31123.00,
+                    "Phí dịch vụ tài chính và bảo hiểm": 26160.90,
+                    "Các dịch vụ khác": 30469.30
+                }
+            }
         },
         {
-            "State":"Connecticut",
-            "Personal consumption expenditures":235580.40,
-            "Goods":69532.10,
-            "Durable goods":23990.70,
-            "Motor vehicles and parts":7509.20,
-            "Furnishings and durable household equipment":5907.80,
-            "Recreational goods and vehicles":7197.20,
-            "Other durable goods":3376.50,
-            "Nondurable goods":45541.40,
-            "Food and beverages purchased for off-premises consumption":16184.80,
-            "Clothing and footwear":5693.90,
-            "Gasoline and other energy goods":4080.70,
-            "Other nondurable goods":19582.00,
-            "Services":166048.30,
-            "Household consumption expenditures (for services)":156483.20,
-            "Housing and utilities":41813.40,
-            "Health care":36546.00,
-            "Transportation services":8655.60,
-            "Recreation services":9629.50,
-            "Food services and accommodations":14702.50,
-            "Financial services and insurance":22512.30,
-            "Other services":22624.00,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":9565.10,
-            "Gross output of nonprofit institutions":34235.80,
-            "Less Receipts from sales of goods and services by nonprofit institutions":24670.60
+            "State": "Connecticut",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 7509.20,
+                        "Đồ nội thất và thiết bị gia dụng": 5907.80,
+                        "Chi phí mua mới thiết bị, phương tiện": 7197.20,
+                        "Chi phí cố định khác": 3376.50
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 16184.80,
+                        "Chi phí quần áo": 5693.90,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 4080.70,
+                        "Chi phí không cố định khác": 19582.00
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 41813.40,
+                    "Phí chăm sóc sức khỏe": 36546.00,
+                    "Phí phương tiện đi lại": 8655.60,
+                    "Phí dịch vụ giải trí": 9629.50,
+                    "Phí dịch vụ ăn uống và lưu trú": 14702.50,
+                    "Phí dịch vụ tài chính và bảo hiểm": 22512.30,
+                    "Các dịch vụ khác": 22624.00
+                }
+            }
         },
         {
-            "State":"Delaware",
-            "Personal consumption expenditures":59511.50,
-            "Goods":18898.20,
-            "Durable goods":6800.90,
-            "Motor vehicles and parts":2396.80,
-            "Furnishings and durable household equipment":1582.40,
-            "Recreational goods and vehicles":1848.40,
-            "Other durable goods":973.40,
-            "Nondurable goods":12097.30,
-            "Food and beverages purchased for off-premises consumption":4371.80,
-            "Clothing and footwear":1517.10,
-            "Gasoline and other energy goods":1750.50,
-            "Other nondurable goods":4457.90,
-            "Services":40613.30,
-            "Household consumption expenditures (for services)":39003.20,
-            "Housing and utilities":10639.80,
-            "Health care":11444.60,
-            "Transportation services":1568.10,
-            "Recreation services":1845.60,
-            "Food services and accommodations":4377.80,
-            "Financial services and insurance":3857.00,
-            "Other services":5270.20,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":1610.10,
-            "Gross output of nonprofit institutions":5875.40,
-            "Less Receipts from sales of goods and services by nonprofit institutions":4265.30
+            "State": "Delaware",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 2396.80,
+                        "Đồ nội thất và thiết bị gia dụng": 1582.40,
+                        "Chi phí mua mới thiết bị, phương tiện": 1848.40,
+                        "Chi phí cố định khác": 973.40
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 4371.80,
+                        "Chi phí quần áo": 1517.10,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 1750.50,
+                        "Chi phí không cố định khác": 4457.90
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 10639.80,
+                    "Phí chăm sóc sức khỏe": 11444.60,
+                    "Phí phương tiện đi lại": 1568.10,
+                    "Phí dịch vụ giải trí": 1845.60,
+                    "Phí dịch vụ ăn uống và lưu trú": 4377.80,
+                    "Phí dịch vụ tài chính và bảo hiểm": 3857.00,
+                    "Các dịch vụ khác": 5270.20
+                }
+            }
         },
         {
-            "State":"District of Columbia",
-            "Personal consumption expenditures":62490.40,
-            "Goods":17515.80,
-            "Durable goods":5952.70,
-            "Motor vehicles and parts":1650.00,
-            "Furnishings and durable household equipment":1155.90,
-            "Recreational goods and vehicles":2287.80,
-            "Other durable goods":859.00,
-            "Nondurable goods":11563.10,
-            "Food and beverages purchased for off-premises consumption":5092.20,
-            "Clothing and footwear":1868.60,
-            "Gasoline and other energy goods":1040.30,
-            "Other nondurable goods":3562.00,
-            "Services":44974.60,
-            "Household consumption expenditures (for services)":43013.30,
-            "Housing and utilities":11189.90,
-            "Health care":8989.10,
-            "Transportation services":2469.30,
-            "Recreation services":1496.40,
-            "Food services and accommodations":3899.30,
-            "Financial services and insurance":4336.20,
-            "Other services":10633.00,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":1961.40,
-            "Gross output of nonprofit institutions":6188.10,
-            "Less Receipts from sales of goods and services by nonprofit institutions":4226.80
+            "State": "District of Columbia",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 1650.00,
+                        "Đồ nội thất và thiết bị gia dụng": 1155.90,
+                        "Chi phí mua mới thiết bị, phương tiện": 2287.80,
+                        "Chi phí cố định khác": 859.00
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 5092.20,
+                        "Chi phí quần áo": 1868.60,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 1040.30,
+                        "Chi phí không cố định khác": 3562.00
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 11189.90,
+                    "Phí chăm sóc sức khỏe": 8989.10,
+                    "Phí phương tiện đi lại": 2469.30,
+                    "Phí dịch vụ giải trí": 1496.40,
+                    "Phí dịch vụ ăn uống và lưu trú": 3899.30,
+                    "Phí dịch vụ tài chính và bảo hiểm": 4336.20,
+                    "Các dịch vụ khác": 10633.00
+                }
+            }
         },
         {
-            "State":"Florida",
-            "Personal consumption expenditures":1361251.40,
-            "Goods":436816.60,
-            "Durable goods":168063.40,
-            "Motor vehicles and parts":55764.90,
-            "Furnishings and durable household equipment":39400.30,
-            "Recreational goods and vehicles":51225.90,
-            "Other durable goods":21672.20,
-            "Nondurable goods":268753.20,
-            "Food and beverages purchased for off-premises consumption":107095.40,
-            "Clothing and footwear":29373.10,
-            "Gasoline and other energy goods":26415.80,
-            "Other nondurable goods":105868.90,
-            "Services":924434.80,
-            "Household consumption expenditures (for services)":916762.60,
-            "Housing and utilities":275653.00,
-            "Health care":203398.40,
-            "Transportation services":46474.30,
-            "Recreation services":51201.80,
-            "Food services and accommodations":109551.40,
-            "Financial services and insurance":120334.60,
-            "Other services":110149.00,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":7672.20,
-            "Gross output of nonprofit institutions":80401.30,
-            "Less Receipts from sales of goods and services by nonprofit institutions":72729.10
+            "State": "Florida",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 55764.90,
+                        "Đồ nội thất và thiết bị gia dụng": 39400.30,
+                        "Chi phí mua mới thiết bị, phương tiện": 51225.90,
+                        "Chi phí cố định khác": 21672.20
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 107095.40,
+                        "Chi phí quần áo": 29373.10,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 26415.80,
+                        "Chi phí không cố định khác": 105868.90
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 275653.00,
+                    "Phí chăm sóc sức khỏe": 203398.40,
+                    "Phí phương tiện đi lại": 46474.30,
+                    "Phí dịch vụ giải trí": 51201.80,
+                    "Phí dịch vụ ăn uống và lưu trú": 109551.40,
+                    "Phí dịch vụ tài chính và bảo hiểm": 120334.60,
+                    "Các dịch vụ khác": 110149.00
+                }
+            }
         },
         {
-            "State":"Georgia",
-            "Personal consumption expenditures":554573.40,
-            "Goods":200820.70,
-            "Durable goods":67606.60,
-            "Motor vehicles and parts":26282.20,
-            "Furnishings and durable household equipment":14005.80,
-            "Recreational goods and vehicles":18535.90,
-            "Other durable goods":8782.60,
-            "Nondurable goods":133214.10,
-            "Food and beverages purchased for off-premises consumption":49018.70,
-            "Clothing and footwear":16386.80,
-            "Gasoline and other energy goods":16606.50,
-            "Other nondurable goods":51202.10,
-            "Services":353752.70,
-            "Household consumption expenditures (for services)":350648.40,
-            "Housing and utilities":96243.00,
-            "Health care":88324.60,
-            "Transportation services":20905.10,
-            "Recreation services":24026.40,
-            "Food services and accommodations":42132.80,
-            "Financial services and insurance":34863.20,
-            "Other services":44153.40,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":3104.30,
-            "Gross output of nonprofit institutions":49841.40,
-            "Less Receipts from sales of goods and services by nonprofit institutions":46737.20
+            "State": "Georgia",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 26282.20,
+                        "Đồ nội thất và thiết bị gia dụng": 14005.80,
+                        "Chi phí mua mới thiết bị, phương tiện": 18535.90,
+                        "Chi phí cố định khác": 8782.60
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 49018.70,
+                        "Chi phí quần áo": 16386.80,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 16606.50,
+                        "Chi phí không cố định khác": 51202.10
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 96243.00,
+                    "Phí chăm sóc sức khỏe": 88324.60,
+                    "Phí phương tiện đi lại": 20905.10,
+                    "Phí dịch vụ giải trí": 24026.40,
+                    "Phí dịch vụ ăn uống và lưu trú": 42132.80,
+                    "Phí dịch vụ tài chính và bảo hiểm": 34863.20,
+                    "Các dịch vụ khác": 44153.40
+                }
+            }
         },
         {
-            "State":"Hawaii",
-            "Personal consumption expenditures":83403.50,
-            "Goods":24492.20,
-            "Durable goods":7256.70,
-            "Motor vehicles and parts":2625.10,
-            "Furnishings and durable household equipment":1961.80,
-            "Recreational goods and vehicles":1642.20,
-            "Other durable goods":1027.60,
-            "Nondurable goods":17235.50,
-            "Food and beverages purchased for off-premises consumption":7903.20,
-            "Clothing and footwear":2162.00,
-            "Gasoline and other energy goods":1074.10,
-            "Other nondurable goods":6096.20,
-            "Services":58911.30,
-            "Household consumption expenditures (for services)":55704.30,
-            "Housing and utilities":16648.00,
-            "Health care":13070.20,
-            "Transportation services":3193.80,
-            "Recreation services":3450.80,
-            "Food services and accommodations":7603.50,
-            "Financial services and insurance":5585.00,
-            "Other services":6153.00,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":3207.00,
-            "Gross output of nonprofit institutions":9525.30,
-            "Less Receipts from sales of goods and services by nonprofit institutions":6318.30
+            "State": "Hawaii",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 2625.10,
+                        "Đồ nội thất và thiết bị gia dụng": 1961.80,
+                        "Chi phí mua mới thiết bị, phương tiện": 1642.20,
+                        "Chi phí cố định khác": 1027.60
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 7903.20,
+                        "Chi phí quần áo": 2162.00,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 1074.10,
+                        "Chi phí không cố định khác": 6096.20
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 16648.00,
+                    "Phí chăm sóc sức khỏe": 13070.20,
+                    "Phí phương tiện đi lại": 3193.80,
+                    "Phí dịch vụ giải trí": 3450.80,
+                    "Phí dịch vụ ăn uống và lưu trú": 7603.50,
+                    "Phí dịch vụ tài chính và bảo hiểm": 5585.00,
+                    "Các dịch vụ khác": 6153.00
+                }
+            }
         },
         {
-            "State":"Idaho",
-            "Personal consumption expenditures":90907.70,
-            "Goods":32737.60,
-            "Durable goods":13050.00,
-            "Motor vehicles and parts":4527.60,
-            "Furnishings and durable household equipment":2641.80,
-            "Recreational goods and vehicles":4449.70,
-            "Other durable goods":1430.90,
-            "Nondurable goods":19687.50,
-            "Food and beverages purchased for off-premises consumption":7491.20,
-            "Clothing and footwear":2286.50,
-            "Gasoline and other energy goods":3402.00,
-            "Other nondurable goods":6507.90,
-            "Services":58170.10,
-            "Household consumption expenditures (for services)":56899.40,
-            "Housing and utilities":18290.40,
-            "Health care":14750.20,
-            "Transportation services":2884.30,
-            "Recreation services":2899.30,
-            "Food services and accommodations":5903.00,
-            "Financial services and insurance":6659.50,
-            "Other services":5512.70,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":1270.70,
-            "Gross output of nonprofit institutions":9349.60,
-            "Less Receipts from sales of goods and services by nonprofit institutions":8078.80
+            "State": "Idaho",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 4527.60,
+                        "Đồ nội thất và thiết bị gia dụng": 2641.80,
+                        "Chi phí mua mới thiết bị, phương tiện": 4449.70,
+                        "Chi phí cố định khác": 1430.90
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 7491.20,
+                        "Chi phí quần áo": 2286.50,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 3402.00,
+                        "Chi phí không cố định khác": 6507.90
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 18290.40,
+                    "Phí chăm sóc sức khỏe": 14750.20,
+                    "Phí phương tiện đi lại": 2884.30,
+                    "Phí dịch vụ giải trí": 2899.30,
+                    "Phí dịch vụ ăn uống và lưu trú": 5903.00,
+                    "Phí dịch vụ tài chính và bảo hiểm": 6659.50,
+                    "Các dịch vụ khác": 5512.70
+                }
+            }
         },
         {
-            "State":"Illinois",
-            "Personal consumption expenditures":732059.20,
-            "Goods":232212.00,
-            "Durable goods":81486.50,
-            "Motor vehicles and parts":25939.50,
-            "Furnishings and durable household equipment":18213.20,
-            "Recreational goods and vehicles":26143.80,
-            "Other durable goods":11190.00,
-            "Nondurable goods":150725.60,
-            "Food and beverages purchased for off-premises consumption":51687.10,
-            "Clothing and footwear":21259.50,
-            "Gasoline and other energy goods":16107.80,
-            "Other nondurable goods":61671.20,
-            "Services":499847.20,
-            "Household consumption expenditures (for services)":466388.50,
-            "Housing and utilities":116553.90,
-            "Health care":115939.80,
-            "Transportation services":29210.40,
-            "Recreation services":26101.00,
-            "Food services and accommodations":51192.50,
-            "Financial services and insurance":58469.30,
-            "Other services":68921.50,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":33458.70,
-            "Gross output of nonprofit institutions":100712.10,
-            "Less Receipts from sales of goods and services by nonprofit institutions":67253.40
+            "State": "Illinois",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 25939.50,
+                        "Đồ nội thất và thiết bị gia dụng": 18213.20,
+                        "Chi phí mua mới thiết bị, phương tiện": 26143.80,
+                        "Chi phí cố định khác": 11190.00
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 51687.10,
+                        "Chi phí quần áo": 21259.50,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 16107.80,
+                        "Chi phí không cố định khác": 61671.20
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 116553.90,
+                    "Phí chăm sóc sức khỏe": 115939.80,
+                    "Phí phương tiện đi lại": 29210.40,
+                    "Phí dịch vụ giải trí": 26101.00,
+                    "Phí dịch vụ ăn uống và lưu trú": 51192.50,
+                    "Phí dịch vụ tài chính và bảo hiểm": 58469.30,
+                    "Các dịch vụ khác": 68921.50
+                }
+            }
         },
         {
-            "State":"Indiana",
-            "Personal consumption expenditures":339862.50,
-            "Goods":119078.30,
-            "Durable goods":40036.40,
-            "Motor vehicles and parts":15614.40,
-            "Furnishings and durable household equipment":8918.10,
-            "Recreational goods and vehicles":10718.80,
-            "Other durable goods":4785.10,
-            "Nondurable goods":79041.90,
-            "Food and beverages purchased for off-premises consumption":27672.90,
-            "Clothing and footwear":8856.70,
-            "Gasoline and other energy goods":11269.00,
-            "Other nondurable goods":31243.30,
-            "Services":220784.20,
-            "Household consumption expenditures (for services)":209019.50,
-            "Housing and utilities":53092.20,
-            "Health care":70967.50,
-            "Transportation services":9335.70,
-            "Recreation services":9355.70,
-            "Food services and accommodations":22935.20,
-            "Financial services and insurance":21319.40,
-            "Other services":22013.70,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":11764.70,
-            "Gross output of nonprofit institutions":37210.30,
-            "Less Receipts from sales of goods and services by nonprofit institutions":25445.60
+            "State": "Indiana",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 15614.40,
+                        "Đồ nội thất và thiết bị gia dụng": 8918.10,
+                        "Chi phí mua mới thiết bị, phương tiện": 10718.80,
+                        "Chi phí cố định khác": 4785.10
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 27672.90,
+                        "Chi phí quần áo": 8856.70,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 11269.00,
+                        "Chi phí không cố định khác": 31243.30
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 53092.20,
+                    "Phí chăm sóc sức khỏe": 70967.50,
+                    "Phí phương tiện đi lại": 9335.70,
+                    "Phí dịch vụ giải trí": 9355.70,
+                    "Phí dịch vụ ăn uống và lưu trú": 22935.20,
+                    "Phí dịch vụ tài chính và bảo hiểm": 21319.40,
+                    "Các dịch vụ khác": 22013.70
+                }
+            }
         },
         {
-            "State":"Iowa",
-            "Personal consumption expenditures":153399.70,
-            "Goods":55813.80,
-            "Durable goods":19680.90,
-            "Motor vehicles and parts":9371.50,
-            "Furnishings and durable household equipment":3877.50,
-            "Recreational goods and vehicles":4605.40,
-            "Other durable goods":1826.50,
-            "Nondurable goods":36132.80,
-            "Food and beverages purchased for off-premises consumption":13041.90,
-            "Clothing and footwear":3680.90,
-            "Gasoline and other energy goods":6414.40,
-            "Other nondurable goods":12995.50,
-            "Services":97585.90,
-            "Household consumption expenditures (for services)":92026.90,
-            "Housing and utilities":24832.80,
-            "Health care":26375.50,
-            "Transportation services":4739.20,
-            "Recreation services":4638.10,
-            "Food services and accommodations":9484.10,
-            "Financial services and insurance":10592.10,
-            "Other services":11364.90,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":5559.00,
-            "Gross output of nonprofit institutions":16280.50,
-            "Less Receipts from sales of goods and services by nonprofit institutions":10721.50
+            "State": "Iowa",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 9371.50,
+                        "Đồ nội thất và thiết bị gia dụng": 3877.50,
+                        "Chi phí mua mới thiết bị, phương tiện": 4605.40,
+                        "Chi phí cố định khác": 1826.50
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 13041.90,
+                        "Chi phí quần áo": 3680.90,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 6414.40,
+                        "Chi phí không cố định khác": 12995.50
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 24832.80,
+                    "Phí chăm sóc sức khỏe": 26375.50,
+                    "Phí phương tiện đi lại": 4739.20,
+                    "Phí dịch vụ giải trí": 4638.10,
+                    "Phí dịch vụ ăn uống và lưu trú": 9484.10,
+                    "Phí dịch vụ tài chính và bảo hiểm": 10592.10,
+                    "Các dịch vụ khác": 11364.90
+                }
+            }
         },
         {
-            "State":"Kansas",
-            "Personal consumption expenditures":145110.30,
-            "Goods":48702.20,
-            "Durable goods":15915.80,
-            "Motor vehicles and parts":6931.90,
-            "Furnishings and durable household equipment":3978.70,
-            "Recreational goods and vehicles":3065.20,
-            "Other durable goods":1940.00,
-            "Nondurable goods":32786.40,
-            "Food and beverages purchased for off-premises consumption":13309.30,
-            "Clothing and footwear":3470.60,
-            "Gasoline and other energy goods":4013.70,
-            "Other nondurable goods":11992.70,
-            "Services":96408.10,
-            "Household consumption expenditures (for services)":92518.10,
-            "Housing and utilities":22941.60,
-            "Health care":25063.70,
-            "Transportation services":4370.90,
-            "Recreation services":4748.70,
-            "Food services and accommodations":9564.30,
-            "Financial services and insurance":11276.40,
-            "Other services":14552.60,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":3890.00,
-            "Gross output of nonprofit institutions":15674.90,
-            "Less Receipts from sales of goods and services by nonprofit institutions":11784.90
+            "State": "Kansas",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 6931.90,
+                        "Đồ nội thất và thiết bị gia dụng": 3978.70,
+                        "Chi phí mua mới thiết bị, phương tiện": 3065.20,
+                        "Chi phí cố định khác": 1940.00
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 13309.30,
+                        "Chi phí quần áo": 3470.60,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 4013.70,
+                        "Chi phí không cố định khác": 11992.70
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 22941.60,
+                    "Phí chăm sóc sức khỏe": 25063.70,
+                    "Phí phương tiện đi lại": 4370.90,
+                    "Phí dịch vụ giải trí": 4748.70,
+                    "Phí dịch vụ ăn uống và lưu trú": 9564.30,
+                    "Phí dịch vụ tài chính và bảo hiểm": 11276.40,
+                    "Các dịch vụ khác": 14552.60
+                }
+            }
         },
         {
-            "State":"Kentucky",
-            "Personal consumption expenditures":213960.20,
-            "Goods":76055.90,
-            "Durable goods":23356.60,
-            "Motor vehicles and parts":9694.00,
-            "Furnishings and durable household equipment":5372.20,
-            "Recreational goods and vehicles":5425.60,
-            "Other durable goods":2864.80,
-            "Nondurable goods":52699.30,
-            "Food and beverages purchased for off-premises consumption":19128.90,
-            "Clothing and footwear":5312.90,
-            "Gasoline and other energy goods":7397.00,
-            "Other nondurable goods":20860.50,
-            "Services":137904.30,
-            "Household consumption expenditures (for services)":131412.20,
-            "Housing and utilities":32386.50,
-            "Health care":42830.10,
-            "Transportation services":5095.80,
-            "Recreation services":7172.30,
-            "Food services and accommodations":14772.90,
-            "Financial services and insurance":14614.00,
-            "Other services":14540.60,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":6492.10,
-            "Gross output of nonprofit institutions":23383.70,
-            "Less Receipts from sales of goods and services by nonprofit institutions":16891.70
+            "State": "Kentucky",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 9694.00,
+                        "Đồ nội thất và thiết bị gia dụng": 5372.20,
+                        "Chi phí mua mới thiết bị, phương tiện": 5425.60,
+                        "Chi phí cố định khác": 2864.80
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 19128.90,
+                        "Chi phí quần áo": 5312.90,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 7397.00,
+                        "Chi phí không cố định khác": 20860.50
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 32386.50,
+                    "Phí chăm sóc sức khỏe": 42830.10,
+                    "Phí phương tiện đi lại": 5095.80,
+                    "Phí dịch vụ giải trí": 7172.30,
+                    "Phí dịch vụ ăn uống và lưu trú": 14772.90,
+                    "Phí dịch vụ tài chính và bảo hiểm": 14614.00,
+                    "Các dịch vụ khác": 14540.60
+                }
+            }
         },
         {
-            "State":"Louisiana",
-            "Personal consumption expenditures":221484.70,
-            "Goods":77328.90,
-            "Durable goods":25662.10,
-            "Motor vehicles and parts":12043.60,
-            "Furnishings and durable household equipment":6138.70,
-            "Recreational goods and vehicles":4703.20,
-            "Other durable goods":2776.50,
-            "Nondurable goods":51666.90,
-            "Food and beverages purchased for off-premises consumption":18449.20,
-            "Clothing and footwear":6344.60,
-            "Gasoline and other energy goods":6903.20,
-            "Other nondurable goods":19969.80,
-            "Services":144155.80,
-            "Household consumption expenditures (for services)":139955.80,
-            "Housing and utilities":34836.10,
-            "Health care":43796.30,
-            "Transportation services":4966.30,
-            "Recreation services":6835.90,
-            "Food services and accommodations":17229.90,
-            "Financial services and insurance":16783.50,
-            "Other services":15507.70,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":4200.00,
-            "Gross output of nonprofit institutions":18746.60,
-            "Less Receipts from sales of goods and services by nonprofit institutions":14546.60
+            "State": "Louisiana",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 12043.60,
+                        "Đồ nội thất và thiết bị gia dụng": 6138.70,
+                        "Chi phí mua mới thiết bị, phương tiện": 4703.20,
+                        "Chi phí cố định khác": 2776.50
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 18449.20,
+                        "Chi phí quần áo": 6344.60,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 6903.20,
+                        "Chi phí không cố định khác": 19969.80
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 34836.10,
+                    "Phí chăm sóc sức khỏe": 43796.30,
+                    "Phí phương tiện đi lại": 4966.30,
+                    "Phí dịch vụ giải trí": 6835.90,
+                    "Phí dịch vụ ăn uống và lưu trú": 17229.90,
+                    "Phí dịch vụ tài chính và bảo hiểm": 16783.50,
+                    "Các dịch vụ khác": 15507.70
+                }
+            }
         },
         {
-            "State":"Maine",
-            "Personal consumption expenditures":84092.70,
-            "Goods":27880.20,
-            "Durable goods":8788.70,
-            "Motor vehicles and parts":3613.70,
-            "Furnishings and durable household equipment":2066.20,
-            "Recreational goods and vehicles":2200.20,
-            "Other durable goods":908.60,
-            "Nondurable goods":19091.50,
-            "Food and beverages purchased for off-premises consumption":7368.20,
-            "Clothing and footwear":1657.00,
-            "Gasoline and other energy goods":2779.30,
-            "Other nondurable goods":7286.90,
-            "Services":56212.40,
-            "Household consumption expenditures (for services)":52009.10,
-            "Housing and utilities":15110.10,
-            "Health care":14044.00,
-            "Transportation services":2267.90,
-            "Recreation services":3590.20,
-            "Food services and accommodations":6239.10,
-            "Financial services and insurance":4892.70,
-            "Other services":5865.10,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":4203.30,
-            "Gross output of nonprofit institutions":9559.80,
-            "Less Receipts from sales of goods and services by nonprofit institutions":5356.50
+            "State": "Maine",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 3613.70,
+                        "Đồ nội thất và thiết bị gia dụng": 2066.20,
+                        "Chi phí mua mới thiết bị, phương tiện": 2200.20,
+                        "Chi phí cố định khác": 908.60
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 7368.20,
+                        "Chi phí quần áo": 1657.00,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 2779.30,
+                        "Chi phí không cố định khác": 7286.90
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 15110.10,
+                    "Phí chăm sóc sức khỏe": 14044.00,
+                    "Phí phương tiện đi lại": 2267.90,
+                    "Phí dịch vụ giải trí": 3590.20,
+                    "Phí dịch vụ ăn uống và lưu trú": 6239.10,
+                    "Phí dịch vụ tài chính và bảo hiểm": 4892.70,
+                    "Các dịch vụ khác": 5865.10
+                }
+            }
         },
         {
-            "State":"Maryland",
-            "Personal consumption expenditures":346417.20,
-            "Goods":108044.90,
-            "Durable goods":36783.80,
-            "Motor vehicles and parts":12067.10,
-            "Furnishings and durable household equipment":8101.60,
-            "Recreational goods and vehicles":11533.20,
-            "Other durable goods":5081.90,
-            "Nondurable goods":71261.10,
-            "Food and beverages purchased for off-premises consumption":23682.30,
-            "Clothing and footwear":9432.90,
-            "Gasoline and other energy goods":7805.30,
-            "Other nondurable goods":30340.50,
-            "Services":238372.40,
-            "Household consumption expenditures (for services)":227461.70,
-            "Housing and utilities":66990.60,
-            "Health care":54621.10,
-            "Transportation services":11000.10,
-            "Recreation services":13464.10,
-            "Food services and accommodations":24031.40,
-            "Financial services and insurance":22892.30,
-            "Other services":34462.10,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":10910.70,
-            "Gross output of nonprofit institutions":43663.20,
-            "Less Receipts from sales of goods and services by nonprofit institutions":32752.50
+            "State": "Maryland",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 12067.10,
+                        "Đồ nội thất và thiết bị gia dụng": 8101.60,
+                        "Chi phí mua mới thiết bị, phương tiện": 11533.20,
+                        "Chi phí cố định khác": 5081.90
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 23682.30,
+                        "Chi phí quần áo": 9432.90,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 7805.30,
+                        "Chi phí không cố định khác": 30340.50
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 66990.60,
+                    "Phí chăm sóc sức khỏe": 54621.10,
+                    "Phí phương tiện đi lại": 11000.10,
+                    "Phí dịch vụ giải trí": 13464.10,
+                    "Phí dịch vụ ăn uống và lưu trú": 24031.40,
+                    "Phí dịch vụ tài chính và bảo hiểm": 22892.30,
+                    "Các dịch vụ khác": 34462.10
+                }
+            }
         },
         {
-            "State":"Massachusetts",
-            "Personal consumption expenditures":483803.10,
-            "Goods":136918.10,
-            "Durable goods":47069.30,
-            "Motor vehicles and parts":13501.40,
-            "Furnishings and durable household equipment":10933.10,
-            "Recreational goods and vehicles":15697.60,
-            "Other durable goods":6937.10,
-            "Nondurable goods":89848.90,
-            "Food and beverages purchased for off-premises consumption":34094.90,
-            "Clothing and footwear":11248.80,
-            "Gasoline and other energy goods":7132.60,
-            "Other nondurable goods":37372.50,
-            "Services":346885.00,
-            "Household consumption expenditures (for services)":328009.60,
-            "Housing and utilities":87310.50,
-            "Health care":79497.00,
-            "Transportation services":19641.20,
-            "Recreation services":19522.90,
-            "Food services and accommodations":34056.10,
-            "Financial services and insurance":44286.90,
-            "Other services":43695.00,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":18875.30,
-            "Gross output of nonprofit institutions":54122.20,
-            "Less Receipts from sales of goods and services by nonprofit institutions":35246.90
+            "State": "Massachusetts",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 13501.40,
+                        "Đồ nội thất và thiết bị gia dụng": 10933.10,
+                        "Chi phí mua mới thiết bị, phương tiện": 15697.60,
+                        "Chi phí cố định khác": 6937.10
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 34094.90,
+                        "Chi phí quần áo": 11248.80,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 7132.60,
+                        "Chi phí không cố định khác": 37372.50
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 87310.50,
+                    "Phí chăm sóc sức khỏe": 79497.00,
+                    "Phí phương tiện đi lại": 19641.20,
+                    "Phí dịch vụ giải trí": 19522.90,
+                    "Phí dịch vụ ăn uống và lưu trú": 34056.10,
+                    "Phí dịch vụ tài chính và bảo hiểm": 44286.90,
+                    "Các dịch vụ khác": 43695.00
+                }
+            }
         },
         {
-            "State":"Michigan",
-            "Personal consumption expenditures":524045.10,
-            "Goods":170994.40,
-            "Durable goods":58310.60,
-            "Motor vehicles and parts":20372.30,
-            "Furnishings and durable household equipment":12381.80,
-            "Recreational goods and vehicles":17275.60,
-            "Other durable goods":8280.90,
-            "Nondurable goods":112683.80,
-            "Food and beverages purchased for off-premises consumption":41871.10,
-            "Clothing and footwear":13563.80,
-            "Gasoline and other energy goods":14547.80,
-            "Other nondurable goods":42701.00,
-            "Services":353050.80,
-            "Household consumption expenditures (for services)":327188.00,
-            "Housing and utilities":88426.00,
-            "Health care":84124.90,
-            "Transportation services":14246.90,
-            "Recreation services":16146.30,
-            "Food services and accommodations":32239.80,
-            "Financial services and insurance":52745.10,
-            "Other services":39259.00,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":25862.70,
-            "Gross output of nonprofit institutions":69623.10,
-            "Less Receipts from sales of goods and services by nonprofit institutions":43760.40
+            "State": "Michigan",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 20372.30,
+                        "Đồ nội thất và thiết bị gia dụng": 12381.80,
+                        "Chi phí mua mới thiết bị, phương tiện": 17275.60,
+                        "Chi phí cố định khác": 8280.90
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 41871.10,
+                        "Chi phí quần áo": 13563.80,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 14547.80,
+                        "Chi phí không cố định khác": 42701.00
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 88426.00,
+                    "Phí chăm sóc sức khỏe": 84124.90,
+                    "Phí phương tiện đi lại": 14246.90,
+                    "Phí dịch vụ giải trí": 16146.30,
+                    "Phí dịch vụ ăn uống và lưu trú": 32239.80,
+                    "Phí dịch vụ tài chính và bảo hiểm": 52745.10,
+                    "Các dịch vụ khác": 39259.00
+                }
+            }
         },
         {
-            "State":"Minnesota",
-            "Personal consumption expenditures":324127.60,
-            "Goods":102212.40,
-            "Durable goods":41641.50,
-            "Motor vehicles and parts":14586.80,
-            "Furnishings and durable household equipment":7528.30,
-            "Recreational goods and vehicles":15514.50,
-            "Other durable goods":4012.00,
-            "Nondurable goods":60571.00,
-            "Food and beverages purchased for off-premises consumption":21352.80,
-            "Clothing and footwear":8407.50,
-            "Gasoline and other energy goods":9045.50,
-            "Other nondurable goods":21765.30,
-            "Services":221915.20,
-            "Household consumption expenditures (for services)":208872.30,
-            "Housing and utilities":57555.40,
-            "Health care":56455.80,
-            "Transportation services":9989.00,
-            "Recreation services":10561.50,
-            "Food services and accommodations":19325.10,
-            "Financial services and insurance":26136.30,
-            "Other services":28849.20,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":13042.90,
-            "Gross output of nonprofit institutions":43262.20,
-            "Less Receipts from sales of goods and services by nonprofit institutions":30219.30
+            "State": "Minnesota",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 14586.80,
+                        "Đồ nội thất và thiết bị gia dụng": 7528.30,
+                        "Chi phí mua mới thiết bị, phương tiện": 15514.50,
+                        "Chi phí cố định khác": 4012.00
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 21352.80,
+                        "Chi phí quần áo": 8407.50,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 9045.50,
+                        "Chi phí không cố định khác": 21765.30
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 57555.40,
+                    "Phí chăm sóc sức khỏe": 56455.80,
+                    "Phí phương tiện đi lại": 9989.00,
+                    "Phí dịch vụ giải trí": 10561.50,
+                    "Phí dịch vụ ăn uống và lưu trú": 19325.10,
+                    "Phí dịch vụ tài chính và bảo hiểm": 26136.30,
+                    "Các dịch vụ khác": 28849.20
+                }
+            }
         },
         {
-            "State":"Mississippi",
-            "Personal consumption expenditures":123851.10,
-            "Goods":46159.90,
-            "Durable goods":14211.10,
-            "Motor vehicles and parts":6418.60,
-            "Furnishings and durable household equipment":3141.00,
-            "Recreational goods and vehicles":2786.50,
-            "Other durable goods":1865.10,
-            "Nondurable goods":31948.80,
-            "Food and beverages purchased for off-premises consumption":11823.70,
-            "Clothing and footwear":3844.50,
-            "Gasoline and other energy goods":4588.90,
-            "Other nondurable goods":11691.80,
-            "Services":77691.20,
-            "Household consumption expenditures (for services)":74865.40,
-            "Housing and utilities":20646.00,
-            "Health care":22473.00,
-            "Transportation services":2993.30,
-            "Recreation services":3445.00,
-            "Food services and accommodations":9293.70,
-            "Financial services and insurance":7996.30,
-            "Other services":8018.20,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":2825.80,
-            "Gross output of nonprofit institutions":12653.40,
-            "Less Receipts from sales of goods and services by nonprofit institutions":9827.70
+            "State": "Mississippi",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 6418.60,
+                        "Đồ nội thất và thiết bị gia dụng": 3141.00,
+                        "Chi phí mua mới thiết bị, phương tiện": 2786.50,
+                        "Chi phí cố định khác": 1865.10
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 11823.70,
+                        "Chi phí quần áo": 3844.50,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 4588.90,
+                        "Chi phí không cố định khác": 11691.80
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 20646.00,
+                    "Phí chăm sóc sức khỏe": 22473.00,
+                    "Phí phương tiện đi lại": 2993.30,
+                    "Phí dịch vụ giải trí": 3445.00,
+                    "Phí dịch vụ ăn uống và lưu trú": 9293.70,
+                    "Phí dịch vụ tài chính và bảo hiểm": 7996.30,
+                    "Các dịch vụ khác": 8018.20
+                }
+            }
         },
         {
-            "State":"Missouri",
-            "Personal consumption expenditures":322803.90,
-            "Goods":110154.20,
-            "Durable goods":35836.50,
-            "Motor vehicles and parts":15655.30,
-            "Furnishings and durable household equipment":7731.50,
-            "Recreational goods and vehicles":8347.90,
-            "Other durable goods":4101.70,
-            "Nondurable goods":74317.70,
-            "Food and beverages purchased for off-premises consumption":24630.90,
-            "Clothing and footwear":8005.90,
-            "Gasoline and other energy goods":12519.10,
-            "Other nondurable goods":29161.70,
-            "Services":212649.70,
-            "Household consumption expenditures (for services)":203013.30,
-            "Housing and utilities":47901.90,
-            "Health care":58085.60,
-            "Transportation services":10022.40,
-            "Recreation services":12597.10,
-            "Food services and accommodations":22107.60,
-            "Financial services and insurance":26354.10,
-            "Other services":25944.50,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":9636.40,
-            "Gross output of nonprofit institutions":33683.30,
-            "Less Receipts from sales of goods and services by nonprofit institutions":24046.90
+            "State": "Missouri",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 15655.30,
+                        "Đồ nội thất và thiết bị gia dụng": 7731.50,
+                        "Chi phí mua mới thiết bị, phương tiện": 8347.90,
+                        "Chi phí cố định khác": 4101.70
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 24630.90,
+                        "Chi phí quần áo": 8005.90,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 12519.10,
+                        "Chi phí không cố định khác": 29161.70
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 47901.90,
+                    "Phí chăm sóc sức khỏe": 58085.60,
+                    "Phí phương tiện đi lại": 10022.40,
+                    "Phí dịch vụ giải trí": 12597.10,
+                    "Phí dịch vụ ăn uống và lưu trú": 22107.60,
+                    "Phí dịch vụ tài chính và bảo hiểm": 26354.10,
+                    "Các dịch vụ khác": 25944.50
+                }
+            }
         },
         {
-            "State":"Montana",
-            "Personal consumption expenditures":62603.20,
-            "Goods":21677.90,
-            "Durable goods":8350.20,
-            "Motor vehicles and parts":3458.40,
-            "Furnishings and durable household equipment":1682.60,
-            "Recreational goods and vehicles":2357.30,
-            "Other durable goods":851.90,
-            "Nondurable goods":13327.70,
-            "Food and beverages purchased for off-premises consumption":5615.80,
-            "Clothing and footwear":1342.20,
-            "Gasoline and other energy goods":1949.80,
-            "Other nondurable goods":4420.00,
-            "Services":40925.30,
-            "Household consumption expenditures (for services)":38840.60,
-            "Housing and utilities":10687.30,
-            "Health care":10287.60,
-            "Transportation services":2394.70,
-            "Recreation services":2839.50,
-            "Food services and accommodations":4491.40,
-            "Financial services and insurance":4177.80,
-            "Other services":3962.30,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":2084.70,
-            "Gross output of nonprofit institutions":6538.70,
-            "Less Receipts from sales of goods and services by nonprofit institutions":4454.00
+            "State": "Montana",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 3458.40,
+                        "Đồ nội thất và thiết bị gia dụng": 1682.60,
+                        "Chi phí mua mới thiết bị, phương tiện": 2357.30,
+                        "Chi phí cố định khác": 851.90
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 5615.80,
+                        "Chi phí quần áo": 1342.20,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 1949.80,
+                        "Chi phí không cố định khác": 4420.00
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 10687.30,
+                    "Phí chăm sóc sức khỏe": 10287.60,
+                    "Phí phương tiện đi lại": 2394.70,
+                    "Phí dịch vụ giải trí": 2839.50,
+                    "Phí dịch vụ ăn uống và lưu trú": 4491.40,
+                    "Phí dịch vụ tài chính và bảo hiểm": 4177.80,
+                    "Các dịch vụ khác": 3962.30
+                }
+            }
         },
         {
-            "State":"Nebraska",
-            "Personal consumption expenditures":103226.10,
-            "Goods":35235.60,
-            "Durable goods":13230.00,
-            "Motor vehicles and parts":5783.50,
-            "Furnishings and durable household equipment":2461.20,
-            "Recreational goods and vehicles":3400.90,
-            "Other durable goods":1584.40,
-            "Nondurable goods":22005.60,
-            "Food and beverages purchased for off-premises consumption":7723.50,
-            "Clothing and footwear":2414.30,
-            "Gasoline and other energy goods":3941.50,
-            "Other nondurable goods":7926.30,
-            "Services":67990.50,
-            "Household consumption expenditures (for services)":64451.70,
-            "Housing and utilities":15343.80,
-            "Health care":18936.20,
-            "Transportation services":3394.80,
-            "Recreation services":2936.50,
-            "Food services and accommodations":6668.90,
-            "Financial services and insurance":9708.70,
-            "Other services":7462.70,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":3538.80,
-            "Gross output of nonprofit institutions":11832.10,
-            "Less Receipts from sales of goods and services by nonprofit institutions":8293.40
+            "State": "Nebraska",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 5783.50,
+                        "Đồ nội thất và thiết bị gia dụng": 2461.20,
+                        "Chi phí mua mới thiết bị, phương tiện": 3400.90,
+                        "Chi phí cố định khác": 1584.40
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 7723.50,
+                        "Chi phí quần áo": 2414.30,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 3941.50,
+                        "Chi phí không cố định khác": 7926.30
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 15343.80,
+                    "Phí chăm sóc sức khỏe": 18936.20,
+                    "Phí phương tiện đi lại": 3394.80,
+                    "Phí dịch vụ giải trí": 2936.50,
+                    "Phí dịch vụ ăn uống và lưu trú": 6668.90,
+                    "Phí dịch vụ tài chính và bảo hiểm": 9708.70,
+                    "Các dịch vụ khác": 7462.70
+                }
+            }
         },
         {
-            "State":"Nevada",
-            "Personal consumption expenditures":172657.60,
-            "Goods":59342.40,
-            "Durable goods":21094.60,
-            "Motor vehicles and parts":7203.30,
-            "Furnishings and durable household equipment":4835.50,
-            "Recreational goods and vehicles":6368.80,
-            "Other durable goods":2686.90,
-            "Nondurable goods":38247.90,
-            "Food and beverages purchased for off-premises consumption":14573.10,
-            "Clothing and footwear":4617.70,
-            "Gasoline and other energy goods":4074.40,
-            "Other nondurable goods":14982.70,
-            "Services":113315.10,
-            "Household consumption expenditures (for services)":107836.80,
-            "Housing and utilities":32994.00,
-            "Health care":22993.20,
-            "Transportation services":5045.80,
-            "Recreation services":7465.70,
-            "Food services and accommodations":13144.00,
-            "Financial services and insurance":14459.20,
-            "Other services":11734.80,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":5478.40,
-            "Gross output of nonprofit institutions":16915.30,
-            "Less Receipts from sales of goods and services by nonprofit institutions":11436.90
+            "State": "Nevada",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 7203.30,
+                        "Đồ nội thất và thiết bị gia dụng": 4835.50,
+                        "Chi phí mua mới thiết bị, phương tiện": 6368.80,
+                        "Chi phí cố định khác": 2686.90
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 14573.10,
+                        "Chi phí quần áo": 4617.70,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 4074.40,
+                        "Chi phí không cố định khác": 14982.70
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 32994.00,
+                    "Phí chăm sóc sức khỏe": 22993.20,
+                    "Phí phương tiện đi lại": 5045.80,
+                    "Phí dịch vụ giải trí": 7465.70,
+                    "Phí dịch vụ ăn uống và lưu trú": 13144.00,
+                    "Phí dịch vụ tài chính và bảo hiểm": 14459.20,
+                    "Các dịch vụ khác": 11734.80
+                }
+            }
         },
         {
-            "State":"New Hampshire",
-            "Personal consumption expenditures":92406.20,
-            "Goods":29663.50,
-            "Durable goods":10371.40,
-            "Motor vehicles and parts":4185.90,
-            "Furnishings and durable household equipment":2327.70,
-            "Recreational goods and vehicles":2525.20,
-            "Other durable goods":1332.60,
-            "Nondurable goods":19292.20,
-            "Food and beverages purchased for off-premises consumption":7565.00,
-            "Clothing and footwear":2427.00,
-            "Gasoline and other energy goods":2402.40,
-            "Other nondurable goods":6897.70,
-            "Services":62742.70,
-            "Household consumption expenditures (for services)":58567.50,
-            "Housing and utilities":16626.40,
-            "Health care":13860.20,
-            "Transportation services":2688.10,
-            "Recreation services":3792.10,
-            "Food services and accommodations":5772.80,
-            "Financial services and insurance":7967.80,
-            "Other services":7860.20,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":4175.20,
-            "Gross output of nonprofit institutions":11143.10,
-            "Less Receipts from sales of goods and services by nonprofit institutions":6967.90
+            "State": "New Hampshire",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 4185.90,
+                        "Đồ nội thất và thiết bị gia dụng": 2327.70,
+                        "Chi phí mua mới thiết bị, phương tiện": 2525.20,
+                        "Chi phí cố định khác": 1332.60
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 7565.00,
+                        "Chi phí quần áo": 2427.00,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 2402.40,
+                        "Chi phí không cố định khác": 6897.70
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 16626.40,
+                    "Phí chăm sóc sức khỏe": 13860.20,
+                    "Phí phương tiện đi lại": 2688.10,
+                    "Phí dịch vụ giải trí": 3792.10,
+                    "Phí dịch vụ ăn uống và lưu trú": 5772.80,
+                    "Phí dịch vụ tài chính và bảo hiểm": 7967.80,
+                    "Các dịch vụ khác": 7860.20
+                }
+            }
         },
         {
-            "State":"New Jersey",
-            "Personal consumption expenditures":592882.20,
-            "Goods":183838.90,
-            "Durable goods":59985.20,
-            "Motor vehicles and parts":18530.60,
-            "Furnishings and durable household equipment":15398.30,
-            "Recreational goods and vehicles":16739.40,
-            "Other durable goods":9316.90,
-            "Nondurable goods":123853.70,
-            "Food and beverages purchased for off-premises consumption":41178.80,
-            "Clothing and footwear":17416.30,
-            "Gasoline and other energy goods":11502.50,
-            "Other nondurable goods":53756.00,
-            "Services":409043.30,
-            "Household consumption expenditures (for services)":372800.10,
-            "Housing and utilities":105963.30,
-            "Health care":90701.30,
-            "Transportation services":17252.70,
-            "Recreation services":22396.80,
-            "Food services and accommodations":37903.30,
-            "Financial services and insurance":46248.20,
-            "Other services":52334.50,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":36243.10,
-            "Gross output of nonprofit institutions":91479.00,
-            "Less Receipts from sales of goods and services by nonprofit institutions":55235.80
+            "State": "New Jersey",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 18530.60,
+                        "Đồ nội thất và thiết bị gia dụng": 15398.30,
+                        "Chi phí mua mới thiết bị, phương tiện": 16739.40,
+                        "Chi phí cố định khác": 9316.90
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 41178.80,
+                        "Chi phí quần áo": 17416.30,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 11502.50,
+                        "Chi phí không cố định khác": 53756.00
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 105963.30,
+                    "Phí chăm sóc sức khỏe": 90701.30,
+                    "Phí phương tiện đi lại": 17252.70,
+                    "Phí dịch vụ giải trí": 22396.80,
+                    "Phí dịch vụ ăn uống và lưu trú": 37903.30,
+                    "Phí dịch vụ tài chính và bảo hiểm": 46248.20,
+                    "Các dịch vụ khác": 52334.50
+                }
+            }
         },
         {
-            "State":"New Mexico",
-            "Personal consumption expenditures":97420.90,
-            "Goods":33157.30,
-            "Durable goods":11271.60,
-            "Motor vehicles and parts":4809.30,
-            "Furnishings and durable household equipment":2510.20,
-            "Recreational goods and vehicles":2187.00,
-            "Other durable goods":1765.20,
-            "Nondurable goods":21885.60,
-            "Food and beverages purchased for off-premises consumption":8523.30,
-            "Clothing and footwear":2325.00,
-            "Gasoline and other energy goods":3239.20,
-            "Other nondurable goods":7798.20,
-            "Services":64263.60,
-            "Household consumption expenditures (for services)":60975.90,
-            "Housing and utilities":17263.10,
-            "Health care":16911.60,
-            "Transportation services":2458.40,
-            "Recreation services":3017.80,
-            "Food services and accommodations":8313.30,
-            "Financial services and insurance":6982.90,
-            "Other services":6028.80,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":3287.70,
-            "Gross output of nonprofit institutions":11607.40,
-            "Less Receipts from sales of goods and services by nonprofit institutions":8319.60
+            "State": "New Mexico",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 4809.30,
+                        "Đồ nội thất và thiết bị gia dụng": 2510.20,
+                        "Chi phí mua mới thiết bị, phương tiện": 2187.00,
+                        "Chi phí cố định khác": 1765.20
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 8523.30,
+                        "Chi phí quần áo": 2325.00,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 3239.20,
+                        "Chi phí không cố định khác": 7798.20
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 17263.10,
+                    "Phí chăm sóc sức khỏe": 16911.60,
+                    "Phí phương tiện đi lại": 2458.40,
+                    "Phí dịch vụ giải trí": 3017.80,
+                    "Phí dịch vụ ăn uống và lưu trú": 8313.30,
+                    "Phí dịch vụ tài chính và bảo hiểm": 6982.90,
+                    "Các dịch vụ khác": 6028.80
+                }
+            }
         },
         {
-            "State":"New York",
-            "Personal consumption expenditures":1248145.30,
-            "Goods":353418.40,
-            "Durable goods":107141.30,
-            "Motor vehicles and parts":31822.30,
-            "Furnishings and durable household equipment":27654.40,
-            "Recreational goods and vehicles":30877.50,
-            "Other durable goods":16787.00,
-            "Nondurable goods":246277.10,
-            "Food and beverages purchased for off-premises consumption":83729.50,
-            "Clothing and footwear":34516.80,
-            "Gasoline and other energy goods":17129.40,
-            "Other nondurable goods":110901.30,
-            "Services":894726.90,
-            "Household consumption expenditures (for services)":844434.80,
-            "Housing and utilities":222128.90,
-            "Health care":222002.90,
-            "Transportation services":44918.40,
-            "Recreation services":42637.40,
-            "Food services and accommodations":90759.40,
-            "Financial services and insurance":102857.00,
-            "Other services":119130.80,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":50292.00,
-            "Gross output of nonprofit institutions":172715.80,
-            "Less Receipts from sales of goods and services by nonprofit institutions":122423.80
+            "State": "New York",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 31822.30,
+                        "Đồ nội thất và thiết bị gia dụng": 27654.40,
+                        "Chi phí mua mới thiết bị, phương tiện": 30877.50,
+                        "Chi phí cố định khác": 16787.00
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 83729.50,
+                        "Chi phí quần áo": 34516.80,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 17129.40,
+                        "Chi phí không cố định khác": 110901.30
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 222128.90,
+                    "Phí chăm sóc sức khỏe": 222002.90,
+                    "Phí phương tiện đi lại": 44918.40,
+                    "Phí dịch vụ giải trí": 42637.40,
+                    "Phí dịch vụ ăn uống và lưu trú": 90759.40,
+                    "Phí dịch vụ tài chính và bảo hiểm": 102857.00,
+                    "Các dịch vụ khác": 119130.80
+                }
+            }
         },
         {
-            "State":"North Carolina",
-            "Personal consumption expenditures":553487.40,
-            "Goods":203634.00,
-            "Durable goods":75884.50,
-            "Motor vehicles and parts":26798.20,
-            "Furnishings and durable household equipment":16399.80,
-            "Recreational goods and vehicles":24021.40,
-            "Other durable goods":8665.00,
-            "Nondurable goods":127749.50,
-            "Food and beverages purchased for off-premises consumption":46283.80,
-            "Clothing and footwear":15619.50,
-            "Gasoline and other energy goods":15161.90,
-            "Other nondurable goods":50684.30,
-            "Services":349853.40,
-            "Household consumption expenditures (for services)":348850.80,
-            "Housing and utilities":96001.80,
-            "Health care":88481.50,
-            "Transportation services":15131.70,
-            "Recreation services":21320.70,
-            "Food services and accommodations":40174.40,
-            "Financial services and insurance":39662.20,
-            "Other services":48078.40,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":1002.60,
-            "Gross output of nonprofit institutions":43381.60,
-            "Less Receipts from sales of goods and services by nonprofit institutions":42379.00
+            "State": "North Carolina",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 26798.20,
+                        "Đồ nội thất và thiết bị gia dụng": 16399.80,
+                        "Chi phí mua mới thiết bị, phương tiện": 24021.40,
+                        "Chi phí cố định khác": 8665.00
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 46283.80,
+                        "Chi phí quần áo": 15619.50,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 15161.90,
+                        "Chi phí không cố định khác": 50684.30
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 96001.80,
+                    "Phí chăm sóc sức khỏe": 88481.50,
+                    "Phí phương tiện đi lại": 15131.70,
+                    "Phí dịch vụ giải trí": 21320.70,
+                    "Phí dịch vụ ăn uống và lưu trú": 40174.40,
+                    "Phí dịch vụ tài chính và bảo hiểm": 39662.20,
+                    "Các dịch vụ khác": 48078.40
+                }
+            }
         },
         {
-            "State":"North Dakota",
-            "Personal consumption expenditures":43727.50,
-            "Goods":14083.60,
-            "Durable goods":5591.80,
-            "Motor vehicles and parts":2044.70,
-            "Furnishings and durable household equipment":1153.90,
-            "Recreational goods and vehicles":1825.90,
-            "Other durable goods":567.30,
-            "Nondurable goods":8491.80,
-            "Food and beverages purchased for off-premises consumption":2974.00,
-            "Clothing and footwear":1175.30,
-            "Gasoline and other energy goods":887.90,
-            "Other nondurable goods":3454.60,
-            "Services":29643.90,
-            "Household consumption expenditures (for services)":27684.30,
-            "Housing and utilities":5957.10,
-            "Health care":8688.90,
-            "Transportation services":1428.10,
-            "Recreation services":1266.70,
-            "Food services and accommodations":3020.60,
-            "Financial services and insurance":3948.00,
-            "Other services":3374.90,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":1959.70,
-            "Gross output of nonprofit institutions":5094.80,
-            "Less Receipts from sales of goods and services by nonprofit institutions":3135.10
+            "State": "North Dakota",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 2044.70,
+                        "Đồ nội thất và thiết bị gia dụng": 1153.90,
+                        "Chi phí mua mới thiết bị, phương tiện": 1825.90,
+                        "Chi phí cố định khác": 567.30
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 2974.00,
+                        "Chi phí quần áo": 1175.30,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 887.90,
+                        "Chi phí không cố định khác": 3454.60
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 5957.10,
+                    "Phí chăm sóc sức khỏe": 8688.90,
+                    "Phí phương tiện đi lại": 1428.10,
+                    "Phí dịch vụ giải trí": 1266.70,
+                    "Phí dịch vụ ăn uống và lưu trú": 3020.60,
+                    "Phí dịch vụ tài chính và bảo hiểm": 3948.00,
+                    "Các dịch vụ khác": 3374.90
+                }
+            }
         },
         {
-            "State":"Ohio",
-            "Personal consumption expenditures":596162.70,
-            "Goods":203944.90,
-            "Durable goods":70215.60,
-            "Motor vehicles and parts":25584.10,
-            "Furnishings and durable household equipment":15602.50,
-            "Recreational goods and vehicles":20345.50,
-            "Other durable goods":8683.50,
-            "Nondurable goods":133729.30,
-            "Food and beverages purchased for off-premises consumption":49181.20,
-            "Clothing and footwear":15181.50,
-            "Gasoline and other energy goods":16559.10,
-            "Other nondurable goods":52807.40,
-            "Services":392217.90,
-            "Household consumption expenditures (for services)":365651.20,
-            "Housing and utilities":93458.20,
-            "Health care":112203.40,
-            "Transportation services":14234.30,
-            "Recreation services":21197.10,
-            "Food services and accommodations":38767.50,
-            "Financial services and insurance":42325.70,
-            "Other services":43465.10,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":26566.60,
-            "Gross output of nonprofit institutions":78103.10,
-            "Less Receipts from sales of goods and services by nonprofit institutions":51536.50
+            "State": "Ohio",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 25584.10,
+                        "Đồ nội thất và thiết bị gia dụng": 15602.50,
+                        "Chi phí mua mới thiết bị, phương tiện": 20345.50,
+                        "Chi phí cố định khác": 8683.50
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 49181.20,
+                        "Chi phí quần áo": 15181.50,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 16559.10,
+                        "Chi phí không cố định khác": 52807.40
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 93458.20,
+                    "Phí chăm sóc sức khỏe": 112203.40,
+                    "Phí phương tiện đi lại": 14234.30,
+                    "Phí dịch vụ giải trí": 21197.10,
+                    "Phí dịch vụ ăn uống và lưu trú": 38767.50,
+                    "Phí dịch vụ tài chính và bảo hiểm": 42325.70,
+                    "Các dịch vụ khác": 43465.10
+                }
+            }
         },
         {
-            "State":"Oklahoma",
-            "Personal consumption expenditures":179981.10,
-            "Goods":64966.90,
-            "Durable goods":23483.30,
-            "Motor vehicles and parts":11134.30,
-            "Furnishings and durable household equipment":4884.60,
-            "Recreational goods and vehicles":4894.90,
-            "Other durable goods":2569.40,
-            "Nondurable goods":41483.60,
-            "Food and beverages purchased for off-premises consumption":13272.90,
-            "Clothing and footwear":5736.00,
-            "Gasoline and other energy goods":7034.20,
-            "Other nondurable goods":15440.50,
-            "Services":115014.20,
-            "Household consumption expenditures (for services)":113697.80,
-            "Housing and utilities":29611.00,
-            "Health care":33975.90,
-            "Transportation services":4595.60,
-            "Recreation services":5383.90,
-            "Food services and accommodations":14106.50,
-            "Financial services and insurance":13024.40,
-            "Other services":13000.50,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":1316.40,
-            "Gross output of nonprofit institutions":19256.90,
-            "Less Receipts from sales of goods and services by nonprofit institutions":17940.50
+            "State": "Oklahoma",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 11134.30,
+                        "Đồ nội thất và thiết bị gia dụng": 4884.60,
+                        "Chi phí mua mới thiết bị, phương tiện": 4894.90,
+                        "Chi phí cố định khác": 2569.40
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 13272.90,
+                        "Chi phí quần áo": 5736.00,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 7034.20,
+                        "Chi phí không cố định khác": 15440.50
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 29611.00,
+                    "Phí chăm sóc sức khỏe": 33975.90,
+                    "Phí phương tiện đi lại": 4595.60,
+                    "Phí dịch vụ giải trí": 5383.90,
+                    "Phí dịch vụ ăn uống và lưu trú": 14106.50,
+                    "Phí dịch vụ tài chính và bảo hiểm": 13024.40,
+                    "Các dịch vụ khác": 13000.50
+                }
+            }
         },
         {
-            "State":"Oregon",
-            "Personal consumption expenditures":234577.70,
-            "Goods":80795.40,
-            "Durable goods":30678.20,
-            "Motor vehicles and parts":9329.60,
-            "Furnishings and durable household equipment":7034.40,
-            "Recreational goods and vehicles":11049.10,
-            "Other durable goods":3265.10,
-            "Nondurable goods":50117.20,
-            "Food and beverages purchased for off-premises consumption":20884.50,
-            "Clothing and footwear":7055.10,
-            "Gasoline and other energy goods":5548.80,
-            "Other nondurable goods":16628.80,
-            "Services":153782.40,
-            "Household consumption expenditures (for services)":146396.90,
-            "Housing and utilities":42355.20,
-            "Health care":38757.70,
-            "Transportation services":7653.20,
-            "Recreation services":9071.70,
-            "Food services and accommodations":17359.00,
-            "Financial services and insurance":14657.90,
-            "Other services":16542.10,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":7385.40,
-            "Gross output of nonprofit institutions":27072.00,
-            "Less Receipts from sales of goods and services by nonprofit institutions":19686.50
+            "State": "Oregon",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 9329.60,
+                        "Đồ nội thất và thiết bị gia dụng": 7034.40,
+                        "Chi phí mua mới thiết bị, phương tiện": 11049.10,
+                        "Chi phí cố định khác": 3265.10
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 20884.50,
+                        "Chi phí quần áo": 7055.10,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 5548.80,
+                        "Chi phí không cố định khác": 16628.80
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 42355.20,
+                    "Phí chăm sóc sức khỏe": 38757.70,
+                    "Phí phương tiện đi lại": 7653.20,
+                    "Phí dịch vụ giải trí": 9071.70,
+                    "Phí dịch vụ ăn uống và lưu trú": 17359.00,
+                    "Phí dịch vụ tài chính và bảo hiểm": 14657.90,
+                    "Các dịch vụ khác": 16542.10
+                }
+            }
         },
         {
-            "State":"Pennsylvania",
-            "Personal consumption expenditures":738929.80,
-            "Goods":239534.20,
-            "Durable goods":81778.60,
-            "Motor vehicles and parts":27008.70,
-            "Furnishings and durable household equipment":18396.00,
-            "Recreational goods and vehicles":26427.10,
-            "Other durable goods":9946.70,
-            "Nondurable goods":157755.60,
-            "Food and beverages purchased for off-premises consumption":54454.80,
-            "Clothing and footwear":18308.90,
-            "Gasoline and other energy goods":19066.90,
-            "Other nondurable goods":65925.00,
-            "Services":499395.60,
-            "Household consumption expenditures (for services)":469557.30,
-            "Housing and utilities":118551.60,
-            "Health care":124547.40,
-            "Transportation services":20474.00,
-            "Recreation services":26387.10,
-            "Food services and accommodations":43636.00,
-            "Financial services and insurance":58100.60,
-            "Other services":77860.60,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":29838.30,
-            "Gross output of nonprofit institutions":88092.60,
-            "Less Receipts from sales of goods and services by nonprofit institutions":58254.30
+            "State": "Pennsylvania",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 27008.70,
+                        "Đồ nội thất và thiết bị gia dụng": 18396.00,
+                        "Chi phí mua mới thiết bị, phương tiện": 26427.10,
+                        "Chi phí cố định khác": 9946.70
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 54454.80,
+                        "Chi phí quần áo": 18308.90,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 19066.90,
+                        "Chi phí không cố định khác": 65925.00
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 118551.60,
+                    "Phí chăm sóc sức khỏe": 124547.40,
+                    "Phí phương tiện đi lại": 20474.00,
+                    "Phí dịch vụ giải trí": 26387.10,
+                    "Phí dịch vụ ăn uống và lưu trú": 43636.00,
+                    "Phí dịch vụ tài chính và bảo hiểm": 58100.60,
+                    "Các dịch vụ khác": 77860.60
+                }
+            }
         },
         {
-            "State":"Rhode Island",
-            "Personal consumption expenditures":61337.80,
-            "Goods":18033.90,
-            "Durable goods":5757.30,
-            "Motor vehicles and parts":2127.60,
-            "Furnishings and durable household equipment":1396.90,
-            "Recreational goods and vehicles":1361.00,
-            "Other durable goods":871.90,
-            "Nondurable goods":12276.60,
-            "Food and beverages purchased for off-premises consumption":4951.40,
-            "Clothing and footwear":1343.50,
-            "Gasoline and other energy goods":1053.40,
-            "Other nondurable goods":4928.30,
-            "Services":43303.90,
-            "Household consumption expenditures (for services)":40657.70,
-            "Housing and utilities":11095.50,
-            "Health care":10170.00,
-            "Transportation services":2551.50,
-            "Recreation services":2426.90,
-            "Food services and accommodations":5283.60,
-            "Financial services and insurance":4249.00,
-            "Other services":4881.20,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":2646.20,
-            "Gross output of nonprofit institutions":7069.90,
-            "Less Receipts from sales of goods and services by nonprofit institutions":4423.70
+            "State": "Rhode Island",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 2127.60,
+                        "Đồ nội thất và thiết bị gia dụng": 1396.90,
+                        "Chi phí mua mới thiết bị, phương tiện": 1361.00,
+                        "Chi phí cố định khác": 871.90
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 4951.40,
+                        "Chi phí quần áo": 1343.50,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 1053.40,
+                        "Chi phí không cố định khác": 4928.30
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 11095.50,
+                    "Phí chăm sóc sức khỏe": 10170.00,
+                    "Phí phương tiện đi lại": 2551.50,
+                    "Phí dịch vụ giải trí": 2426.90,
+                    "Phí dịch vụ ăn uống và lưu trú": 5283.60,
+                    "Phí dịch vụ tài chính và bảo hiểm": 4249.00,
+                    "Các dịch vụ khác": 4881.20
+                }
+            }
         },
         {
-            "State":"South Carolina",
-            "Personal consumption expenditures":264655.80,
-            "Goods":95662.50,
-            "Durable goods":31149.60,
-            "Motor vehicles and parts":13100.80,
-            "Furnishings and durable household equipment":7429.20,
-            "Recreational goods and vehicles":6515.40,
-            "Other durable goods":4104.10,
-            "Nondurable goods":64512.90,
-            "Food and beverages purchased for off-premises consumption":23070.80,
-            "Clothing and footwear":7798.40,
-            "Gasoline and other energy goods":9717.70,
-            "Other nondurable goods":23926.10,
-            "Services":168993.30,
-            "Household consumption expenditures (for services)":164570.50,
-            "Housing and utilities":50617.30,
-            "Health care":38925.60,
-            "Transportation services":6990.20,
-            "Recreation services":10567.00,
-            "Food services and accommodations":21018.00,
-            "Financial services and insurance":16756.50,
-            "Other services":19695.90,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":4422.80,
-            "Gross output of nonprofit institutions":23042.90,
-            "Less Receipts from sales of goods and services by nonprofit institutions":18620.10
+            "State": "South Carolina",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 13100.80,
+                        "Đồ nội thất và thiết bị gia dụng": 7429.20,
+                        "Chi phí mua mới thiết bị, phương tiện": 6515.40,
+                        "Chi phí cố định khác": 4104.10
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 23070.80,
+                        "Chi phí quần áo": 7798.40,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 9717.70,
+                        "Chi phí không cố định khác": 23926.10
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 50617.30,
+                    "Phí chăm sóc sức khỏe": 38925.60,
+                    "Phí phương tiện đi lại": 6990.20,
+                    "Phí dịch vụ giải trí": 10567.00,
+                    "Phí dịch vụ ăn uống và lưu trú": 21018.00,
+                    "Phí dịch vụ tài chính và bảo hiểm": 16756.50,
+                    "Các dịch vụ khác": 19695.90
+                }
+            }
         },
         {
-            "State":"South Dakota",
-            "Personal consumption expenditures":47926.80,
-            "Goods":14344.50,
-            "Durable goods":5169.80,
-            "Motor vehicles and parts":2021.40,
-            "Furnishings and durable household equipment":1327.80,
-            "Recreational goods and vehicles":1255.40,
-            "Other durable goods":565.20,
-            "Nondurable goods":9174.70,
-            "Food and beverages purchased for off-premises consumption":3327.60,
-            "Clothing and footwear":1245.10,
-            "Gasoline and other energy goods":1138.50,
-            "Other nondurable goods":3463.60,
-            "Services":33582.20,
-            "Household consumption expenditures (for services)":31374.70,
-            "Housing and utilities":7206.90,
-            "Health care":10582.20,
-            "Transportation services":1487.10,
-            "Recreation services":1904.80,
-            "Food services and accommodations":3362.30,
-            "Financial services and insurance":3355.30,
-            "Other services":3476.20,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":2207.50,
-            "Gross output of nonprofit institutions":6752.80,
-            "Less Receipts from sales of goods and services by nonprofit institutions":4545.20
+            "State": "South Dakota",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 2021.40,
+                        "Đồ nội thất và thiết bị gia dụng": 1327.80,
+                        "Chi phí mua mới thiết bị, phương tiện": 1255.40,
+                        "Chi phí cố định khác": 565.20
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 3327.60,
+                        "Chi phí quần áo": 1245.10,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 1138.50,
+                        "Chi phí không cố định khác": 3463.60
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 7206.90,
+                    "Phí chăm sóc sức khỏe": 10582.20,
+                    "Phí phương tiện đi lại": 1487.10,
+                    "Phí dịch vụ giải trí": 1904.80,
+                    "Phí dịch vụ ăn uống và lưu trú": 3362.30,
+                    "Phí dịch vụ tài chính và bảo hiểm": 3355.30,
+                    "Các dịch vụ khác": 3476.20
+                }
+            }
         },
         {
-            "State":"Tennessee",
-            "Personal consumption expenditures":351524.50,
-            "Goods":120706.30,
-            "Durable goods":40050.10,
-            "Motor vehicles and parts":16013.10,
-            "Furnishings and durable household equipment":9574.40,
-            "Recreational goods and vehicles":9688.80,
-            "Other durable goods":4773.70,
-            "Nondurable goods":80656.30,
-            "Food and beverages purchased for off-premises consumption":25485.30,
-            "Clothing and footwear":10340.50,
-            "Gasoline and other energy goods":10143.90,
-            "Other nondurable goods":34686.60,
-            "Services":230818.20,
-            "Household consumption expenditures (for services)":226165.40,
-            "Housing and utilities":61123.20,
-            "Health care":58753.00,
-            "Transportation services":10805.70,
-            "Recreation services":12866.10,
-            "Food services and accommodations":28014.80,
-            "Financial services and insurance":27063.80,
-            "Other services":27538.70,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":4652.80,
-            "Gross output of nonprofit institutions":30161.90,
-            "Less Receipts from sales of goods and services by nonprofit institutions":25509.10
+            "State": "Tennessee",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 16013.10,
+                        "Đồ nội thất và thiết bị gia dụng": 9574.40,
+                        "Chi phí mua mới thiết bị, phương tiện": 9688.80,
+                        "Chi phí cố định khác": 4773.70
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 25485.30,
+                        "Chi phí quần áo": 10340.50,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 10143.90,
+                        "Chi phí không cố định khác": 34686.60
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 61123.20,
+                    "Phí chăm sóc sức khỏe": 58753.00,
+                    "Phí phương tiện đi lại": 10805.70,
+                    "Phí dịch vụ giải trí": 12866.10,
+                    "Phí dịch vụ ăn uống và lưu trú": 28014.80,
+                    "Phí dịch vụ tài chính và bảo hiểm": 27063.80,
+                    "Các dịch vụ khác": 27538.70
+                }
+            }
         },
         {
-            "State":"Texas",
-            "Personal consumption expenditures":1595277.80,
-            "Goods":563393.40,
-            "Durable goods":208006.20,
-            "Motor vehicles and parts":83358.60,
-            "Furnishings and durable household equipment":43304.70,
-            "Recreational goods and vehicles":56561.50,
-            "Other durable goods":24781.40,
-            "Nondurable goods":355387.20,
-            "Food and beverages purchased for off-premises consumption":125775.50,
-            "Clothing and footwear":46415.50,
-            "Gasoline and other energy goods":45741.70,
-            "Other nondurable goods":137454.50,
-            "Services":1031884.40,
-            "Household consumption expenditures (for services)":1000981.20,
-            "Housing and utilities":287586.90,
-            "Health care":226069.90,
-            "Transportation services":48631.50,
-            "Recreation services":66983.80,
-            "Food services and accommodations":121188.40,
-            "Financial services and insurance":122469.00,
-            "Other services":128051.60,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":30903.20,
-            "Gross output of nonprofit institutions":136312.00,
-            "Less Receipts from sales of goods and services by nonprofit institutions":105408.80
+            "State": "Texas",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 83358.60,
+                        "Đồ nội thất và thiết bị gia dụng": 43304.70,
+                        "Chi phí mua mới thiết bị, phương tiện": 56561.50,
+                        "Chi phí cố định khác": 24781.40
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 125775.50,
+                        "Chi phí quần áo": 46415.50,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 45741.70,
+                        "Chi phí không cố định khác": 137454.50
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 287586.90,
+                    "Phí chăm sóc sức khỏe": 226069.90,
+                    "Phí phương tiện đi lại": 48631.50,
+                    "Phí dịch vụ giải trí": 66983.80,
+                    "Phí dịch vụ ăn uống và lưu trú": 121188.40,
+                    "Phí dịch vụ tài chính và bảo hiểm": 122469.00,
+                    "Các dịch vụ khác": 128051.60
+                }
+            }
         },
         {
-            "State":"Utah",
-            "Personal consumption expenditures":174395.80,
-            "Goods":67728.60,
-            "Durable goods":31327.00,
-            "Motor vehicles and parts":8678.10,
-            "Furnishings and durable household equipment":5536.80,
-            "Recreational goods and vehicles":14230.70,
-            "Other durable goods":2881.40,
-            "Nondurable goods":36401.70,
-            "Food and beverages purchased for off-premises consumption":13254.90,
-            "Clothing and footwear":4584.60,
-            "Gasoline and other energy goods":4950.90,
-            "Other nondurable goods":13611.20,
-            "Services":106667.20,
-            "Household consumption expenditures (for services)":102521.10,
-            "Housing and utilities":31512.30,
-            "Health care":23353.50,
-            "Transportation services":6026.20,
-            "Recreation services":6831.20,
-            "Food services and accommodations":11187.70,
-            "Financial services and insurance":12576.70,
-            "Other services":11033.60,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":4146.10,
-            "Gross output of nonprofit institutions":16819.10,
-            "Less Receipts from sales of goods and services by nonprofit institutions":12673.00
+            "State": "Utah",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 8678.10,
+                        "Đồ nội thất và thiết bị gia dụng": 5536.80,
+                        "Chi phí mua mới thiết bị, phương tiện": 14230.70,
+                        "Chi phí cố định khác": 2881.40
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 13254.90,
+                        "Chi phí quần áo": 4584.60,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 4950.90,
+                        "Chi phí không cố định khác": 13611.20
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 31512.30,
+                    "Phí chăm sóc sức khỏe": 23353.50,
+                    "Phí phương tiện đi lại": 6026.20,
+                    "Phí dịch vụ giải trí": 6831.20,
+                    "Phí dịch vụ ăn uống và lưu trú": 11187.70,
+                    "Phí dịch vụ tài chính và bảo hiểm": 12576.70,
+                    "Các dịch vụ khác": 11033.60
+                }
+            }
         },
         {
-            "State":"Vermont",
-            "Personal consumption expenditures":38173.00,
-            "Goods":12029.50,
-            "Durable goods":4024.00,
-            "Motor vehicles and parts":1736.50,
-            "Furnishings and durable household equipment":923.70,
-            "Recreational goods and vehicles":1010.20,
-            "Other durable goods":353.50,
-            "Nondurable goods":8005.50,
-            "Food and beverages purchased for off-premises consumption":3306.30,
-            "Clothing and footwear":694.80,
-            "Gasoline and other energy goods":1071.10,
-            "Other nondurable goods":2933.30,
-            "Services":26143.50,
-            "Household consumption expenditures (for services)":24082.60,
-            "Housing and utilities":6600.80,
-            "Health care":6758.40,
-            "Transportation services":1180.90,
-            "Recreation services":1516.70,
-            "Food services and accommodations":2688.90,
-            "Financial services and insurance":2284.60,
-            "Other services":3052.40,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":2060.90,
-            "Gross output of nonprofit institutions":4785.50,
-            "Less Receipts from sales of goods and services by nonprofit institutions":2724.60
+            "State": "Vermont",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 1736.50,
+                        "Đồ nội thất và thiết bị gia dụng": 923.70,
+                        "Chi phí mua mới thiết bị, phương tiện": 1010.20,
+                        "Chi phí cố định khác": 353.50
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 3306.30,
+                        "Chi phí quần áo": 694.80,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 1071.10,
+                        "Chi phí không cố định khác": 2933.30
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 6600.80,
+                    "Phí chăm sóc sức khỏe": 6758.40,
+                    "Phí phương tiện đi lại": 1180.90,
+                    "Phí dịch vụ giải trí": 1516.70,
+                    "Phí dịch vụ ăn uống và lưu trú": 2688.90,
+                    "Phí dịch vụ tài chính và bảo hiểm": 2284.60,
+                    "Các dịch vụ khác": 3052.40
+                }
+            }
         },
         {
-            "State":"Virginia",
-            "Personal consumption expenditures":486122.90,
-            "Goods":161534.80,
-            "Durable goods":56532.80,
-            "Motor vehicles and parts":18669.40,
-            "Furnishings and durable household equipment":12375.50,
-            "Recreational goods and vehicles":17583.60,
-            "Other durable goods":7904.30,
-            "Nondurable goods":105002.00,
-            "Food and beverages purchased for off-premises consumption":38253.20,
-            "Clothing and footwear":12971.80,
-            "Gasoline and other energy goods":12234.40,
-            "Other nondurable goods":41542.60,
-            "Services":324588.10,
-            "Household consumption expenditures (for services)":316086.00,
-            "Housing and utilities":89609.60,
-            "Health care":73508.20,
-            "Transportation services":14252.60,
-            "Recreation services":24524.10,
-            "Food services and accommodations":34688.30,
-            "Financial services and insurance":32712.10,
-            "Other services":46791.10,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":8502.10,
-            "Gross output of nonprofit institutions":49154.40,
-            "Less Receipts from sales of goods and services by nonprofit institutions":40652.30
+            "State": "Virginia",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 18669.40,
+                        "Đồ nội thất và thiết bị gia dụng": 12375.50,
+                        "Chi phí mua mới thiết bị, phương tiện": 17583.60,
+                        "Chi phí cố định khác": 7904.30
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 38253.20,
+                        "Chi phí quần áo": 12971.80,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 12234.40,
+                        "Chi phí không cố định khác": 41542.60
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 89609.60,
+                    "Phí chăm sóc sức khỏe": 73508.20,
+                    "Phí phương tiện đi lại": 14252.60,
+                    "Phí dịch vụ giải trí": 24524.10,
+                    "Phí dịch vụ ăn uống và lưu trú": 34688.30,
+                    "Phí dịch vụ tài chính và bảo hiểm": 32712.10,
+                    "Các dịch vụ khác": 46791.10
+                }
+            }
         },
         {
-            "State":"Washington",
-            "Personal consumption expenditures":472900.00,
-            "Goods":142875.30,
-            "Durable goods":55672.30,
-            "Motor vehicles and parts":15798.90,
-            "Furnishings and durable household equipment":11650.50,
-            "Recreational goods and vehicles":21943.50,
-            "Other durable goods":6279.40,
-            "Nondurable goods":87202.90,
-            "Food and beverages purchased for off-premises consumption":35494.00,
-            "Clothing and footwear":11363.90,
-            "Gasoline and other energy goods":8957.30,
-            "Other nondurable goods":31387.80,
-            "Services":330024.70,
-            "Household consumption expenditures (for services)":312373.40,
-            "Housing and utilities":92076.30,
-            "Health care":70415.00,
-            "Transportation services":21821.00,
-            "Recreation services":22096.90,
-            "Food services and accommodations":31901.00,
-            "Financial services and insurance":31554.30,
-            "Other services":42508.90,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":17651.30,
-            "Gross output of nonprofit institutions":51767.00,
-            "Less Receipts from sales of goods and services by nonprofit institutions":34115.70
+            "State": "Washington",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 15798.90,
+                        "Đồ nội thất và thiết bị gia dụng": 11650.50,
+                        "Chi phí mua mới thiết bị, phương tiện": 21943.50,
+                        "Chi phí cố định khác": 6279.40
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 35494.00,
+                        "Chi phí quần áo": 11363.90,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 8957.30,
+                        "Chi phí không cố định khác": 31387.80
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 92076.30,
+                    "Phí chăm sóc sức khỏe": 70415.00,
+                    "Phí phương tiện đi lại": 21821.00,
+                    "Phí dịch vụ giải trí": 22096.90,
+                    "Phí dịch vụ ăn uống và lưu trú": 31901.00,
+                    "Phí dịch vụ tài chính và bảo hiểm": 31554.30,
+                    "Các dịch vụ khác": 42508.90
+                }
+            }
         },
         {
-            "State":"West Virginia",
-            "Personal consumption expenditures":84235.10,
-            "Goods":27683.80,
-            "Durable goods":8133.20,
-            "Motor vehicles and parts":3910.20,
-            "Furnishings and durable household equipment":1927.90,
-            "Recreational goods and vehicles":1449.50,
-            "Other durable goods":845.50,
-            "Nondurable goods":19550.60,
-            "Food and beverages purchased for off-premises consumption":7590.40,
-            "Clothing and footwear":1895.30,
-            "Gasoline and other energy goods":2689.20,
-            "Other nondurable goods":7375.70,
-            "Services":56551.30,
-            "Household consumption expenditures (for services)":52593.30,
-            "Housing and utilities":12513.10,
-            "Health care":19628.30,
-            "Transportation services":1506.90,
-            "Recreation services":2136.00,
-            "Food services and accommodations":5201.50,
-            "Financial services and insurance":5502.20,
-            "Other services":6105.20,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":3958.00,
-            "Gross output of nonprofit institutions":9912.70,
-            "Less Receipts from sales of goods and services by nonprofit institutions":5954.80
+            "State": "West Virginia",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 3910.20,
+                        "Đồ nội thất và thiết bị gia dụng": 1927.90,
+                        "Chi phí mua mới thiết bị, phương tiện": 1449.50,
+                        "Chi phí cố định khác": 845.50
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 7590.40,
+                        "Chi phí quần áo": 1895.30,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 2689.20,
+                        "Chi phí không cố định khác": 7375.70
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 12513.10,
+                    "Phí chăm sóc sức khỏe": 19628.30,
+                    "Phí phương tiện đi lại": 1506.90,
+                    "Phí dịch vụ giải trí": 2136.00,
+                    "Phí dịch vụ ăn uống và lưu trú": 5201.50,
+                    "Phí dịch vụ tài chính và bảo hiểm": 5502.20,
+                    "Các dịch vụ khác": 6105.20
+                }
+            }
         },
         {
-            "State":"Wisconsin",
-            "Personal consumption expenditures":310876.10,
-            "Goods":107088.00,
-            "Durable goods":38583.50,
-            "Motor vehicles and parts":14713.80,
-            "Furnishings and durable household equipment":8056.60,
-            "Recreational goods and vehicles":12037.90,
-            "Other durable goods":3775.10,
-            "Nondurable goods":68504.50,
-            "Food and beverages purchased for off-premises consumption":23772.20,
-            "Clothing and footwear":7633.50,
-            "Gasoline and other energy goods":11505.60,
-            "Other nondurable goods":25593.20,
-            "Services":203788.10,
-            "Household consumption expenditures (for services)":190268.00,
-            "Housing and utilities":51235.70,
-            "Health care":55637.40,
-            "Transportation services":7982.70,
-            "Recreation services":10100.20,
-            "Food services and accommodations":19712.90,
-            "Financial services and insurance":24033.30,
-            "Other services":21565.90,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":13520.10,
-            "Gross output of nonprofit institutions":38125.40,
-            "Less Receipts from sales of goods and services by nonprofit institutions":24605.30
+            "State": "Wisconsin",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 14713.80,
+                        "Đồ nội thất và thiết bị gia dụng": 8056.60,
+                        "Chi phí mua mới thiết bị, phương tiện": 12037.90,
+                        "Chi phí cố định khác": 3775.10
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 23772.20,
+                        "Chi phí quần áo": 7633.50,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 11505.60,
+                        "Chi phí không cố định khác": 25593.20
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 51235.70,
+                    "Phí chăm sóc sức khỏe": 55637.40,
+                    "Phí phương tiện đi lại": 7982.70,
+                    "Phí dịch vụ giải trí": 10100.20,
+                    "Phí dịch vụ ăn uống và lưu trú": 19712.90,
+                    "Phí dịch vụ tài chính và bảo hiểm": 24033.30,
+                    "Các dịch vụ khác": 21565.90
+                }
+            }
         },
         {
-            "State":"Wyoming",
-            "Personal consumption expenditures":33256.80,
-            "Goods":10797.90,
-            "Durable goods":3574.40,
-            "Motor vehicles and parts":1698.20,
-            "Furnishings and durable household equipment":828.60,
-            "Recreational goods and vehicles":651.70,
-            "Other durable goods":395.90,
-            "Nondurable goods":7223.50,
-            "Food and beverages purchased for off-premises consumption":2859.40,
-            "Clothing and footwear":1107.10,
-            "Gasoline and other energy goods":1050.40,
-            "Other nondurable goods":2206.60,
-            "Services":22458.90,
-            "Household consumption expenditures (for services)":21736.50,
-            "Housing and utilities":5664.30,
-            "Health care":5285.80,
-            "Transportation services":1244.00,
-            "Recreation services":1234.00,
-            "Food services and accommodations":2227.80,
-            "Financial services and insurance":4208.60,
-            "Other services":1872.00,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":722.40,
-            "Gross output of nonprofit institutions":3444.50,
-            "Less Receipts from sales of goods and services by nonprofit institutions":2722.10
+            "State": "Wyoming",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 1698.20,
+                        "Đồ nội thất và thiết bị gia dụng": 828.60,
+                        "Chi phí mua mới thiết bị, phương tiện": 651.70,
+                        "Chi phí cố định khác": 395.90
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 2859.40,
+                        "Chi phí quần áo": 1107.10,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 1050.40,
+                        "Chi phí không cố định khác": 2206.60
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 5664.30,
+                    "Phí chăm sóc sức khỏe": 5285.80,
+                    "Phí phương tiện đi lại": 1244.00,
+                    "Phí dịch vụ giải trí": 1234.00,
+                    "Phí dịch vụ ăn uống và lưu trú": 2227.80,
+                    "Phí dịch vụ tài chính và bảo hiểm": 4208.60,
+                    "Các dịch vụ khác": 1872.00
+                }
+            }
         },
         {
-            "State":"New England",
-            "Personal consumption expenditures":995393.20,
-            "Goods":294057.40,
-            "Durable goods":100001.40,
-            "Motor vehicles and parts":32674.40,
-            "Furnishings and durable household equipment":23555.40,
-            "Recreational goods and vehicles":29991.40,
-            "Other durable goods":13780.20,
-            "Nondurable goods":194056.10,
-            "Food and beverages purchased for off-premises consumption":73470.70,
-            "Clothing and footwear":23065.10,
-            "Gasoline and other energy goods":18519.60,
-            "Other nondurable goods":79000.70,
-            "Services":701335.70,
-            "Household consumption expenditures (for services)":659809.70,
-            "Housing and utilities":178556.70,
-            "Health care":160875.60,
-            "Transportation services":36985.20,
-            "Recreation services":40478.30,
-            "Food services and accommodations":68742.90,
-            "Financial services and insurance":86193.20,
-            "Other services":87977.80,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":41526.10,
-            "Gross output of nonprofit institutions":120916.30,
-            "Less Receipts from sales of goods and services by nonprofit institutions":79390.20
+            "State": "New England",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 32674.40,
+                        "Đồ nội thất và thiết bị gia dụng": 23555.40,
+                        "Chi phí mua mới thiết bị, phương tiện": 29991.40,
+                        "Chi phí cố định khác": 13780.20
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 73470.70,
+                        "Chi phí quần áo": 23065.10,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 18519.60,
+                        "Chi phí không cố định khác": 79000.70
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 178556.70,
+                    "Phí chăm sóc sức khỏe": 160875.60,
+                    "Phí phương tiện đi lại": 36985.20,
+                    "Phí dịch vụ giải trí": 40478.30,
+                    "Phí dịch vụ ăn uống và lưu trú": 68742.90,
+                    "Phí dịch vụ tài chính và bảo hiểm": 86193.20,
+                    "Các dịch vụ khác": 87977.80
+                }
+            }
         },
         {
-            "State":"Mideast",
-            "Personal consumption expenditures":3048376.40,
-            "Goods":921250.40,
-            "Durable goods":298442.60,
-            "Motor vehicles and parts":93475.60,
-            "Furnishings and durable household equipment":72288.70,
-            "Recreational goods and vehicles":89713.50,
-            "Other durable goods":42964.90,
-            "Nondurable goods":622807.80,
-            "Food and beverages purchased for off-premises consumption":212509.40,
-            "Clothing and footwear":83060.70,
-            "Gasoline and other energy goods":58294.90,
-            "Other nondurable goods":268942.70,
-            "Services":2127126.00,
-            "Household consumption expenditures (for services)":1996270.40,
-            "Housing and utilities":535464.20,
-            "Health care":512306.40,
-            "Transportation services":97682.50,
-            "Recreation services":108227.40,
-            "Food services and accommodations":204607.30,
-            "Financial services and insurance":238291.30,
-            "Other services":299691.20,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":130855.60,
-            "Gross output of nonprofit institutions":408014.10,
-            "Less Receipts from sales of goods and services by nonprofit institutions":277158.50
+            "State": "Mideast",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 93475.60,
+                        "Đồ nội thất và thiết bị gia dụng": 72288.70,
+                        "Chi phí mua mới thiết bị, phương tiện": 89713.50,
+                        "Chi phí cố định khác": 42964.90
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 212509.40,
+                        "Chi phí quần áo": 83060.70,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 58294.90,
+                        "Chi phí không cố định khác": 268942.70
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 535464.20,
+                    "Phí chăm sóc sức khỏe": 512306.40,
+                    "Phí phương tiện đi lại": 97682.50,
+                    "Phí dịch vụ giải trí": 108227.40,
+                    "Phí dịch vụ ăn uống và lưu trú": 204607.30,
+                    "Phí dịch vụ tài chính và bảo hiểm": 238291.30,
+                    "Các dịch vụ khác": 299691.20
+                }
+            }
         },
         {
-            "State":"Great Lakes",
-            "Personal consumption expenditures":2503005.70,
-            "Goods":833317.60,
-            "Durable goods":288632.60,
-            "Motor vehicles and parts":102224.10,
-            "Furnishings and durable household equipment":63172.20,
-            "Recreational goods and vehicles":86521.60,
-            "Other durable goods":36714.70,
-            "Nondurable goods":544685.00,
-            "Food and beverages purchased for off-premises consumption":194184.50,
-            "Clothing and footwear":66495.10,
-            "Gasoline and other energy goods":69989.20,
-            "Other nondurable goods":214016.10,
-            "Services":1669688.10,
-            "Household consumption expenditures (for services)":1558515.20,
-            "Housing and utilities":402766.00,
-            "Health care":438873.00,
-            "Transportation services":75010.00,
-            "Recreation services":82900.30,
-            "Food services and accommodations":164847.80,
-            "Financial services and insurance":198892.80,
-            "Other services":195225.30,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":111172.90,
-            "Gross output of nonprofit institutions":323774.10,
-            "Less Receipts from sales of goods and services by nonprofit institutions":212601.30
+            "State": "Great Lakes",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 102224.10,
+                        "Đồ nội thất và thiết bị gia dụng": 63172.20,
+                        "Chi phí mua mới thiết bị, phương tiện": 86521.60,
+                        "Chi phí cố định khác": 36714.70
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 194184.50,
+                        "Chi phí quần áo": 66495.10,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 69989.20,
+                        "Chi phí không cố định khác": 214016.10
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 402766.00,
+                    "Phí chăm sóc sức khỏe": 438873.00,
+                    "Phí phương tiện đi lại": 75010.00,
+                    "Phí dịch vụ giải trí": 82900.30,
+                    "Phí dịch vụ ăn uống và lưu trú": 164847.80,
+                    "Phí dịch vụ tài chính và bảo hiểm": 198892.80,
+                    "Các dịch vụ khác": 195225.30
+                }
+            }
         },
         {
-            "State":"Plains",
-            "Personal consumption expenditures":1140321.90,
-            "Goods":380546.30,
-            "Durable goods":137066.30,
-            "Motor vehicles and parts":56395.10,
-            "Furnishings and durable household equipment":28059.00,
-            "Recreational goods and vehicles":38015.20,
-            "Other durable goods":14597.00,
-            "Nondurable goods":243480.00,
-            "Food and beverages purchased for off-premises consumption":86360.10,
-            "Clothing and footwear":28399.60,
-            "Gasoline and other energy goods":37960.60,
-            "Other nondurable goods":90759.70,
-            "Services":759775.60,
-            "Household consumption expenditures (for services)":719941.40,
-            "Housing and utilities":181739.60,
-            "Health care":204188.00,
-            "Transportation services":35431.50,
-            "Recreation services":38653.40,
-            "Food services and accommodations":73533.00,
-            "Financial services and insurance":91370.90,
-            "Other services":95024.90,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":39834.20,
-            "Gross output of nonprofit institutions":132580.60,
-            "Less Receipts from sales of goods and services by nonprofit institutions":92746.40
+            "State": "Plains",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 56395.10,
+                        "Đồ nội thất và thiết bị gia dụng": 28059.00,
+                        "Chi phí mua mới thiết bị, phương tiện": 38015.20,
+                        "Chi phí cố định khác": 14597.00
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 86360.10,
+                        "Chi phí quần áo": 28399.60,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 37960.60,
+                        "Chi phí không cố định khác": 90759.70
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 181739.60,
+                    "Phí chăm sóc sức khỏe": 204188.00,
+                    "Phí phương tiện đi lại": 35431.50,
+                    "Phí dịch vụ giải trí": 38653.40,
+                    "Phí dịch vụ ăn uống và lưu trú": 73533.00,
+                    "Phí dịch vụ tài chính và bảo hiểm": 91370.90,
+                    "Các dịch vụ khác": 95024.90
+                }
+            }
         },
         {
-            "State":"Southeast",
-            "Personal consumption expenditures":4578382.30,
-            "Goods":1580331.60,
-            "Durable goods":554667.40,
-            "Motor vehicles and parts":207283.00,
-            "Furnishings and durable household equipment":125884.80,
-            "Recreational goods and vehicles":152341.50,
-            "Other durable goods":69158.20,
-            "Nondurable goods":1025664.20,
-            "Food and beverages purchased for off-premises consumption":376793.60,
-            "Clothing and footwear":120734.70,
-            "Gasoline and other energy goods":125035.70,
-            "Other nondurable goods":403100.20,
-            "Services":2998050.70,
-            "Household consumption expenditures (for services)":2943499.80,
-            "Housing and utilities":827353.20,
-            "Health care":743301.70,
-            "Transportation services":137636.30,
-            "Recreation services":174544.50,
-            "Food services and accommodations":347406.20,
-            "Financial services and insurance":343740.70,
-            "Other services":369517.20,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":54550.90,
-            "Gross output of nonprofit institutions":379273.50,
-            "Less Receipts from sales of goods and services by nonprofit institutions":324722.50
+            "State": "Southeast",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 207283.00,
+                        "Đồ nội thất và thiết bị gia dụng": 125884.80,
+                        "Chi phí mua mới thiết bị, phương tiện": 152341.50,
+                        "Chi phí cố định khác": 69158.20
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 376793.60,
+                        "Chi phí quần áo": 120734.70,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 125035.70,
+                        "Chi phí không cố định khác": 403100.20
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 827353.20,
+                    "Phí chăm sóc sức khỏe": 743301.70,
+                    "Phí phương tiện đi lại": 137636.30,
+                    "Phí dịch vụ giải trí": 174544.50,
+                    "Phí dịch vụ ăn uống và lưu trú": 347406.20,
+                    "Phí dịch vụ tài chính và bảo hiểm": 343740.70,
+                    "Các dịch vụ khác": 369517.20
+                }
+            }
         },
         {
-            "State":"Southwest",
-            "Personal consumption expenditures":2273384.40,
-            "Goods":796812.60,
-            "Durable goods":293186.30,
-            "Motor vehicles and parts":117552.40,
-            "Furnishings and durable household equipment":61749.00,
-            "Recreational goods and vehicles":77707.50,
-            "Other durable goods":36177.30,
-            "Nondurable goods":503626.40,
-            "Food and beverages purchased for off-premises consumption":176723.50,
-            "Clothing and footwear":64950.80,
-            "Gasoline and other energy goods":66018.60,
-            "Other nondurable goods":195933.50,
-            "Services":1476571.80,
-            "Household consumption expenditures (for services)":1433900.40,
-            "Housing and utilities":415913.30,
-            "Health care":335980.90,
-            "Transportation services":71994.50,
-            "Recreation services":91610.60,
-            "Food services and accommodations":174440.90,
-            "Financial services and insurance":167584.20,
-            "Other services":176376.10,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":42671.40,
-            "Gross output of nonprofit institutions":200229.60,
-            "Less Receipts from sales of goods and services by nonprofit institutions":157558.3
+            "State": "Southwest",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 117552.40,
+                        "Đồ nội thất và thiết bị gia dụng": 61749.00,
+                        "Chi phí mua mới thiết bị, phương tiện": 77707.50,
+                        "Chi phí cố định khác": 36177.30
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 176723.50,
+                        "Chi phí quần áo": 64950.80,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 66018.60,
+                        "Chi phí không cố định khác": 195933.50
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 415913.30,
+                    "Phí chăm sóc sức khỏe": 335980.90,
+                    "Phí phương tiện đi lại": 71994.50,
+                    "Phí dịch vụ giải trí": 91610.60,
+                    "Phí dịch vụ ăn uống và lưu trú": 174440.90,
+                    "Phí dịch vụ tài chính và bảo hiểm": 167584.20,
+                    "Các dịch vụ khác": 176376.10
+                }
+            }
         },
         {
-            "State":"Rocky Mountain",
-            "Personal consumption expenditures":736043.60,
-            "Goods":255047.70,
-            "Durable goods":102330.10,
-            "Motor vehicles and parts":32722.60,
-            "Furnishings and durable household equipment":21074.20,
-            "Recreational goods and vehicles":37285.00,
-            "Other durable goods":11248.40,
-            "Nondurable goods":152717.60,
-            "Food and beverages purchased for off-premises consumption":58148.90,
-            "Clothing and footwear":19563.30,
-            "Gasoline and other energy goods":19480.30,
-            "Other nondurable goods":55525.10,
-            "Services":480995.90,
-            "Household consumption expenditures (for services)":464450.70,
-            "Housing and utilities":140210.00,
-            "Health care":103135.90,
-            "Transportation services":26489.50,
-            "Recreation services":33048.80,
-            "Food services and accommodations":54932.90,
-            "Financial services and insurance":53783.60,
-            "Other services":52849.80,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":16545.20,
-            "Gross output of nonprofit institutions":70119.50,
-            "Less Receipts from sales of goods and services by nonprofit institutions":53574.30
+            "State": "Rocky Mountain",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 32722.60,
+                        "Đồ nội thất và thiết bị gia dụng": 21074.20,
+                        "Chi phí mua mới thiết bị, phương tiện": 37285.00,
+                        "Chi phí cố định khác": 11248.40
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 58148.90,
+                        "Chi phí quần áo": 19563.30,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 19480.30,
+                        "Chi phí không cố định khác": 55525.10
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 140210.00,
+                    "Phí chăm sóc sức khỏe": 103135.90,
+                    "Phí phương tiện đi lại": 26489.50,
+                    "Phí dịch vụ giải trí": 33048.80,
+                    "Phí dịch vụ ăn uống và lưu trú": 54932.90,
+                    "Phí dịch vụ tài chính và bảo hiểm": 53783.60,
+                    "Các dịch vụ khác": 52849.80
+                }
+            }
         },
         {
-            "State":"Far West",
-            "Personal consumption expenditures":3535960.40,
-            "Goods":1050647.70,
-            "Durable goods":368292.70,
-            "Motor vehicles and parts":107648.10,
-            "Furnishings and durable household equipment":84612.60,
-            "Recreational goods and vehicles":124261.20,
-            "Other durable goods":51770.80,
-            "Nondurable goods":682355.00,
-            "Food and beverages purchased for off-premises consumption":265820.10,
-            "Clothing and footwear":103852.00,
-            "Gasoline and other energy goods":71855.80,
-            "Other nondurable goods":240827.10,
-            "Services":2485312.60,
-            "Household consumption expenditures (for services)":2368402.30,
-            "Housing and utilities":665705.00,
-            "Health care":558986.60,
-            "Transportation services":135669.90,
-            "Recreation services":169849.00,
-            "Food services and accommodations":275927.50,
-            "Financial services and insurance":256417.80,
-            "Other services":305846.50,
-            "Final consumption expenditures of nonprofit institutions serving households (NPISHs)":116910.30,
-            "Gross output of nonprofit institutions":404983.50,
-            "Less Receipts from sales of goods and services by nonprofit institutions":288073.20
+            "State": "Far West",
+            "Chi tiêu tiêu dùng cá nhân": {
+                "Tài sản": {
+                    "Tài sản cố định": {
+                        "Chi phí xe cộ và phụ tùng": 107648.10,
+                        "Đồ nội thất và thiết bị gia dụng": 84612.60,
+                        "Chi phí mua mới thiết bị, phương tiện": 124261.20,
+                        "Chi phí cố định khác": 51770.80
+                    },
+                    "Tài sản không cố định": {
+                        "Chi phí đồ ăn, thức uống": 265820.10,
+                        "Chi phí quần áo": 103852.00,
+                        "Chi phí xăng, điện và các nguồn năng lượng khác": 71855.80,
+                        "Chi phí không cố định khác": 240827.10
+                    }
+                },
+                "Dịch vụ": {
+                    "Chi phí nhà ở và tiện ích": 665705.00,
+                    "Phí chăm sóc sức khỏe": 558986.60,
+                    "Phí phương tiện đi lại": 135669.90,
+                    "Phí dịch vụ giải trí": 169849.00,
+                    "Phí dịch vụ ăn uống và lưu trú": 275927.50,
+                    "Phí dịch vụ tài chính và bảo hiểm": 256417.80,
+                    "Các dịch vụ khác": 305846.50
+                }
+            }
         }
     ]
 }
