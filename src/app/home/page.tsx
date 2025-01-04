@@ -18,9 +18,9 @@ export default function home() {
       {/* <div className={`max-w-screen-xl cursor-default`}> */}
       <Main />
       {/* <VideoHome /> */}
+      <Tool />
       <Theory />
       <FeedBack />
-      <Tool />
       <Cooporate />
       {/* <Advice /> */}
       <FeedbackClient />

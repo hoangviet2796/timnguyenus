@@ -6,7 +6,8 @@ export default function VideoFeedback() {
 
   const feedbacks = [
     {
-      videoSrc: "/videos/feedback.mp4",
+      videoSrc:
+        "https://hoangviet2796.github.io/timnguyenus/videos/feedback.mp4",
       text: "Cảm ơn công ty đã giúp tôi trả hết khoản nợ $60K. Nhất là cảm ơn 3 cháu, cháu Tim, cháu Tommy và cháu Nga.",
     },
   ];
@@ -53,7 +54,7 @@ export default function VideoFeedback() {
             />
           </div>
           <div className="relative max-w-xl mx-auto bg-gray-100 rounded-lg shadow-md p-4">
-            <p className="text-xl font-light text-gray-800 leading-relaxed tracking-wide text-left pl-8">
+            <p className="text-xl font-light leading-relaxed tracking-wide text-left pl-8">
               {currentFeedback.text}
             </p>
             <div className="absolute -left-3 top-1/2 transform -translate-y-1/2">
