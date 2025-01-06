@@ -10,7 +10,7 @@ import Referral from "@/app/home/referral/referral";
 import Tool from "@/app/home/tools/tool";
 import Theory from "./theory/theory";
 import FormInfo from "@/app/(form)/formInfo";
-import VideoFeedback from "./videofeedback/videofeedback";
+import Expertdebat from "./expertdebate/expertdebate";
 
 export default function home() {
   return (
@@ -22,9 +22,9 @@ export default function home() {
       <Theory />
       <FeedBack />
       <Cooporate />
+      <Expertdebat />
       {/* <Advice /> */}
       <FeedbackClient />
-      <VideoFeedback />
       <Review />
       <GoodDeal />
       <Referral />
