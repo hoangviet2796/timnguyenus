@@ -15,7 +15,7 @@ export default function VideoFeedback() {
   const currentFeedback = feedbacks[currentFeedbackIndex];
 
   return (
-    <div className="flex items-center justify-center min-h-screen  bg-white text-black">
+    <div className="flex items-center justify-center  text-black">
       {/* phần điện thoại */}
       <div className="relative flex items-center justify-center rounded-[46px] p-1.5 bg-[#FCE9D8] ">
         <div className="relative w-[350px] h-[700px] bg-black rounded-[40px] shadow-xl ">
@@ -39,16 +39,16 @@ export default function VideoFeedback() {
       </div>
       {/* phần text */}
       <div
-        className="justify-start max-w-[600px] ml-16 flex flex-col"
+        className="justify-start max-w-[600px] ml-[100px] flex flex-col"
         style={{ marginTop: "-150px" }}
       >
         <div className="text-center">
-          <div className="relative w-16 h-16 mx-auto mb-2">
+          <div className="relative w-16 h-16 mx-auto mb-3">
             <Image
               src="/images/daunhay.png"
               alt="Dấu nháy"
-              width={64}
-              height={64}
+              width={80}
+              height={80}
               objectFit="contain"
               priority
             />
