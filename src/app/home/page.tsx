@@ -10,25 +10,31 @@ import Referral from "@/app/home/referral/referral";
 import Tool from "@/app/home/tools/tool";
 import Theory from "./theory/theory";
 import FormInfo from "@/app/(form)/formInfo";
+import Expertdebat from "./expertdebate/expertdebate";
+import DebtProgram from "./debtprogram/debtprogram";
+import VideoSection from "./videosection/videosection";
 
 export default function home() {
   return (
     <main className={`flex flex-col items-center cursor-default`}>
       {/* <div className={`max-w-screen-xl cursor-default`}> */}
-      <Main />
+      {/* <Main /> */}
       {/* <VideoHome /> */}
-      <Theory />
-      <FeedBack />
       <Tool />
-      <Cooporate />
+      <DebtProgram />
+      {/* <Theory /> */}
+      {/* <FeedBack /> */}
+      {/* <Cooporate /> */}
+      {/* <Expertdebat /> */}
       {/* <Advice /> */}
       <FeedbackClient />
-      <Review />
-      <GoodDeal />
-      <Referral />
+      <VideoSection />
+      {/* <Review /> */}
+      {/* <GoodDeal /> */}
+      {/* <Referral /> */}
       {/* <Contact /> */}
       {/* </div> */}
-      <FormInfo />
+      {/* <FormInfo /> */}
     </main>
   );
 }

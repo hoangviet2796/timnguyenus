@@ -4,6 +4,7 @@ export async function GET(req: Request) {
   try {
     const { searchParams } = new URL(req.url);
     const id = searchParams.get("id");
+    console.log("Requested id from client:", id);
 
     if (!id) {
       return NextResponse.json(
@@ -18,7 +19,8 @@ export async function GET(req: Request) {
     }
 
     const posts = await response.json();
-    const post = posts.find((item: any) => item.id === id);
+    const post = posts.find((item: any) => String(item.id) === String(id));
+
     if (!post) {
       return NextResponse.json(
         { error: "Post not found" },

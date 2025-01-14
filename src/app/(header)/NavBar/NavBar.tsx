@@ -8,69 +8,99 @@ import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer";
 import { MenuIcon } from "lucide-react";
 import { NavigationHeaderMobile } from "./navigationMenuMobile";
 import { useScrollDirection } from "@/hooks/useScrollDirection";
-import { Button } from "@/components/ui/button";
-
-import css from "./NavBar.module.css";
 
 export default function Navbar() {
   const scrollDirection = useScrollDirection();
-  const isDesktop = useMediaQuery("(min-width: 900px)");
-  return isDesktop ? (
+  const isDesktop = useMediaQuery("(min-width: 960px)");
+
+  return (
     <header
-      className={`${css.myHeader} ${
-        scrollDirection === "down" ? css.hide : "show"
-      } z-50 block text-white w-full bg-[#08244d]`}
+      className={`${
+        scrollDirection === "down" ? "-translate-y-full" : "translate-y-0"
+      } fixed top-0 z-50 w-full bg-white transition-transform duration-300`}
     >
-      <div
-        className={`min-w-2 h-15 flex justify-between mx-4 text-base items-center`}
-      >
-        <Link href="/" className="flex items-center">
-          <Image
-            className="h-full ml-2 pt-2 pb-2"
-            src={`/images/logoTimtron1.png`}
-            width={70}
-            height={0}
-            alt="logo"
-            priority
-          ></Image>
-          <div className="ml-5">
-            <h1 className="text-2xl font-bold">TIM NGUYEN</h1>
-            <h4 className="text-xl font-medium text-[#fe6601]">GIẢM NỢ</h4>
-          </div>
-        </Link>
-        <NavigationHeader />
-        <div>
-          <Button>Contact us</Button>
-        </div>
+      {isDesktop ? (
+        <>
+         {/* Thanh màu cam */}
+      <div className="w-full text-[18px] bg-[#FD6D14] text-black text-center leading-[20px] py-2 ">
+        <h3 className="font-bold italic">Hỗ trợ Payment Plan miễn phí !</h3>
       </div>
-      <div className="absolute -bottom-1 bg-[#ff9000] w-full h-1"></div>
-    </header>
-  ) : (
-    <header>
-      <div className={`min-w-2 ml-auto mr-auto flex justify-center`}>
-        <div className="flex">
+          {/* Top Section: Logo and Search Bar */}
+          <div className="container mx-auto flex justify-start items-center py-2 max-w-[1280px]">
+            {/* Logo Section */}
+            <Link href="/" className="flex pl-40px">
+              <Image
+                src="/images/logoTimtron1.png"
+                width={63}
+                height={63}
+                alt="Logo"
+                priority
+                className="rounded-full ml-[180px]"
+              />
+            </Link>
+
+            {/* Search Bar */}
+            <div className="flex items-center w-[46%] relative pl-[200px] ">
+              {/* Thanh tìm kiếm */}
+              <input
+                type="text"
+                placeholder=""
+                className="w-full h-[43px] px-4 border-[2px] border-gray-400 rounded-[3px] border-solid  bg-white appearance-none focus:outline-none focus:shadow-none "
+              />
+              {/* Nút Xóa */}
+            <button className="absolute right-3 top-1/2 transform -translate-y-1/2 text-[22px] font-bold text-gray-400 hover:text-gray-700">
+                X
+              </button>
+            </div>
+
+            {/* Nút Kính Lúp */}
+            <button className="ml-3 p-2 rounded-full border-2 border-gray-400 text-black-900 hover:bg-gray-200">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="w-8 h-8"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10.5 3a7.5 7.5 0 105.255 12.755l4.742 4.742a.75.75 0 101.06-1.06l-4.742-4.743A7.5 7.5 0 0010.5 3zm0 1.5a6 6 0 100 12 6 6 0 000-12z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+
+          {/* Bottom Section: Navigation Menu */}
+          <div className="bg-white ">
+            <NavigationHeader />
+          </div>
+        </>
+      ) : (
+        <div className="flex justify-between items-center px-4 py-2">
+          {/* Mobile Menu Trigger */}
           <Drawer direction="left">
             <DrawerTrigger>
-              <MenuIcon />
+              <MenuIcon className="w-6 h-6 text-gray-800" />
             </DrawerTrigger>
             <DrawerContent>
               <NavigationHeaderMobile />
             </DrawerContent>
           </Drawer>
+
+          {/* Logo Section */}
+          <Link href="/" className="mx-auto">
+            <Image
+              src="/images/logoTimtron1.png"
+              alt="logo"
+              width={60}
+              height={60}
+              className="h-auto"
+              priority
+            />
+          </Link>
         </div>
-        <Link href="/" className="m-auto h-full">
-          <Image
-            className="h-full ml-2 pt-2 pb-2"
-            src="/images/logoTimtron1.png"
-            width={60}
-            height={80}
-            alt="logo"
-            priority
-          ></Image>
-        </Link>
-        <div></div>
-        <div />
-      </div>
+      )}
+    
     </header>
   );
 }

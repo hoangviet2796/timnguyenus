@@ -56,60 +56,72 @@ const components: { title: string; href: string; description: string }[] = [
 
 export default function NavigationHeader() {
   return (
-    <NavigationMenu>
-      <NavigationMenuList>
-        <NavigationMenuItem
-          className={`mr-5 relative ${navigate.beforeCls} hover:before:w-full`}
-        >
-          <Link href="/home" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Home
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem
-          className={`mr-5 relative ${navigate.beforeCls} hover:before:w-full`}
-        >
-          <Link href="/about" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              About me
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem
-          className={`mr-5 relative ${navigate.beforeCls} hover:before:w-full`}
-        >
-          <Link href="/program" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Program
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem
-          className={`mr-5 relative ${navigate.beforeCls} hover:before:w-full`}
-        >
-          <NavigationMenuTrigger>Free tools</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-              {data.tools.map((tool) => (
-                <Link href={tool.link} key={tool.title}>
-                  <ListItem title={tool.title}></ListItem>
-                </Link>
-              ))}
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem
-          className={`mr-5 relative ${navigate.beforeCls} hover:before:w-full`}
-        >
-          <Link href="/topic" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Topic
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-      </NavigationMenuList>
-    </NavigationMenu>
+    <nav className="flex justify-center items-center max-w-[1280px] mx-auto py-3">
+      <NavigationMenu>
+        <NavigationMenuList>
+          <NavigationMenuItem
+            className={`mr-[100px] ml-[170px] relative ${navigate.beforeCls} hover:before:w-full`}
+          >
+            <Link href="/home" legacyBehavior passHref>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                Home
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+          <NavigationMenuItem
+            className={`mr-[100px] relative ${navigate.beforeCls} hover:before:w-full`}
+          >
+            <Link href="/about" legacyBehavior passHref>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                About me
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+          <NavigationMenuItem
+            className={`mr-[100px] relative ${navigate.beforeCls} hover:before:w-full`}
+          >
+            <Link href="/program" legacyBehavior passHref>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                Program
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+          <NavigationMenuItem
+            className={`mr-[70px] relative ${navigate.beforeCls} hover:before:w-full`}
+          >
+            <NavigationMenuTrigger>Free tools</NavigationMenuTrigger>
+            <NavigationMenuContent>
+              <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                {data.tools.map((tool) => (
+                  <Link href={tool.link} key={tool.title}>
+                    <ListItem title={tool.title}></ListItem>
+                  </Link>
+                ))}
+              </ul>
+            </NavigationMenuContent>
+          </NavigationMenuItem>
+          <NavigationMenuItem
+            className={`mr-[150px] relative ${navigate.beforeCls} hover:before:w-full`}
+          >
+            <Link href="/topic" legacyBehavior passHref>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                Topic
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+          <NavigationMenuItem
+            className={`mr-[100px] relative ${navigate.beforeCls} `}
+          >
+            <Link href="/contact-us" legacyBehavior passHref>
+              <NavigationMenuLink className="px-4 py-2 border-[2px] border-orange-400 border-solid text-orange-500 rounded-full font-bold ">
+                Contacts us
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+        </NavigationMenuList>
+      </NavigationMenu>
+      
+    </nav>
   );
 }
 

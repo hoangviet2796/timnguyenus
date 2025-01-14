@@ -13,7 +13,10 @@ export default function videoHome() {
         preload="none"
         playsInline
       >
-        <source src="/videos/2.mp4" type="video/mp4" />
+        <source
+          src="https://hoangviet2796.github.io/timnguyenus/videos/2.mp4"
+          type="video/mp4"
+        />
         <track kind="subtitles" srcLang="en" label="English" />
         Your browser does not support the video tag.
       </Video>
