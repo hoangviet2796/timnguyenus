@@ -109,7 +109,7 @@ export default function NavigationHeader() {
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
-          <NavigationMenuItem
+          {/* <NavigationMenuItem
             className={`mr-[100px] relative ${navigate.beforeCls} `}
           >
             <Link href="/contact-us" legacyBehavior passHref>
@@ -117,10 +117,9 @@ export default function NavigationHeader() {
                 Contacts us
               </NavigationMenuLink>
             </Link>
-          </NavigationMenuItem>
+          </NavigationMenuItem> */}
         </NavigationMenuList>
       </NavigationMenu>
-      
     </nav>
   );
 }
