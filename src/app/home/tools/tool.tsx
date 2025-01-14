@@ -10,8 +10,11 @@ const tools = [
   { id: 7, icon: "/images/ladicdn/7.png", title: "Tính toán thời gian trả nợ theo lãi" },
   { id: 8, icon: "/images/ladicdn/8.png", title: "Payment Plan" },
 ];
-
-const ToolItem = ({ icon, title }) => (
+interface ToolItem {
+  icon:string,
+  title:string
+}
+const ToolItem: React.FC<ToolItem> = ({ icon, title }) => (
   <li className="group bg-white flex flex-col items-center justify-center border border-gray-200 rounded-lg shadow-[0_6px_10px_-2px_rgba(0,0,0,0.6)] transition duration-300 ease-in-out hover:-translate-y-1 hover:shadow-[0_6px_10px_-2px_rgba(0,0,0,0.4)] w-[202px] h-[151px]">
     <Image src={icon} alt={title} width={65} height={65} className="mb-4" />
     <h3 className="text-center text-[18px] font-bold text-black group-hover:text-[--text-primary-color] leading-snug break-words w-[186px]">
