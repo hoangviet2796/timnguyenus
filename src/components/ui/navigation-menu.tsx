@@ -42,7 +42,8 @@ NavigationMenuList.displayName = NavigationMenuPrimitive.List.displayName;
 const NavigationMenuItem = NavigationMenuPrimitive.Item;
 
 const navigationMenuTriggerStyle = cva(
-"text-[16px] font-semibold text-black hover:text-orange-500 relative before:content-[''] before:absolute before:left-0 before:w-10  before:bg-orange-500 transition-all");
+  "text-[16px] font-semibold text-black hover:text-orange-500 relative before:content-[''] before:absolute before:left-0 before:w-10  before:bg-orange-500 transition-all"
+);
 
 const NavigationMenuTrigger = React.forwardRef<
   React.ElementRef<typeof NavigationMenuPrimitive.Trigger>,
@@ -50,7 +51,11 @@ const NavigationMenuTrigger = React.forwardRef<
 >(({ className, children, ...props }, ref) => (
   <NavigationMenuPrimitive.Trigger
     ref={ref}
-    className={cn(navigationMenuTriggerStyle(), "group flex items-center gap-1", className)}
+    className={cn(
+      navigationMenuTriggerStyle(),
+      "group flex items-center gap-1",
+      className
+    )}
     {...props}
   >
     {children}{" "}

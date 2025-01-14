@@ -56,8 +56,8 @@ const components: { title: string; href: string; description: string }[] = [
 
 export default function NavigationHeader() {
   return (
-    <nav className="flex justify-center items-center max-w-[1280px] mx-auto py-3">
-      <NavigationMenu>
+    <nav className="flex justify-center items-center w-[1280px] py-3">
+      <NavigationMenu className="w-full">
         <NavigationMenuList>
           <NavigationMenuItem
             className={`mr-[100px] ml-[170px] relative ${navigate.beforeCls} hover:before:w-full`}
@@ -91,7 +91,7 @@ export default function NavigationHeader() {
           >
             <NavigationMenuTrigger>Free tools</NavigationMenuTrigger>
             <NavigationMenuContent>
-              <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+              <ul className="grid max-w-[1280px] gap-3 p-4 md:grid-cols-2 w-[1000px]">
                 {data.tools.map((tool) => (
                   <Link href={tool.link} key={tool.title}>
                     <ListItem title={tool.title}></ListItem>

@@ -83,7 +83,7 @@ export default function Navbar() {
           </div>
 
           {/* Bottom Section: Navigation Menu */}
-          <div className="bg-white ">
+          <div className="bg-white flex justify-center items-center w-full">
             <NavigationHeader />
           </div>
         </>
