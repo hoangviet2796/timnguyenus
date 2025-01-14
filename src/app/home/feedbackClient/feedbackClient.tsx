@@ -58,7 +58,7 @@ export default function Feedback() {
       <h2 className="text-[35px] font-bold text-center text-black mb-4">
         Khách hàng nói gì về chương trình!
       </h2>
-      <div className="w-[960px] mx-auto bg-white px-6 py-4">
+      <div className="w-[1280px] px-[160px] bg-white  py-4">
         {showVideo ? (
           <div className="items-center justify-center">
             <VideoFeedback />
@@ -105,15 +105,15 @@ export default function Feedback() {
                         />
                       </div>
                       <div
-  className={`p-2 flex-grow rounded-sm justify-between w-full transition-all duration-500 ease-in-out transform group-hover:scale-105 group-hover:shadow-lg ${
-    fb.id === "1" || fb.id === "3"
-      ? "bg-gradient-to-r from-[#182D4B] to-[#1C3A5E] group-hover:from-[#FF6600] group-hover:to-[#FF9900]"
-      : "bg-gradient-to-r from-[#00132e] to-[#001F40] group-hover:from-[#FF4500] group-hover:to-[#FF7F50]"
-  }`}
-  style={{
-    boxShadow: "0px 5px 10px rgba(0, 0, 0, 0.3)", // Bóng nhẹ cho trạng thái bình thường
-  }}
->
+                        className={`p-2 flex-grow rounded-sm justify-between w-full transition-all duration-500 ease-in-out transform group-hover:scale-105 group-hover:shadow-lg ${
+                          fb.id === "1" || fb.id === "3"
+                            ? "bg-gradient-to-r from-[#182D4B] to-[#1C3A5E] group-hover:from-[#FF6600] group-hover:to-[#FF9900]"
+                            : "bg-gradient-to-r from-[#00132e] to-[#001F40] group-hover:from-[#FF4500] group-hover:to-[#FF7F50]"
+                        }`}
+                        style={{
+                          boxShadow: "0px 5px 10px rgba(0, 0, 0, 0.3)", // Bóng nhẹ cho trạng thái bình thường
+                        }}
+                      >
                         <h3 className="text-lg font-bold mb-2 text-center group-hover:text-white">
                           {fb.name}
                         </h3>
@@ -148,7 +148,7 @@ export default function Feedback() {
           </>
         )}
       </div>
-      <div className="w-[960px] bg-white pb-8">
+      <div className="w-[1280px] px-[160px] bg-white pb-8">
         <Review />
       </div>
     </div>

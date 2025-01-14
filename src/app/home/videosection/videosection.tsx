@@ -1,17 +1,20 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
+
 const videos = [
   {
     id: "1",
     title: "Được mời chia sẻ trên kênh Youtube NGƯỜI VIỆT HẢI NGOẠI cùng Sean Le",
-    youtubeUrl: "https://www.youtube.com/embed/JbhCx-Qsxfs?rel=0&modestbranding=0&playsinline=0&controls=1&enablejsapi=1&origin=http%3A%2F%2Fitekai.i-tek.online&widgetid=2?autoplay=1&rel=0",
+    youtubeUrl:
+      "https://www.youtube.com/embed/JbhCx-Qsxfs?autoplay=1&rel=0",
     thumbnail: "/images/ladicdn/12.jpg",
   },
   {
     id: "2",
     title: "Thúy Nga đến thăm office và tìm hiểu về CHƯƠNG TRÌNH GIẢM NỢ",
-    youtubeUrl: "https://www.youtube.com/embed/ps1LbhE144I?rel=0&modestbranding=0&playsinline=0&controls=1&enablejsapi=1&origin=http%3A%2F%2Fitekai.i-tek.online&widgetid=1?autoplay=1&rel=0",
+    youtubeUrl:
+      "https://www.youtube.com/embed/ps1LbhE144I?autoplay=1&rel=0",
     thumbnail: "/images/ladicdn/11.jpg",
   },
 ];
@@ -23,11 +26,10 @@ export default function VideoSection() {
     setActiveVideo(id);
   };
 
-  
-    return (
-        <div className="w-full py-10 bg-white flex flex-col items-center">
+  return (
+    <div className="w-full py-10 bg-white flex flex-col items-center">
       {/* Tiêu đề */}
-      <p className="text-center text-black italic text-[18px] w-[960px] px-4 mb-12">
+      <p className="text-center text-black italic text-[16px] max-w-[800px] px-2 mb-12">
         Những cá nhân mà Tim đã và đang bắt tay hợp tác nhằm đưa ngành giảm nợ gần
         hơn với công chúng. Từ những câu chuyện, những bài học thực tế Tim Nguyen
         và đối tác đã tạo ra cái nhìn khác tích cực hơn cho cộng đồng người Việt tại Mỹ
@@ -35,13 +37,13 @@ export default function VideoSection() {
       </p>
 
       {/* Khung hiển thị video */}
-      <div className="flex justify-center items-start gap-6 w-[960px]">
+      <div className="w-full max-w-[1280px] px-[150px]  grid grid-cols-1 sm:grid-cols-2 gap-6">
         {videos.map((video) => (
           <div
             key={video.id}
-            className="bg-[#F1F3F4] shadow-md rounded-lg px-8 pt-3 pb-6 flex flex-col items-center w-[45%] h-[350px]"
+            className="bg-[#F1F3F4] shadow-md rounded-lg px-6 pt-3 pb-6 flex flex-col items-center h-[350px]"
             style={{
-              boxShadow: "0px 10px 15px rgba(0, 0, 0, 0.2)", // Đổ bóng cho khối
+              boxShadow: "0px 5px 10px rgba(0, 0, 0, 0.2)",
             }}
           >
             <div
@@ -82,7 +84,7 @@ export default function VideoSection() {
                 </>
               )}
             </div>
-            <h3 className="text-center text-black mt-4 font-bold text-[18px] leading-8">
+            <h3 className="text-center text-black mt-4 font-bold text-[16px] leading-7">
               {video.title}
             </h3>
           </div>
