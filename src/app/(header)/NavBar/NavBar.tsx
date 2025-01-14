@@ -76,7 +76,7 @@ export default function Navbar() {
             </div>
             <Button
               variant={"outline"}
-              className="rounded-full border-[#FD6D14] border-solid text-[#FD6D14] font-bold text-base"
+              className="rounded-full border-[#FD6D14] border-solid text-[#FD6D14] font-bold text-base hover:text-[#FD6D14]"
             >
               Contact us
             </Button>
