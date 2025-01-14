@@ -4,14 +4,14 @@ export default function DebtProgram() {
   return (
     <div className="w-full bg-white py-10 px-5 flex flex-col items-center">
       {/* Tiêu đề */}
-      <h2 className="w-full max-w-[960px] text-3xl lg:text-3xl font-bold text-[#05224a] mb-5 pl-3 text-left">
+      <h2 className="w-full max-w-[1280px] mx-auto text-3xl lg:text-3xl font-bold text-[#05224a] mb-5 pl-[170px] text-left">
         Chương trình giảm nợ của TIM NGUYEN
       </h2>
 
       {/* Nội dung chính */}
-      <div className="w-full max-w-[960px] bg-white flex flex-col md:flex-row items-start mt-5 gap-10">
+      <div className="w-full max-w-[1280px]  bg-white  flex flex-col md:flex-row items-start gap-10">
         {/* Phần văn bản */}
-        <div className="w-full md:w-[46%]">
+        <div className="w-full md:w-[50%] md:pl-[160px] ">
           <h3 className="text-[#242424] mb-3 text-[15px] leading-8 pl-3">
             Tim Nguyen - Chuyên gia giảm nợ cá nhân đồng hành <br /> cùng nhiều
             hoàn cảnh vượt qua “góc khuất” tối tăm của<br /> nợ nần để làm lại một
@@ -49,13 +49,13 @@ export default function DebtProgram() {
             <p>
               Với hơn{" "}
               <span className="font-bold text-[20px] text-black">7 năm</span>{" "}
-              kinh nghiệm giúp đỡ cộng đồng người Việt tại Mỹ giải quyết các vấn
+              kinh nghiệm giúp đỡ cộng đồng người <br /> Việt tại Mỹ giải quyết các vấn
               đề tài chính và tín dụng.
             </p>
             <p>
               Thương lượng đàm phán với hơn{" "}
               <span className="font-bold text-[20px] text-black">
-                200 ngân hàng
+                200 ngân hàng<br />
               </span>{" "}
               đem về rất nhiều offer giảm nợ từ{" "}
               <span className="font-bold text-[20px] text-black">40-70%</span>{" "}
@@ -64,24 +64,24 @@ export default function DebtProgram() {
             <p>
               Hỗ trợ thành công hơn{" "}
               <span className="font-bold text-[20px] text-black">10,000</span>{" "}
-              hoàn cảnh thoát khỏi nợ nần, bắt đầu cuộc sống mới.
+              hoàn cảnh thoát khỏi nợ <br /> nần, bắt đầu cuộc sống mới.
             </p>
           </div>
         </div>
 
         {/* Phần hình ảnh và nút hành động */}
-        <div className="w-full md:w-[54%] flex flex-col items-center relative">
+        <div className="w-full md:w-[50%] flex flex-col items-center relative">
         <div className="w-full flex justify-center overflow-hidden ">
             <Image
               src="/images/ladicdn/10.png"
               alt="Payroll"
                 layout="intrinsic"
-                width={960} /* Phóng to hình ảnh */
-                height={720}/* Tăng kích thước hình ảnh */
-              className="object-cover mb-4 "
+                width={600} /* Phóng to hình ảnh */
+                height={360}/* Tăng kích thước hình ảnh */
+              className="object-cover mt-[-80px] "
             />
           </div>
-          <button className="absolute top-100 bottom-[90px] bg-[#004AAD] text-white text-[14px] font-bold py-2 px-[70px] rounded-lg shadow-md hover:bg-[#082c54] transition duration-300">
+          <button className="absolute top-100 bottom-[120px] bg-[#004AAD] text-white text-[14px] font-bold py-2 px-[70px] rounded-lg shadow-md hover:bg-[#082c54] transition duration-300">
               Nhận PAYMENT PLAN
             </button>
         </div>
