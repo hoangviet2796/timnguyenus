@@ -16,9 +16,9 @@ export default function Navbar() {
 
   return (
     <header
-      className={`${
-        scrollDirection === "down" ? "-translate-y-full" : "translate-y-0"
-      } fixed top-0 z-50 w-full bg-white transition-transform duration-300`}
+    // className={`${
+    //   scrollDirection === "down" ? "-translate-y-full" : "translate-y-0"
+    // } fixed top-0 z-50 w-full bg-white transition-transform duration-300`}
     >
       {isDesktop ? (
         <>

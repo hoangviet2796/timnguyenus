@@ -29,7 +29,7 @@ const ToolItem: React.FC<ToolItem> = ({ icon, title }) => (
 
 export default function Tool() {
   return (
-    <div className="w-full h-full bg-[rgb(241,243,244)]  flex flex-col items-center mt-[150px] px-3">
+    <div className="w-full h-full bg-[rgb(241,243,244)]  flex flex-col items-center px-3">
       <div className="bg-[rgb(241,243,244)] w-full max-w-[1280px] h-auto mt-[80px] mb-[50px] flex flex-col items-center justify-center  ">
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 w-full">
           {tools.map((tool) => (
