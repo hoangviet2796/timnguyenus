@@ -33,11 +33,11 @@ export default function TimNguyen() {
         <div
           className={` text-[#023681] w-fit relative h-fit font-extrabold sm:text-3xl xl:text-4xl`}
         >
-          <h2 className="z-10 relative">Tim Nguyen là ai?</h2>
+          <h2 className="z-[1] relative">Tim Nguyen là ai?</h2>
           <div className={`${timcss.title}`}></div>
         </div>
 
-        <p className=" ml-10 font-bold sm:text-xl xl:text-2xll my-10">
+        <p className=" ml-10 font-bold sm:text-xl my-10">
           Founder Nguoi Viet Socal
           <br />
           Founder Mastering Debt Management
