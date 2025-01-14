@@ -4,7 +4,7 @@ export default function DebtProgram() {
   return (
     <div className="w-full bg-white py-10 px-5 flex flex-col items-center max-w-[1280px]">
       {/* Tiêu đề */}
-      <h2 className="w-full mx-auto text-3xl lg:text-3xl font-bold text-[#05224a] text-left">
+      <h2 className="w-full mx-auto text-3xl lg:text-3xl font-bold text-[#05224a] text-center">
         Chương trình giảm nợ của TIM NGUYEN
       </h2>
 

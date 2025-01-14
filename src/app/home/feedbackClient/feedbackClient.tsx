@@ -94,14 +94,14 @@ export default function Feedback() {
                 ))}
               </div>
             </CarouselItem>
-            <CarouselItem className="">
+            {/* <CarouselItem className="">
               <div className="items-center justify-center">
                 <VideoFeedback />
               </div>
-            </CarouselItem>
+            </CarouselItem> */}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          {/* <CarouselPrevious />
+          <CarouselNext /> */}
         </Carousel>
       </div>
       <div className="w-[1280px] bg-white pb-8">
