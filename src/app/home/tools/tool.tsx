@@ -19,16 +19,10 @@ interface ToolItem {
   title: string;
 }
 const ToolItem: React.FC<ToolItem> = ({ icon, title }) => (
-  <li className="group bg-white flex flex-col items-center justify-center border border-gray-200 rounded-lg shadow-[0_6px_10px_-2px_rgba(0,0,0,0.6)] transition duration-300 ease-in-out hover:-translate-y-1 hover:shadow-[0_6px_10px_-2px_rgba(0,0,0,0.4)] w-[202px] h-[151px]">
+  <li className="group bg-white flex flex-col items-center justify-center border border-gray-200 rounded-lg shadow-[0_6px_10px_-2px_rgba(0,0,0,0.6)] transition duration-300 ease-in-out hover:-translate-y-1 hover:shadow-[0_6px_10px_-2px_rgba(0,0,0,0.4)] w-full h-[151px]">
     <Image src={icon} alt={title} width={65} height={65} className="mb-4" />
     <h3 className="text-center text-[18px] font-bold text-black group-hover:text-[--text-primary-color] leading-snug break-words w-[186px]">
-      {title === "Kiểm tra điều kiện vay" ? (
-        <>
-          Kiểm tra <br /> điều kiện vay
-        </>
-      ) : (
-        title
-      )}
+      {title}
     </h3>
   </li>
 );
@@ -36,8 +30,8 @@ const ToolItem: React.FC<ToolItem> = ({ icon, title }) => (
 export default function Tool() {
   return (
     <div className="w-full h-full bg-[rgb(241,243,244)]  flex flex-col items-center mt-[150px] px-3">
-    <div className="bg-[rgb(241,243,244)] w-full max-w-[1280px] h-auto mt-[80px] mb-[50px] flex flex-col items-center justify-center  ">
-        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div className="bg-[rgb(241,243,244)] w-full max-w-[1280px] h-auto mt-[80px] mb-[50px] flex flex-col items-center justify-center  ">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 w-full">
           {tools.map((tool) => (
             <ToolItem key={tool.id} icon={tool.icon} title={tool.title} />
           ))}

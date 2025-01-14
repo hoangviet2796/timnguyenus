@@ -2,20 +2,20 @@ import Image from "next/image";
 
 export default function DebtProgram() {
   return (
-    <div className="w-full bg-white py-10 px-5 flex flex-col items-center">
+    <div className="w-full bg-white py-10 px-5 flex flex-col items-center max-w-[1280px]">
       {/* Tiêu đề */}
-      <h2 className="w-full max-w-[1280px] mx-auto text-3xl lg:text-3xl font-bold text-[#05224a] mb-5 pl-[170px] text-left">
+      <h2 className="w-full mx-auto text-3xl lg:text-3xl font-bold text-[#05224a] text-left">
         Chương trình giảm nợ của TIM NGUYEN
       </h2>
 
       {/* Nội dung chính */}
-      <div className="w-full max-w-[1280px]  bg-white  flex flex-col md:flex-row items-start gap-10">
+      <div className="w-full bg-white flex md:flex-row items-center gap-10">
         {/* Phần văn bản */}
-        <div className="w-full md:w-[50%] md:pl-[160px] ">
-          <h3 className="text-[#242424] mb-3 text-[15px] leading-8 pl-3">
+        <div className="w-full md:w-[50%]">
+          <h3 className="text-[#242424] mb-3 text-lg leading-8 pl-3">
             Tim Nguyen - Chuyên gia giảm nợ cá nhân đồng hành <br /> cùng nhiều
-            hoàn cảnh vượt qua “góc khuất” tối tăm của<br /> nợ nần để làm lại một
-            cuộc đời mới
+            hoàn cảnh vượt qua “góc khuất” tối tăm của
+            <br /> nợ nần để làm lại một cuộc đời mới
           </h3>
 
           {/* Khối thông tin số liệu */}
@@ -31,34 +31,37 @@ export default function DebtProgram() {
             <div className="absolute inset-0 bg-[#051F4Dde] flex items-center justify-around p-3 text-white">
               <div className="text-center">
                 <h3 className="text-3xl font-bold">07</h3>
-                <p className="text-sm">Năm</p>
+                <p className="text-lg">Năm</p>
               </div>
               <div className="text-center">
                 <h3 className="text-3xl font-bold text-orange-700">+200</h3>
-                <p className="text-sm">Banks</p>
+                <p className="text-lg">Banks</p>
               </div>
               <div className="text-center">
                 <h3 className="text-3xl font-bold">+10,000</h3>
-                <p className="text-sm">Khách hàng</p>
+                <p className="text-lg">Khách hàng</p>
               </div>
             </div>
           </div>
 
           {/* Đoạn mô tả */}
-          <div className="mt-6 text-[#242424] text-[15px] leading-9 pl-3">
+          <div className="mt-6 text-[#242424] text-lg leading-9 pl-3">
             <p>
               Với hơn{" "}
               <span className="font-bold text-[20px] text-black">7 năm</span>{" "}
-              kinh nghiệm giúp đỡ cộng đồng người <br /> Việt tại Mỹ giải quyết các vấn
-              đề tài chính và tín dụng.
+              kinh nghiệm giúp đỡ cộng đồng người <br /> Việt tại Mỹ giải quyết
+              các vấn đề tài chính và tín dụng.
             </p>
             <p>
               Thương lượng đàm phán với hơn{" "}
               <span className="font-bold text-[20px] text-black">
-                200 ngân hàng<br />
+                200 ngân hàng
+                <br />
               </span>{" "}
               đem về rất nhiều offer giảm nợ từ{" "}
-              <span className="font-bold text-[20px] text-black">40-70%</span>{" "}
+              <span className="font-bold text-[20px] text-black">
+                40-70%
+              </span>{" "}
               nợ gốc.
             </p>
             <p>
@@ -71,19 +74,19 @@ export default function DebtProgram() {
 
         {/* Phần hình ảnh và nút hành động */}
         <div className="w-full md:w-[50%] flex flex-col items-center relative">
-        <div className="w-full flex justify-center overflow-hidden ">
+          <div className="w-full flex justify-center overflow-hidden ">
             <Image
               src="/images/ladicdn/10.png"
               alt="Payroll"
-                layout="intrinsic"
-                width={600} /* Phóng to hình ảnh */
-                height={360}/* Tăng kích thước hình ảnh */
-              className="object-cover mt-[-80px] "
+              layout="intrinsic"
+              width={600} /* Phóng to hình ảnh */
+              height={360} /* Tăng kích thước hình ảnh */
+              className="w-full h-fit"
             />
           </div>
-          <button className="absolute top-100 bottom-[120px] bg-[#004AAD] text-white text-[14px] font-bold py-2 px-[70px] rounded-lg shadow-md hover:bg-[#082c54] transition duration-300">
-              Nhận PAYMENT PLAN
-            </button>
+          <button className="absolute top-100 bottom-[120px] bg-[#004AAD] text-white text-base font-bold py-2 px-[70px] rounded-lg shadow-md hover:bg-[#082c54] transition duration-300">
+            Nhận PAYMENT PLAN
+          </button>
         </div>
       </div>
     </div>

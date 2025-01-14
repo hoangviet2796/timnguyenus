@@ -27,7 +27,9 @@ const reviews = [
 export default function Review() {
   //   const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
   return (
-    <div className={`flex flex-col items-center w-[960px] bg-white h-[200px] `}>
+    <div
+      className={`flex flex-col items-center max-w-screen-xl bg-white h-[200px] `}
+    >
       <div className="w-full flex flex-col items-center my-6 ">
         <div className="flex h-2/3">
           {reviews.map((fb, index) => (
@@ -36,7 +38,7 @@ export default function Review() {
                 <Image
                   className="w-1/2 pb-4 rounded-tl-lg rounded-tr-lg"
                   loading="lazy"
-                  src={fb.avatar} 
+                  src={fb.avatar}
                   width={500}
                   height={70}
                   alt="logo"
