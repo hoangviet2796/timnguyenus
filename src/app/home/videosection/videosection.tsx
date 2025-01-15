@@ -64,7 +64,7 @@ export default function VideoSection() {
                     src={video.thumbnail}
                     alt={`Thumbnail for video ${video.id}`}
                     layout="fill"
-                    objectFit="cover"
+                    objectFit="contain"
                     className="rounded-lg"
                   />
                   {/* Nút YouTube */}
