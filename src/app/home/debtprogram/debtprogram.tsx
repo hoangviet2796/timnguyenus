@@ -13,9 +13,7 @@ export default function DebtProgram() {
         {/* Phần văn bản */}
         <div className="w-full md:w-[50%]">
           <h3 className="text-[#242424] mb-3 text-lg leading-6 pl-3">
-            Tim Nguyen - Chuyên gia giảm nợ cá nhân đồng hành <br /> cùng nhiều
-            hoàn cảnh vượt qua “góc khuất” tối tăm của
-            <br /> nợ nần để làm lại một cuộc đời mới
+            Tim Nguyen - Chuyên gia giảm nợ cá nhân đồng hành cùng nhiều hoàn cảnh vượt qua “góc khuất” tối tăm của nợ nần để làm lại một cuộc đời mới
           </h3>
 
           {/* Khối thông tin số liệu */}
@@ -49,14 +47,13 @@ export default function DebtProgram() {
             <p>
               Với hơn{" "}
               <span className="font-bold text-[20px] text-black">7 năm</span>{" "}
-              kinh nghiệm giúp đỡ cộng đồng người <br /> Việt tại Mỹ giải quyết
+              kinh nghiệm giúp đỡ cộng đồng người Việt tại Mỹ giải quyết
               các vấn đề tài chính và tín dụng.
             </p>
             <p>
               Thương lượng đàm phán với hơn{" "}
               <span className="font-bold text-[20px] text-black">
                 200 ngân hàng
-                <br />
               </span>{" "}
               đem về rất nhiều offer giảm nợ từ{" "}
               <span className="font-bold text-[20px] text-black">
@@ -67,7 +64,7 @@ export default function DebtProgram() {
             <p>
               Hỗ trợ thành công hơn{" "}
               <span className="font-bold text-[20px] text-black">10,000</span>{" "}
-              hoàn cảnh thoát khỏi nợ <br /> nần, bắt đầu cuộc sống mới.
+              hoàn cảnh thoát khỏi nợ nần, bắt đầu cuộc sống mới.
             </p>
           </div>
         </div>
