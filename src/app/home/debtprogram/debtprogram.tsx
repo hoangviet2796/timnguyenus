@@ -12,7 +12,7 @@ export default function DebtProgram() {
       <div className="w-full bg-white flex md:flex-row items-center gap-10">
         {/* Phần văn bản */}
         <div className="w-full md:w-[50%]">
-          <h3 className="text-[#242424] mb-3 text-lg leading-8 pl-3">
+          <h3 className="text-[#242424] mb-3 text-lg leading-6 pl-3">
             Tim Nguyen - Chuyên gia giảm nợ cá nhân đồng hành <br /> cùng nhiều
             hoàn cảnh vượt qua “góc khuất” tối tăm của
             <br /> nợ nần để làm lại một cuộc đời mới
@@ -45,7 +45,7 @@ export default function DebtProgram() {
           </div>
 
           {/* Đoạn mô tả */}
-          <div className="mt-6 text-[#242424] text-lg leading-9 pl-3">
+          <div className="mt-6 text-[#242424] text-lg leading-6 pl-3">
             <p>
               Với hơn{" "}
               <span className="font-bold text-[20px] text-black">7 năm</span>{" "}
