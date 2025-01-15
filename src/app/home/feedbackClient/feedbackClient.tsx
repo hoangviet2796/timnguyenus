@@ -62,8 +62,11 @@ export default function Feedback() {
           <CarouselContent className="flex items-center">
             <CarouselItem className="">
               <div className="grid grid-cols-4 gap-5 mx-5">
-                {feedbacks.map((fb) => (
-                  <div className="shadow-lg overflow-hidden group  text-white flex flex-col items-center transition-transform duration-300 ease-in-out transform group-hover:scale-105 group-hover:shadow-2xl rounded-md">
+                {feedbacks.map((fb, index) => (
+                  <div
+                    key={index}
+                    className="shadow-lg overflow-hidden group  text-white flex flex-col items-center transition-transform duration-300 ease-in-out transform group-hover:scale-105 group-hover:shadow-2xl rounded-md"
+                  >
                     <div className="relative w-full aspect-[4/3] overflow-hidden">
                       <Image
                         className="w-full transition-transform duration-300 ease-in-out transform group-hover:scale-110"

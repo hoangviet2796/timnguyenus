@@ -13,7 +13,9 @@ export default function DebtProgram() {
         {/* Phần văn bản */}
         <div className="w-full md:w-[50%]">
           <h3 className="text-[#242424] mb-3 text-lg leading-6 pl-3 w-3/4 text-justify">
-            Tim Nguyen - Chuyên gia giảm nợ cá nhân đồng hành cùng nhiều hoàn cảnh vượt qua “góc khuất” tối tăm của nợ nần để làm lại một cuộc đời mới
+            Tim Nguyen - Chuyên gia giảm nợ cá nhân đồng hành cùng nhiều hoàn
+            cảnh vượt qua “góc khuất” tối tăm của nợ nần để làm lại một cuộc đời
+            mới
           </h3>
 
           {/* Khối thông tin số liệu */}
@@ -47,8 +49,8 @@ export default function DebtProgram() {
             <p>
               Với hơn{" "}
               <span className="font-bold text-[20px] text-black">7 năm</span>{" "}
-              kinh nghiệm giúp đỡ cộng đồng người Việt tại Mỹ giải quyết
-              các vấn đề tài chính và tín dụng.
+              kinh nghiệm giúp đỡ cộng đồng người Việt tại Mỹ giải quyết các vấn
+              đề tài chính và tín dụng.
             </p>
             <p>
               Thương lượng đàm phán với hơn{" "}
@@ -56,9 +58,7 @@ export default function DebtProgram() {
                 200 ngân hàng
               </span>{" "}
               đem về rất nhiều offer giảm nợ từ{" "}
-              <span className="font-bold text-[20px] text-black">
-                40-70%
-              </span>{" "}
+              <span className="font-bold text-[20px] text-black">40-70%</span>{" "}
               nợ gốc.
             </p>
             <p>
@@ -75,10 +75,10 @@ export default function DebtProgram() {
             <Image
               src="/images/ladicdn/10.png"
               alt="Payroll"
-              layout="intrinsic"
+              loading="lazy"
               width={600} /* Phóng to hình ảnh */
               height={360} /* Tăng kích thước hình ảnh */
-              className="w-full h-fit"
+              className="w-auto h-auto"
             />
           </div>
           <button className="absolute top-100 bottom-[120px] bg-[#004AAD] text-white text-base font-bold py-2 px-[70px] rounded-lg shadow-md hover:bg-[#082c54] transition duration-300">

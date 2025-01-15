@@ -7,7 +7,7 @@ export default function Main() {
   return (
     <Image
       className={`h-fit w-full`}
-      loading="lazy"
+      priority
       src={`/images/SITETIMNGUYEN/Bannersite2.png`}
       width={5035}
       height={788}

@@ -54,7 +54,6 @@ export default function VideoSection() {
                   className="w-full h-full"
                   src={video.youtubeUrl}
                   title={`YouTube video ${video.id}`}
-                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
@@ -63,8 +62,9 @@ export default function VideoSection() {
                   <Image
                     src={video.thumbnail}
                     alt={`Thumbnail for video ${video.id}`}
-                    layout="fill"
-                    objectFit="contain"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    style={{ objectFit: "contain" }}
                     className="rounded-lg"
                   />
                   {/* Nút YouTube */}

@@ -33,7 +33,10 @@ export default function Review() {
       <div className="w-full flex flex-col items-center my-6 ">
         <div className="flex h-2/3">
           {reviews.map((fb, index) => (
-            <Card className="shadow-lg bg-[#5376db] text-white flex flex-col items-center h-full w-1/3 mx-2 mt-4 mb-3 transition ease-in-out hover:scale-105">
+            <Card
+              key={index}
+              className="shadow-lg bg-[#5376db] text-white flex flex-col items-center h-full w-1/3 mx-2 mt-4 mb-3 transition ease-in-out hover:scale-105"
+            >
               <div className={`flex flex-col items-center overflow-hidden`}>
                 <Image
                   className="w-1/2 pb-4 rounded-tl-lg rounded-tr-lg"
