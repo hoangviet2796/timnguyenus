@@ -1,9 +1,9 @@
 import { Metadata } from "next";
-import { Open_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import "@/app/globals.css";
 import { Toaster } from "@/components/ui/sonner";
 
-const roboto = Open_Sans({
+const roboto = Inter({
   subsets: ["vietnamese"],
   weight: ["300", "400", "500", "700"],
 });
