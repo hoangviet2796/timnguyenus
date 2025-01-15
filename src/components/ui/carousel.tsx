@@ -33,7 +33,6 @@ const CarouselContext = React.createContext<CarouselContextProps | null>(null);
 
 function useCarousel() {
   const context = React.useContext(CarouselContext);
-  console.log("Carousel context:", context);
 
   if (!context) {
     throw new Error("useCarousel must be used within a <Carousel />");
@@ -231,8 +230,6 @@ const CarouselNext = React.forwardRef<
   React.ComponentProps<typeof Button>
 >(({ className, variant = "outline", size = "icon", ...props }, ref) => {
   const { orientation, scrollNext, canScrollNext } = useCarousel();
-
-  console.log("canScrollNext:", canScrollNext); // Debug trạng thái
 
   return (
     <Button
