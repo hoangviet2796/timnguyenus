@@ -65,7 +65,7 @@ export default function VideoSection() {
                     alt={`Thumbnail for video ${video.id}`}
                     layout="fill"
                     objectFit="contain"
-                    className="rounded-lg"
+                    className="rounded-lg w-full h-full"
                   />
                   {/* Nút YouTube */}
                   <div className="absolute inset-0 flex items-center justify-center">
