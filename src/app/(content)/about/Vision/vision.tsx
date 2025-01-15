@@ -19,6 +19,7 @@ export default function Vision() {
             loading="lazy"
             src={`/images/SITETIMNGUYEN/10(3).jpg`}
             fill
+            sizes="50vw"
             style={{ objectFit: "cover" }}
             alt="main"
           ></Image>

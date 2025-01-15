@@ -20,7 +20,8 @@ const Certificates = () => {
             <Image
               src="/images/SITETIMNGUYEN/GOODDEAL/chungchi1.png"
               alt="Certificate of Recognition"
-              layout="fill"
+              fill
+              sizes="50vw"
               className="object-cover group-hover:scale-110 group-hover:rotate-2 transition-transform duration-500 cursor-pointer"
             />
             {/* Overlay và Text */}
@@ -39,7 +40,8 @@ const Certificates = () => {
             <Image
               src="/images/SITETIMNGUYEN/GOODDEAL/chungchi2.png"
               alt="IAPDA Certified Debt Specialist"
-              layout="fill"
+              fill
+              sizes="50vw"
               className="object-cover group-hover:scale-110 group-hover:-rotate-2 transition-transform duration-500 cursor-pointer"
             />
             {/* Overlay và Text */}

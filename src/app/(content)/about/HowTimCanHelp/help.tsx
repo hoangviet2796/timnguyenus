@@ -34,6 +34,7 @@ export default function Help() {
                 loading="lazy"
                 src={category.image}
                 fill
+                sizes="25vw"
                 style={{ objectFit: "cover" }}
                 alt="main"
               ></Image>

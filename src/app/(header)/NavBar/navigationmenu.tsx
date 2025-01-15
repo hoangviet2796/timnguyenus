@@ -94,7 +94,7 @@ export default function NavigationHeader() {
               <ul className="grid max-w-[1280px] gap-3 p-4 md:grid-cols-2 w-[1000px]">
                 {data.tools.map((tool) => (
                   <Link href={tool.link} key={tool.title}>
-                    <ListItem title={tool.title}></ListItem>
+                    {tool.title}
                   </Link>
                 ))}
               </ul>
