@@ -18,7 +18,7 @@ export default function home() {
   return (
     <main className={`flex flex-col items-center cursor-default`}>
       {/* <div className={`max-w-screen-xl cursor-default`}> */}
-      {/* <Main /> */}
+      <Main />
       {/* <VideoHome /> */}
       <Tool />
       <DebtProgram />

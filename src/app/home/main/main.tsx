@@ -5,22 +5,27 @@ import css from "./main.module.css";
 
 export default function Main() {
   return (
-    <div
-      className={`${css.mainCover} flex justify-end relative h-[600px] w-full  before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-gradient-to-r before:from-black before:from-[45%]`}
-    >
-      {/* <div className={`max-w-screen-xl cursor-default`}> */}
-      <div className={`relative h-full w-[50%]  overflow-hidden`}>
-        <Image
-          className={`h-full w-fit max-w-fit right-0`}
-          loading="lazy"
-          src={`/images/width_1600.jpg`}
-          fill
-          style={{ objectFit: "cover" }}
-          alt="main"
-        ></Image>
-      </div>
+    <Image
+      className={`h-fit w-full`}
+      loading="lazy"
+      src={`/images/SITETIMNGUYEN/Bannersite2.png`}
+      width={5035}
+      height={788}
+      alt="main"
+    ></Image>
+  );
+  // <div className={`relative h-[400px] w-full`}>
 
-      <div className="absolute w-full h-full top-0 left-0 z-10 flex items-center justify-center">
+  {
+    /* </div> */
+  }
+  // <div className={`${css.mainCover} flex justify-end relative w-full`}>
+  {
+    /* <div className={`max-w-screen-xl cursor-default`}> */
+  }
+
+  {
+    /* <div className="absolute w-full h-full top-0 left-0 z-10 flex items-center justify-center">
         <div className="max-w-screen-xl top-1/4 text-white mx-10">
           <div>
             <h1 className="font-extrabold sm:text-3xl xl:text-5xl">
@@ -53,7 +58,7 @@ export default function Main() {
             </Button>
           </div>
         </div>
-      </div>
-    </div>
-  );
+      </div> */
+  }
+  // </div>
 }
