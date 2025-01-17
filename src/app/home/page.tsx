@@ -16,7 +16,7 @@ import VideoSection from "./videosection/videosection";
 
 export default function home() {
   return (
-    <main className={`flex flex-col items-center cursor-default`}>
+    <main className={`flex flex-col items-center cursor-default mt-24`}>
       {/* <div className={`max-w-screen-xl cursor-default`}> */}
       <Main />
       {/* <VideoHome /> */}

@@ -9,7 +9,7 @@ import Story from "./Story/Story";
 
 export default function About() {
   return (
-    <main className={`flex flex-col items-center cursor-default`}>
+    <main className={`flex flex-col items-center cursor-default mt-24`}>
       <AboutBanner />
       <Story />
       <TimNguyen />

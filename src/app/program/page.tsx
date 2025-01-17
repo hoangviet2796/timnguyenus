@@ -25,7 +25,7 @@ export default function Program() {
     },
   ];
   return (
-    <div className="block lg:flex gap-14 max-w-screen-xl  m-auto p-7">
+    <div className="block lg:flex gap-14 max-w-screen-xl  m-auto p-7 mt-24">
       <div className="w-full lg:w-[50%]">
         {content.map((item, i) => (
           <div key={i} className="flex items-start mt-11">
