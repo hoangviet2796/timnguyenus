@@ -1,9 +1,26 @@
-import * as React from "react"
+import * as React from "react";
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
 
-const Input = React.forwardRef<HTMLInputElement, React.ComponentProps<"input">>(
-  ({ className, type, ...props }, ref) => {
+interface InputProps extends React.ComponentProps<"input"> {
+  formatPhone?: boolean; // Tùy chọn bật định dạng số điện thoại
+}
+  
+const Input = React.forwardRef<HTMLInputElement, InputProps>(
+  ({ className, type, formatPhone, onChange, ...props }, ref) => {
+    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+      if (formatPhone) {
+        let input = e.target.value.replace(/\D/g, ""); 
+        if (input.length > 3 && input.length <= 6) {
+          input = `(${input.slice(0, 3)}) ${input.slice(3)}`;
+        } else if (input.length > 6) {
+          input = `(${input.slice(0, 3)}) ${input.slice(3, 6)}-${input.slice(6, 10)}`;
+        }
+        e.target.value = input; 
+      }
+      onChange?.(e); 
+    };
+
     return (
       <input
         type={type}
@@ -12,11 +29,13 @@ const Input = React.forwardRef<HTMLInputElement, React.ComponentProps<"input">>(
           className
         )}
         ref={ref}
+        onChange={handleInputChange}
         {...props}
       />
-    )
+    );
   }
-)
-Input.displayName = "Input"
+);
 
-export { Input }
+Input.displayName = "Input";
+
+export { Input };
