@@ -9,9 +9,9 @@ export default function DebtProgram() {
       </h2>
 
       {/* Nội dung chính */}
-      <div className="w-full bg-white flex md:flex-row items-center gap-10">
+      <div className="w-full bg-white flex md:flex-row items-center">
         {/* Phần văn bản */}
-        <div className="w-full md:w-[50%]">
+        <div className="w-full md:w-[50%] flex flex-col items-center">
           <h3 className="text-[#242424] mb-3 text-lg leading-6 pl-3 w-3/4 text-justify">
             Tim Nguyen - Chuyên gia giảm nợ cá nhân đồng hành cùng nhiều hoàn
             cảnh vượt qua “góc khuất” tối tăm của nợ nần để làm lại một cuộc đời
