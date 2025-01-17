@@ -22,7 +22,7 @@ const list = [
 export default function Help() {
   return (
     <div className={`flex flex-col items-center max-w-screen-xl my-10`}>
-      <div className="flex h-[100px] w-full font-black sm:text-3xl xl:text-4xl justify-center items-center">
+      <div className="flex h-[80px] w-full font-black sm:text-3xl xl:text-4xl justify-center items-center">
         <Image
           src="/images/logoTimtron1.png"
           width={63}

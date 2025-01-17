@@ -26,7 +26,7 @@ export default function Navbar() {
           <div className="w-full text-base bg-[#FD6D14] text-black text-center leading-[20px] py-2 ">
             <h3 className="font-medium italic">
               Website này, Tim muốn cung cấp những tools miễn phí giúp mọi người
-              check để cải thiện sức khoẻ tài chính hơn và đồng thời muốn mọi
+              dùng để cải thiện sức khoẻ tài chính hơn và đồng thời muốn mọi
               người hiểu hơn về giảm nợ!
             </h3>
           </div>

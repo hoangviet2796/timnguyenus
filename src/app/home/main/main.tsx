@@ -2,17 +2,25 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 import css from "./main.module.css";
+import Link from "next/link";
 
 export default function Main() {
   return (
-    <Image
-      className={`h-fit w-full`}
-      priority
-      src={`/images/SITETIMNGUYEN/Bannersite2.png`}
-      width={5035}
-      height={788}
-      alt="main"
-    ></Image>
+    <div className="relative h-fit w-full">
+      <Image
+        className={`h-fit w-full`}
+        priority
+        src={`/images/SITETIMNGUYEN/Bannersite2.png`}
+        width={5035}
+        height={788}
+        alt="main"
+      ></Image>
+      <Link
+        href="https://www.timnguyen.us/index"
+        target="_blank"
+        className="absolute h-[2vw] w-[8vw] left-[37%] bottom-[6%]"
+      ></Link>
+    </div>
   );
   // <div className={`relative h-[400px] w-full`}>
 
