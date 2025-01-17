@@ -20,7 +20,7 @@ export default function DebtProgram() {
 
           {/* Khối thông tin số liệu */}
           <div
-            className="relative w-full md:w-[413px] h-[104px] overflow-hidden"
+            className="relative w-full md:w-[413px] h-[104px] overflow-hidden  rounded-xl"
             style={{
               backgroundImage: "url('/images/ladicdn/9.jpg')",
               backgroundSize: "cover",
