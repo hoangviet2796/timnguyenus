@@ -44,7 +44,7 @@ export default function Tool() {
           ))}
         </ul>
         <div className="mt-[60px] text-center">
-          <p className="text-[16px] font-bold text-black">
+          <p className="text-black text-lg">
             Nếu bạn gặp bất cứ khó khăn nào khi sử dụng các công
             <br /> cụ hỗ trợ bạn có thể liên hệ trực tiếp với Tim Nguyen!
           </p>

@@ -22,7 +22,7 @@ const items = [
 
 export default function Story() {
   return (
-    <div className="mt-24 max-w-screen-md text-justify font-semibold">
+    <div className="mt-24 max-w-screen-md text-justify">
       <div className="h-fit w-full -ml-20">
         <Image
           className={`w-2/3 h-fit`}
