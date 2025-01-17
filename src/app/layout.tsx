@@ -1,9 +1,9 @@
 import { Metadata } from "next";
-import { Oswald } from "next/font/google";
+import { Geologica } from "next/font/google";
 import "@/app/globals.css";
 import { Toaster } from "@/components/ui/sonner";
 
-const roboto = Oswald({
+const roboto = Geologica({
   subsets: ["vietnamese"],
   weight: ["300", "400", "500", "700"],
 });
