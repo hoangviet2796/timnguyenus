@@ -37,7 +37,7 @@ export default function Help() {
             loading="lazy"
             src={"/images/SITETIMNGUYEN/TimHelp.png"}
             fill
-            sizes="100vw"
+            sizes="90vw"
             style={{ objectFit: "cover" }}
             alt="Help"
           ></Image>

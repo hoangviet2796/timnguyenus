@@ -74,6 +74,7 @@ export default function Story() {
           className={`w-1/2 h-fit`}
           src="/images/SITETIMNGUYEN/about/sign.png"
           fill
+          sizes="25vw"
           style={{ objectFit: "cover" }}
           alt="story2"
         ></Image>
