@@ -44,47 +44,16 @@ export default function Navbar() {
               />
             </Link>
 
-            {/* Search Bar */}
-            <div className="w-1/3 flex mx-10">
-              <div className="flex items-center w-full relative">
-                {/* Thanh tìm kiếm */}
-                <input
-                  type="text"
-                  placeholder=""
-                  className="w-full h-[43px] px-4 border-[2px] border-gray-400 rounded-[3px] border-solid  bg-white appearance-none focus:outline-none focus:shadow-none "
-                />
-                {/* Nút Xóa */}
-                <button className="absolute right-3 top-1/2 transform -translate-y-1/2 text-[22px] font-bold text-gray-400 hover:text-gray-700">
-                  X
-                </button>
-              </div>
-              {/* Nút Kính Lúp */}
-              <button className="p-2 rounded-full border-2 border-gray-400 text-black-900 hover:bg-gray-200">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  className="w-8 h-8"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10.5 3a7.5 7.5 0 105.255 12.755l4.742 4.742a.75.75 0 101.06-1.06l-4.742-4.743A7.5 7.5 0 0010.5 3zm0 1.5a6 6 0 100 12 6 6 0 000-12z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </button>
-            </div>
+            {/* Bottom Section: Navigation Menu */}
+
+            <NavigationHeader />
+
             <Button
               variant={"outline"}
               className="rounded-full border-[#FD6D14] border-solid text-[#FD6D14] font-bold text-base hover:text-[#FD6D14]"
             >
-              Contact us
+              949-569-9698
             </Button>
-          </div>
-
-          {/* Bottom Section: Navigation Menu */}
-          <div className="bg-white flex justify-center items-center w-full">
-            <NavigationHeader />
           </div>
         </>
       ) : (

@@ -1,16 +1,8 @@
 .footer {
-  /* background-color: hsl(250deg 60% 7.84%); */
-  background: #b92b27; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #073fa7,
-    #b92b27
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #073fa7,
-    #be3e39
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url(/images/SITETIMNGUYEN/backgroundfooter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: #fff;
   /* padding: 5px; */
 }

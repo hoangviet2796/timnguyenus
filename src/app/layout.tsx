@@ -5,7 +5,7 @@ import { Toaster } from "@/components/ui/sonner";
 
 const roboto = Inter({
   subsets: ["vietnamese"],
-  weight: ["300", "400", "500", "700"],
+  weight: ["300", "400", "500", "700", "900"],
 });
 
 export const metadata: Metadata = {
