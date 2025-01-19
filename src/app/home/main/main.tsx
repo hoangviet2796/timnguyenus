@@ -16,7 +16,7 @@ export default function Main() {
         alt="main"
       ></Image>
       <Link
-        href="https://www.timnguyen.us/index"
+        href="/lead"
         target="_blank"
         className="absolute h-[2vw] w-[8vw] left-[37%] bottom-[6%]"
       ></Link>

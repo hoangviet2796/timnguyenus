@@ -30,9 +30,7 @@ const formSchema = z.object({
   phone: z.string().min(5, {
     message: "This is not a valid phone.",
   }),
-  zipcode: z.string().regex(/^([0-9]{5})(?:[-\s]*([0-9]{4}))?$/, {
-    message: "Invalid zipcode format.",
-  }),
+  zipcode: z.string().regex(/^([0-9]{5})(?:[-\s]*([0-9]{4}))?$/),
   debtAmount: z
     .string()
     .regex(/^\$?(\d{1,3}(,\d{3})*|(\d+))(\.\d{2})?$/, {
@@ -43,7 +41,6 @@ const formSchema = z.object({
     }),
 
   debtTypes: z.array(z.string()).optional(),
-  callTime: z.string().optional(),
 });
 function onSubmit(values: z.infer<typeof formSchema>) {
   console.log("Dữ liệu form:", JSON.stringify(values, null, 2));
@@ -65,7 +62,6 @@ export default function FormLead() {
       zipcode: "",
       debtAmount: "",
       debtTypes: [],
-      calltime: "",
     },
   });
   return (
@@ -79,7 +75,6 @@ export default function FormLead() {
         </p>
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-2">
-            
             {/* Input Name */}
             <FormField
               control={form.control}
@@ -201,24 +196,6 @@ export default function FormLead() {
                       )
                     )}
                   </div>
-                </FormItem>
-              )}
-            />
-
-            {/* Input Call Time */}
-            <FormField
-              control={form.control}
-              name="calltime"
-              render={({ field }) => (
-                <FormItem>
-                  <FormControl>
-                    <Input
-                      placeholder="Hẹn giờ gọi"
-                      className="custom-input"
-                      {...field}
-                    />
-                  </FormControl>
-                  <FormMessage />
                 </FormItem>
               )}
             />
