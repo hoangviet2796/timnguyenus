@@ -1,0 +1,19 @@
+.custom-input {
+  width: 100%; 
+  background-color: white; 
+  border: 1px solid #C7DBFF; 
+  border-radius: 12px; 
+  padding: 12px; 
+  color: black; 
+  transition: border-color 0.2s ease-in-out; 
+}
+
+.custom-input:focus {
+  outline: none; /* Bỏ viền mặc định khi focus */
+  border-color: #0056b3; /* Viền xanh đậm khi focus */
+  box-shadow: 0 0 4px rgba(0, 86, 179, 0.3); /* Shadow khi focus */
+}
+
+.custom-input::placeholder {
+  color: #aaa; /* Màu placeholder */
+}

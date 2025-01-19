@@ -52,6 +52,9 @@ const config: Config = {
   				'5': 'hsl(var(--chart-5))'
   			}
   		},
+		  boxShadow: {
+			custom: "15px 15px 25px rgba(0, 0, 0, 0.4)",
+		  },
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
@@ -73,11 +76,17 @@ const config: Config = {
   				to: {
   					height: '0'
   				}
-  			}
+  			},
+			  zoom: {
+				'0%, 100%': { transform: 'scale(1)', opacity:'1'}, 
+				'50%': { transform: 'scale(1.1)', opacity:'0.9' },  
+			  }
   		},
   		animation: {
+			zoom: 'zoom 1s ease-in-out infinite',
   			'accordion-down': 'accordion-down 0.2s ease-out',
-  			'accordion-up': 'accordion-up 0.2s ease-out'
+  			'accordion-up': 'accordion-up 0.2s ease-out',
+			 
   		},
 		backgroundImage: {
 			'help1':"url('/')"
