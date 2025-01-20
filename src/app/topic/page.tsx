@@ -9,7 +9,7 @@ export default async function TopicPage() {
 
   return (
     <div style={{ padding: "60px", background: "#f9f9f9" }}>
-      {/* <PostList posts={posts} /> */}
+      <PostList posts={posts} />
     </div>
   );
 }
